@@ -8,5 +8,4 @@ packages/*
 tmp_model/*
 tools/*
 train_tmp_data/*
-auto_test/output/SaveLog/nls-cloud-asr/*
 auto_train/corpus/model/*
