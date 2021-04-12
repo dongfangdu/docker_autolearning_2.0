@@ -1,0 +1,36 @@
+PLUGINS:
+  # 自动测试
+  AUTO_TEST:
+    PLUGIN_SWITCH: ON
+    PLUGIN_NAME: 自动测试
+    PLUGIN_PATH: /home/user/hezw/work_py/online_label_api_dev/modules/auto_test
+    PLUGIN_MAIN_RUNNER: ./src/auto_test.py
+
+  LOG_PARSER:
+    PLUGIN_SWITCH: ON
+    PLUGIN_NAME: 解析入库
+    PLUGIN_PATH: /home/user/hezw/work_py/online_label_api_dev/modules/new_log_parser
+    PLUGIN_MAIN_RUNNER: ./src/run_log_parser.py
+    PLUGIN_VENV_PATH: /home/user/hezw/work_py/venv/new_log_parser
+
+  AUTO_TRAIN:
+    PLUGIN_SWITCH: ON
+    PLUGIN_NAME: 自动训练
+    PLUGIN_PATH: /home/user/hezw/work_py/online_label_api_dev/modules/auto_train
+    PLUGIN_MAIN_RUNNER: ./new-bin/am_training_pipeline/write_to_global.py
+
+  SPEECH_ENHANCE:
+    PLUGIN_SWITCH: ON
+    PLUGIN_NAME: 语音增强
+    PLUGIN_PATH: /home/user/hezw/work_py/Speech_enhancement
+    PLUGIN_MAIN_RUNNER: ./run_se4ds.py
+
+  LM_TOOL:
+    PLUGIN_SWITCH: ON
+    PLUGIN_NAME: 语言模型工具
+
+  SPEECH_DIARIZATION:
+    PLUGIN_PATH: /home/user/hezw/speech_dia/diar-voiceaitech/dia_test
+    JRE_HOME: /home/user/hezw/speech_dia/diar-voiceaitech/jre1.8.0_221
+
+

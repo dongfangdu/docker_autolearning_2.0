@@ -1,0 +1,78 @@
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `yj_{system_name}test`.`{table_prefix}test_asr_audio_info` (
+  `insert_time` int(255) DEFAULT NULL,
+  `is_deleted` smallint(6) NOT NULL DEFAULT '0',
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '自增长id',
+  `data_uuid` varchar(255) DEFAULT NULL COMMENT '测试数据uuid',
+  `request_id` varchar(50) NOT NULL COMMENT '语音识别的请求id（初始音频的名称，不是日志里的request_id）',
+  `path` varchar(255) NOT NULL COMMENT '音频文件的完整路径',
+  `url` varchar(255) DEFAULT NULL COMMENT 'url',
+  `cut_ratio` decimal(8,4) DEFAULT NULL COMMENT '截幅比',
+  `volume` decimal(8,2) DEFAULT NULL COMMENT '音量',
+  `snr` decimal(8,2) DEFAULT NULL COMMENT '信噪比',
+  `pre_snr` decimal(8,2) DEFAULT NULL COMMENT '前信噪比',
+  `latter_snr` decimal(8,2) DEFAULT NULL COMMENT '后信噪比',
+  `label_text` varchar(1024) DEFAULT NULL COMMENT '标注文本',
+  `person` varchar(255) DEFAULT NULL COMMENT '标注的人名',
+  `accent` varchar(255) DEFAULT NULL COMMENT '标注的口音',
+  `gender` tinyint(2) DEFAULT NULL COMMENT '标注的性别',
+  `task_id` varchar(255) DEFAULT NULL COMMENT 'restful识别的请求id',
+  `res_text` varchar(255) DEFAULT NULL COMMENT '引擎识别文本',
+  `par_log_text` varchar(255) DEFAULT NULL COMMENT '日志解析识别文本',
+  `tot_words` int(11) DEFAULT NULL COMMENT 'total_words：总字数',
+  `cor_words` int(11) DEFAULT NULL COMMENT 'correct_words：测试结果与标注结果相同字数',
+  `word_cor_rate` decimal(8,2) DEFAULT NULL COMMENT 'word_correct_rate：测试结果与标注结果相同字数占总字数比率',
+  `word_err_rate` decimal(8,2) DEFAULT NULL COMMENT 'word_error_rate：测试结果与标注结果不相同字数占总字数比率',
+  `ins_cnt` int(11) DEFAULT NULL COMMENT 'insertion_count：错误类型为插入错误的总字数',
+  `del_cnt` int(11) DEFAULT NULL COMMENT 'delete_count：错误类型为删除错误的总字数',
+  `sub_cnt` int(11) DEFAULT NULL COMMENT 'sub_cnt：错误类型为替换错误的总字数',
+  `total_rtf` decimal(8,3) DEFAULT NULL COMMENT '总时间/音频时长',
+  `raw_rtf` decimal(8,3) DEFAULT NULL COMMENT '等待时间/音频时长',
+  `real_rtf` decimal(8,3) DEFAULT NULL COMMENT '识别时间/音频时长',
+  `duration` int(255) DEFAULT NULL COMMENT '等待时间',
+  PRIMARY KEY (`id`) USING BTREE,
+  UNIQUE KEY `request_id` (`request_id`) USING HASH
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
+/*!40101 SET character_set_client = @saved_cs_client */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8 */ ;
+/*!50003 SET character_set_results = utf8 */ ;
+/*!50003 SET collation_connection  = utf8_general_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+/*!50003 CREATE*/ /*!50017 DEFINER=`root`@`192.168.%`*/ /*!50003 TRIGGER `yj_{system_name}test`.`{table_prefix}test_asr_audio_info_BEFORE_INSERT` BEFORE INSERT ON `{table_prefix}test_asr_audio_info` FOR EACH ROW
+BEGIN
+	IF NEW.insert_time IS NULL THEN 
+		SET NEW.insert_time = unix_timestamp(CURRENT_TIMESTAMP);
+    END IF;
+END */;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Recipe action="DataEvaluation" outputDir="/home/user/linjr/train_tmp_data/f6678a58311a4797a032fc89a6be1f7c/data/filtered/filtered_000" resourceRootPath="/home/user/linjr/dcs_model_train_package_general_06052019/ctc_16k_fsmn_court_resource">
+	<EvaluateData>
+		<Corpus corpusname="train" samplerate="16000" transcriptionList="/home/user/linjr/train_tmp_data/f6678a58311a4797a032fc89a6be1f7c/data/dataparsed/dataparsed_000/train/data/transcriptionlist.txt" waveList="/home/user/linjr/train_tmp_data/f6678a58311a4797a032fc89a6be1f7c/data/dataparsed/dataparsed_000/train/data/wavelist.txt" wavType="wav"></Corpus>
+		<BasicFilter MaxSentenceLengthInMillsecond="10000" MinSentenceLengthInMillsecond="100"></BasicFilter>
+		<LatticeWerFilter></LatticeWerFilter>
+	</EvaluateData>
+</Recipe>

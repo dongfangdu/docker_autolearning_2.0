@@ -1,0 +1,21 @@
+COMMON: &common
+  # app设置
+  DEBUG: False
+  TESTING: False
+  SECRET_KEY: damnitintheworld, evilofthisproject
+
+  SQLALCHEMY_ECHO: False
+  SQLALCHEMY_DATABASE_URI: mysql+cymysql://root:@192.168.108.197:3306/online_tagging_dev?charset=utf8
+  SQLALCHEMY_BINDS: mysql+cymysql://root:@192.168.108.197:3306/online_tagging_dev?charset=utf8
+    al_web: mysql+cymysql://root:yjyjs123@192.168.106.170:3306/yj_autolearning_web?charset=utf8
+    al_engine: mysql+cymysql://root:yjyjs123@192.168.106.170:3306/yj_autolearning_engine?charset=utf8
+    al_train: mysql+cymysql://root:yjyjs123@192.168.106.170:3306/yj_autolearning_train?charset=utf8
+    al_test: mysql+cymysql://root:yjyjs123@192.168.106.170:3306/yj_autolearning_test?charset=utf8
+    al_label: mysql+cymysql://root:yjyjs123@192.168.106.170:3306/yj_autolearning_label?charset=utf8
+
+
+  # 日志配置文件路径
+  LOGGING_CONFIG_PATH: ./config/logging.yaml
+  # 日志文件存放位置
+  LOGGING_PATH: ./logs
+

@@ -1,0 +1,1100 @@
+[2019-10-29 16:46:23,421] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:23,431] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:23,457] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:23,461] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:23,511] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:23,514] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:23,520] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:23,537] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:23,559] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:23,564] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:23,565] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:23,623] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:23,644] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:23,674] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:23,723] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:23,729] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:23,779] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:23,803] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:23,833] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:23,839] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:23,850] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:23,875] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:23,877] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:23,918] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:23,892] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:23,938] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:23,942] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:23,945] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:23,956] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:23,978] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:23,993] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:23,998] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,051] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,074] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,066] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,064] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,104] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,142] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,195] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,256] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,259] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,276] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,295] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,298] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,298] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,306] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,309] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,342] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,344] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,391] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,363] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,371] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,374] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,400] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,407] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,442] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,469] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,493] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,503] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,522] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,535] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,545] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,550] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,576] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,591] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,595] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,639] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,645] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,649] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,655] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,674] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,685] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,707] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,711] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,721] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,742] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,767] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,781] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,805] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,807] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,831] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,826] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,866] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,905] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,909] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,916] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,941] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:24,996] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:25,002] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:25,031] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:25,045] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:25,061] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:25,065] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:25,071] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:25,085] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:25,110] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:25,144] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:25,150] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:25,182] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]
+[2019-10-29 16:46:25,190] [ERROR] [_internal.py -- _log:122] [Error on request:
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe]

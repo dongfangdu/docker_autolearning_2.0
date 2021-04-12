@@ -1,0 +1,6 @@
+*
+!libs/
+!src/
+!packages/
+!*.repo
+!requirements.txt

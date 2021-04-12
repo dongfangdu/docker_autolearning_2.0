@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Recipe action="asrpAMTrainingPipelineSmbr" licenseServerList="192.168.108.197" licenseType="software" outputDir="/home/user/hezw/train_tmp_data/c7c6f5390bd84fdaa9bdbd938965e8ad/data/trained/trained_000" resourceRootPath="/home/user/linjr/dcs_model_train_package_general_06052019/ctc_16k_fsmn_court_resource">
+	<CorpusList samplerate="16000" wavType="wav">
+		<Corpus SmbrTrainFeatureLabelPath="/home/user/hezw/work_py/auto_train/var/running_a2dfa9d246ce4512a7bb3ff7799036ab/feature_align_lattice_label_train" copyNum="1"></Corpus>
+	</CorpusList>
+	<SmbrFe></SmbrFe>
+	<SmbrTrain cpuProcessNum="auto" epochNum="5" featureTrans="/home/user/hezw/work_py/auto_train/corpus/model/fsmn.mvn" gpuProcessNum="auto" initModel="/home/user/hezw/tmp_model/smbr_07ea2499225b4bfebe2ca84ab1834ce2_1571627029.net" useGpu="True"></SmbrTrain>
+</Recipe>

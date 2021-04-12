@@ -1,0 +1,95 @@
+[2019-10-28 16:17:47,580] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x7f89a8df4f90 state=finished raised OSError>]
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/auto_test/tools/online_label_api_dev/src/app/libs/prepare_method/train.py", line 151, in prepare_train_data
+    os.makedirs(target_dir)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib64/python2.7/os.py", line 150, in makedirs
+    makedirs(head, mode)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib64/python2.7/os.py", line 157, in makedirs
+    mkdir(name, mode)
+OSError: [Errno 13] Permission denied: '/home/user/hezw/train_tmp_data/a8de92fb18e74522a914eb0d0b3db29c'
+[2019-10-30 10:43:15,044] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x7fc8a774dcd0 state=finished raised error>]
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/auto_test/tools/online_label_api_dev/src/app/libs/prepare_method/train.py", line 119, in prepare_train_data
+    ppl = cal_ppl(result)
+  File "/home/user/linjr/auto_test/tools/online_label_api_dev/src/app/libs/prepare_method/precog.py", line 15, in cal_ppl
+    conn.request(method='POST', url=url, body=body, headers=httpHeaders)
+  File "/usr/lib64/python2.7/httplib.py", line 1056, in request
+    self._send_request(method, url, body, headers)
+  File "/usr/lib64/python2.7/httplib.py", line 1090, in _send_request
+    self.endheaders(body)
+  File "/usr/lib64/python2.7/httplib.py", line 1052, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib64/python2.7/httplib.py", line 890, in _send_output
+    self.send(msg)
+  File "/usr/lib64/python2.7/httplib.py", line 852, in send
+    self.connect()
+  File "/usr/lib64/python2.7/httplib.py", line 833, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib64/python2.7/socket.py", line 571, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[2019-10-30 10:55:57,707] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x7fc0e8e08cd0 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/auto_test/tools/online_label_api_dev/src/app/libs/prepare_method/train.py", line 120, in prepare_train_data
+    pre_wer = precog(real_rtf, ppl)
+  File "/home/user/linjr/auto_test/tools/online_label_api_dev/src/app/libs/prepare_method/precog.py", line 25, in precog
+    pre_wer = a + b[1]*real_rtf + b[2]*ppl + b[3]*real_rtf*real_rtf + b[4]*real_rtf*ppl + b[5]*ppl*ppl
+TypeError: unsupported operand type(s) for *: 'float' and 'Decimal'
+[2019-10-30 11:09:21,909] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x7f01344b8d10 state=finished raised OSError>]
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/auto_test/tools/online_label_api_dev/src/app/libs/prepare_method/train.py", line 155, in prepare_train_data
+    os.makedirs(target_dir)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib64/python2.7/os.py", line 150, in makedirs
+    makedirs(head, mode)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib64/python2.7/os.py", line 157, in makedirs
+    mkdir(name, mode)
+OSError: [Errno 13] Permission denied: '/home/user/hezw/train_tmp_data/9c8a0c46a8e745cfbaeab13a95e84dee'
+[2019-10-30 14:56:29,620] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x7fd19e546d10 state=finished raised OSError>]
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/auto_test/tools/online_label_api_dev/src/app/libs/prepare_method/train.py", line 155, in prepare_train_data
+    os.makedirs(target_dir)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib64/python2.7/os.py", line 150, in makedirs
+    makedirs(head, mode)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib64/python2.7/os.py", line 157, in makedirs
+    mkdir(name, mode)
+OSError: [Errno 13] Permission denied: '/home/user/hezw/train_tmp_data/e5251fecc6054e15a15c16d554c0d0b4'

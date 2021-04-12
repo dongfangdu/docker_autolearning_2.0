@@ -1,0 +1,97 @@
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `yj_{system_name}label`.`{table_prefix}labelraw_utterance_info` (
+  `insert_time` int(11) DEFAULT NULL,
+  `is_deleted` smallint(6) NOT NULL,
+  `version` varchar(64) NOT NULL COMMENT '引擎版本号',
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `request_id` varchar(64) NOT NULL COMMENT '语句id',
+  `time` datetime NOT NULL COMMENT '语句识别的结束时间',
+  `app` varchar(64) DEFAULT NULL,
+  `group` varchar(64) DEFAULT NULL,
+  `ip` varchar(16) DEFAULT NULL COMMENT '客户端ip',
+  `app_key` varchar(64) DEFAULT NULL,
+  `session_id` varchar(64) DEFAULT NULL,
+  `device_uuid` varchar(64) DEFAULT NULL,
+  `uid` varchar(64) DEFAULT NULL,
+  `start_timestamp` varchar(13) DEFAULT NULL COMMENT '语句识别的开始时间',
+  `latency` int(8) DEFAULT NULL COMMENT '时延',
+  `status_code` varchar(16) DEFAULT NULL,
+  `status_message` varchar(1024) DEFAULT NULL,
+  `backend_apps` varchar(255) DEFAULT NULL,
+  `duration` int(8) DEFAULT NULL,
+  `audio_format` varchar(32) DEFAULT NULL,
+  `audio_url` varchar(255) DEFAULT NULL COMMENT '未知',
+  `sample_rate` int(16) DEFAULT NULL COMMENT '采样率，单位：1000',
+  `method` varchar(64) DEFAULT NULL,
+  `packet_count` int(8) DEFAULT NULL,
+  `avg_packet_duration` int(8) DEFAULT NULL,
+  `total_rtf` decimal(8,3) DEFAULT NULL,
+  `raw_rtf` decimal(8,3) DEFAULT NULL,
+  `real_rtf` decimal(8,3) DEFAULT NULL COMMENT '识别速率',
+  `detect_duration` int(8) DEFAULT NULL COMMENT '语句时长',
+  `total_cost_time` int(8) DEFAULT NULL,
+  `receive_cost_time` int(8) DEFAULT NULL,
+  `wait_cost_time` int(8) DEFAULT NULL,
+  `process_time` int(8) DEFAULT NULL,
+  `processor_id` int(8) DEFAULT NULL,
+  `user_id` varchar(64) DEFAULT NULL,
+  `vocabulary_id` varchar(64) DEFAULT NULL,
+  `keyword_list_id` varchar(64) DEFAULT NULL,
+  `customization_id` varchar(64) DEFAULT NULL,
+  `class_vocabulary_id` varchar(64) DEFAULT NULL,
+  `result` varchar(1024) NOT NULL COMMENT '识别结果',
+  `group_name` varchar(64) DEFAULT NULL,
+  `path` varchar(255) NOT NULL COMMENT '语句音频文件原始的',
+  `url` varchar(255) NOT NULL COMMENT '语句音频文件的url',
+  `truncation_ratio` decimal(8,4) DEFAULT NULL COMMENT '语句音频文件的截幅比',
+  `volume` decimal(8,2) DEFAULT NULL COMMENT '语句音频文件的音量',
+  `snr` decimal(8,2) DEFAULT NULL COMMENT '语句音频文件的信噪比',
+  `pre_snr` decimal(8,2) DEFAULT NULL COMMENT '语句音频文件的前信噪比',
+  `post_snr` decimal(8,2) DEFAULT NULL COMMENT '语句音频文件的后信噪比',
+  `uttr_status` smallint(6) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`) USING BTREE,
+  UNIQUE KEY `uni_request_id` (`request_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+/*!40101 SET character_set_client = @saved_cs_client */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8 */ ;
+/*!50003 SET character_set_results = utf8 */ ;
+/*!50003 SET collation_connection  = utf8_general_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+/*!50003 CREATE*/ /*!50017 DEFINER=`root`@`192.168.%`*/ /*!50003 TRIGGER `yj_{system_name}label`.`{table_prefix}labelraw_utterance_info_BEFORE_INSERT` BEFORE INSERT ON `{table_prefix}labelraw_utterance_info` FOR EACH ROW
+BEGIN
+	IF NEW.insert_time IS NULL THEN 
+		SET NEW.insert_time = unix_timestamp(CURRENT_TIMESTAMP);
+    END IF;
+END */;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+

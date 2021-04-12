@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Recipe action="FileListGenerator">
+	<corpus devtestpercentage="0.0" name="data" numinark="1000" osstranscriptionpath="/home/user/hezw/train_tmp_data/f9301521096a4a1aa41f9e774862423e/data/txt" ossuploadrootpath="/home/user/hezw/train_tmp_data/f9301521096a4a1aa41f9e774862423e/data/dataparsed/dataparsed_000" osswavpath="/home/user/hezw/train_tmp_data/f9301521096a4a1aa41f9e774862423e/data/wav" partsize="2000" samplerate="16000" trainpercentage="1.0" type="PLAIN">
+		<process testtntype="STANDARD_V2" traintntype="STANDARD_V2" wordlist=""></process>
+	</corpus>
+</Recipe>

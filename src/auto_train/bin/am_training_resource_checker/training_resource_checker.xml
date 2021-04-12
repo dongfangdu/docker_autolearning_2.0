@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Recipe action="TrainingResourceChecker" resourcePath="/home/yourname/dcs_model_train_package/am/resource/" baseModelFile="/am_directory_in_current_base_deployment_model/am.net" sampleRate="8000">
+</Recipe>

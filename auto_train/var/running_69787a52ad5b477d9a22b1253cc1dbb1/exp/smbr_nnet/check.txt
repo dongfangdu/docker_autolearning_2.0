@@ -1,0 +1,9 @@
+Unexpected end of /proc/mounts line `overlay / overlay rw,relatime,lowerdir=/var/lib/docker/overlay2/l/J3ZO5H4TU5O6AJO4ZFPFDIN2AI:/var/lib/docker/overlay2/l/K763BS75WPIP2LQWJ7FWBKQ2K3:/var/lib/docker/overlay2/l/KAARZPSQGN3KIIBSHIGY4LATH3:/var/lib/docker/overlay2/l/V7BAYUVIUHEYNKXXAKSPERY4D5:/var/lib/docker/overlay2/l/MIGKDLADXN4Y6TYLLICHW4CT4B:/var/lib/docker/overlay2/l/H44FIZ4HEVTE5OZE7LVDFGL7NG:/var/lib/docker/overlay2/l/KFTJ5E63XUBIKOQ6WVECQSS5QO:/var/lib/docker/overlay2/l/WGXXVJY2MQN2G62UKVR5VYOK4L:/var/lib/docker/overlay2/l/BN5RA5QYEIZYJ'
+Unexpected end of /proc/mounts line `VWCOXIPJDSKAJ:/var/lib/docker/overlay2/l/CIKRTAVR6KORBWXY67UAXYL445:/var/lib/docker/overlay2/l/A34A4MCSNAZZTJRXWGUDTIEDZP:/var/lib/docker/overlay2/l/SVQVJ5YRM6GCETOAL6YAD54RBN:/var/lib/docker/overlay2/l/NSAHYAZ2OQ6OCSWA223OSKPGX2:/var/lib/docker/overlay2/l/6ZLYN32ZVK2ZKYJGAKBZHDDKC4:/var/lib/docker/overlay2/l/6FRYWLYUX6WPL3UHKTWC4LLFWI:/var/lib/docker/overlay2/l/45ZZUGOKS67BDEJP36XUKOKLTM:/var/lib/docker/overlay2/l/222ZH5O4NTNRGZKBXGF5M5RJID:/var/lib/docker/overlay2/l/L2SLT25RBQ6DQENXLEXFZIDWDT:/var/lib/do'
+-------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code.. Per user-direction, the job has been aborted.
+-------------------------------------------------------
+apes sdk commit date: 20180302
+init failed apes: access violation (invalid request)[invalid license(out of date)](授权已过期)
+ 

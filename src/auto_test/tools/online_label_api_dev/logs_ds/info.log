@@ -1,0 +1,231 @@
+[2019-10-28 16:16:47,123] [INFO] [data_prepare.py -- prepare_data:60] [**** 数据准备接口调用开始 ****]
+[2019-10-28 16:16:47,124] [INFO] [data_prepare.py -- prepare_data:61] [数据准备类型：1]
+[2019-10-28 16:16:47,124] [INFO] [data_prepare.py -- _inner_prepare_data:78] [数据准备全局ID：a8de92fb18e74522a914eb0d0b3db29c]
+[2019-10-28 16:16:47,201] [INFO] [data_prepare.py -- _inner_prepare_data:92] [数据准备请求入库：id: 250, prepare_uuid: a8de92fb18e74522a914eb0d0b3db29c, prepare_status: 0]
+[2019-10-28 16:16:47,201] [INFO] [data_prepare.py -- _inner_prepare_data:100] [准备训练数据]
+[2019-10-28 16:16:47,202] [INFO] [data_prepare.py -- prepare_data:73] [**** 数据准备接口调用结束 ****]
+[2019-10-28 16:16:48,203] [INFO] [train.py -- prepare_train_data:24] [训练数据筛选处理开始]
+[2019-10-28 16:17:16,031] [INFO] [train.py -- prepare_train_data:66] [准备音频总时长 1183830 ms]
+[2019-10-28 16:17:41,414] [INFO] [train.py -- prepare_train_data:111] [准备音频总时长 6218395 ms]
+[2019-10-28 16:17:47,377] [INFO] [train.py -- prepare_train_data:141] [训练数据入库成功]
+[2019-10-28 16:17:47,377] [INFO] [train.py -- prepare_train_data:142] [prepare_data_info入库条数：2575]
+[2019-10-28 16:17:47,378] [INFO] [train.py -- prepare_train_data:146] [训练数据拉取开始]
+[2019-10-28 16:17:47,580] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x7f89a8df4f90 state=finished raised OSError>]
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/auto_test/tools/online_label_api_dev/src/app/libs/prepare_method/train.py", line 151, in prepare_train_data
+    os.makedirs(target_dir)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib64/python2.7/os.py", line 150, in makedirs
+    makedirs(head, mode)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib64/python2.7/os.py", line 157, in makedirs
+    mkdir(name, mode)
+OSError: [Errno 13] Permission denied: '/home/user/hezw/train_tmp_data/a8de92fb18e74522a914eb0d0b3db29c'
+[2019-10-28 16:21:26,651] [INFO] [data_prepare.py -- prepare_data:60] [**** 数据准备接口调用开始 ****]
+[2019-10-28 16:21:26,651] [INFO] [data_prepare.py -- prepare_data:61] [数据准备类型：1]
+[2019-10-28 16:21:26,652] [INFO] [data_prepare.py -- _inner_prepare_data:78] [数据准备全局ID：c9101d4df2fd4117813177611d693e7c]
+[2019-10-28 16:21:26,747] [INFO] [data_prepare.py -- _inner_prepare_data:92] [数据准备请求入库：id: 251, prepare_uuid: c9101d4df2fd4117813177611d693e7c, prepare_status: 0]
+[2019-10-28 16:21:26,748] [INFO] [data_prepare.py -- _inner_prepare_data:100] [准备训练数据]
+[2019-10-28 16:21:26,749] [INFO] [data_prepare.py -- prepare_data:73] [**** 数据准备接口调用结束 ****]
+[2019-10-28 16:21:27,749] [INFO] [train.py -- prepare_train_data:24] [训练数据筛选处理开始]
+[2019-10-28 16:22:07,900] [INFO] [train.py -- prepare_train_data:66] [准备音频总时长 1556295 ms]
+[2019-10-28 16:22:41,004] [INFO] [train.py -- prepare_train_data:111] [准备音频总时长 5848215 ms]
+[2019-10-28 16:22:46,094] [INFO] [train.py -- prepare_train_data:141] [训练数据入库成功]
+[2019-10-28 16:22:46,094] [INFO] [train.py -- prepare_train_data:142] [prepare_data_info入库条数：2488]
+[2019-10-28 16:22:46,094] [INFO] [train.py -- prepare_train_data:146] [训练数据拉取开始]
+[2019-10-28 16:23:15,000] [INFO] [train.py -- prepare_train_data:154] [训练数据拉取结束]
+[2019-10-28 16:23:15,381] [INFO] [train.py -- prepare_train_data:163] [训练数据筛选处理开始]
+[2019-10-28 16:23:16,247] [INFO] [data_prepare.py -- finish_prepare_status:45] [数据准备请求修改：id: 251, prepare_uuid: c9101d4df2fd4117813177611d693e7c, prepare_status: 1, prepare_data_path: /home/user/hezw/train_tmp_data/c9101d4df2fd4117813177611d693e7c/data]
+[2019-10-28 16:28:19,485] [INFO] [data_prepare.py -- prepare_data:60] [**** 数据准备接口调用开始 ****]
+[2019-10-28 16:28:19,486] [INFO] [data_prepare.py -- prepare_data:61] [数据准备类型：2]
+[2019-10-28 16:28:19,487] [INFO] [data_prepare.py -- _inner_prepare_data:78] [数据准备全局ID：8f66faa852fc4c13b8f3bb7cd4d46664]
+[2019-10-28 16:28:19,669] [INFO] [data_prepare.py -- _inner_prepare_data:92] [数据准备请求入库：id: 252, prepare_uuid: 8f66faa852fc4c13b8f3bb7cd4d46664, prepare_status: 0]
+[2019-10-28 16:28:19,670] [INFO] [data_prepare.py -- _inner_prepare_data:103] [准备测试数据]
+[2019-10-28 16:28:19,673] [INFO] [data_prepare.py -- prepare_data:73] [**** 数据准备接口调用结束 ****]
+[2019-10-28 16:28:20,672] [INFO] [test.py -- prepare_test_data:18] [测试数据筛选处理开始]
+[2019-10-28 16:29:00,455] [INFO] [test.py -- prepare_test_data:42] [准备音频总时长 142665 ms]
+[2019-10-28 16:29:05,619] [INFO] [test.py -- prepare_test_data:87] [测试数据入库成功]
+[2019-10-28 16:29:05,620] [INFO] [test.py -- prepare_test_data:88] [prepare_data_info入库条数：30]
+[2019-10-28 16:29:05,621] [INFO] [test.py -- prepare_test_data:89] [al_test_asr_audio_info入库条数：30]
+[2019-10-28 16:29:05,963] [INFO] [test.py -- prepare_test_data:102] [测试数据筛选处理结束]
+[2019-10-28 16:29:07,414] [INFO] [data_prepare.py -- finish_prepare_status:45] [数据准备请求修改：id: 252, prepare_uuid: 8f66faa852fc4c13b8f3bb7cd4d46664, prepare_status: 1, prepare_data_path: 192.168.106.170:3306/yj_autolearning_test.al_test_asr_audio_info]
+[2019-10-28 16:31:36,555] [INFO] [data_prepare.py -- prepare_data:60] [**** 数据准备接口调用开始 ****]
+[2019-10-28 16:31:36,556] [INFO] [data_prepare.py -- prepare_data:61] [数据准备类型：2]
+[2019-10-28 16:31:36,556] [INFO] [data_prepare.py -- _inner_prepare_data:78] [数据准备全局ID：bb28b5be40324bd5a06f0748f1f86f80]
+[2019-10-28 16:31:36,660] [INFO] [data_prepare.py -- _inner_prepare_data:92] [数据准备请求入库：id: 253, prepare_uuid: bb28b5be40324bd5a06f0748f1f86f80, prepare_status: 0]
+[2019-10-28 16:31:36,661] [INFO] [data_prepare.py -- _inner_prepare_data:103] [准备测试数据]
+[2019-10-28 16:31:36,663] [INFO] [data_prepare.py -- prepare_data:73] [**** 数据准备接口调用结束 ****]
+[2019-10-28 16:31:37,662] [INFO] [test.py -- prepare_test_data:18] [测试数据筛选处理开始]
+[2019-10-28 16:32:06,576] [INFO] [test.py -- prepare_test_data:42] [准备音频总时长 2641255 ms]
+[2019-10-28 16:32:13,170] [INFO] [test.py -- prepare_test_data:87] [测试数据入库成功]
+[2019-10-28 16:32:13,171] [INFO] [test.py -- prepare_test_data:88] [prepare_data_info入库条数：614]
+[2019-10-28 16:32:13,172] [INFO] [test.py -- prepare_test_data:89] [al_test_asr_audio_info入库条数：614]
+[2019-10-28 16:32:13,489] [INFO] [test.py -- prepare_test_data:102] [测试数据筛选处理结束]
+[2019-10-28 16:32:14,859] [INFO] [data_prepare.py -- finish_prepare_status:45] [数据准备请求修改：id: 253, prepare_uuid: bb28b5be40324bd5a06f0748f1f86f80, prepare_status: 1, prepare_data_path: 192.168.106.170:3306/yj_autolearning_test.al_test_asr_audio_info]
+[2019-10-30 10:35:52,772] [INFO] [data_prepare.py -- prepare_data:60] [**** 数据准备接口调用开始 ****]
+[2019-10-30 10:35:52,773] [INFO] [data_prepare.py -- prepare_data:61] [数据准备类型：2]
+[2019-10-30 10:35:52,773] [INFO] [data_prepare.py -- _inner_prepare_data:78] [数据准备全局ID：fc552517965a4a2ca16efe8fdd5adc18]
+[2019-10-30 10:35:52,867] [INFO] [data_prepare.py -- _inner_prepare_data:92] [数据准备请求入库：id: 255, prepare_uuid: fc552517965a4a2ca16efe8fdd5adc18, prepare_status: 0]
+[2019-10-30 10:35:52,867] [INFO] [data_prepare.py -- _inner_prepare_data:103] [准备测试数据]
+[2019-10-30 10:35:52,868] [INFO] [data_prepare.py -- prepare_data:73] [**** 数据准备接口调用结束 ****]
+[2019-10-30 10:35:53,868] [INFO] [test.py -- prepare_test_data:18] [测试数据筛选处理开始]
+[2019-10-30 10:36:18,744] [INFO] [test.py -- prepare_test_data:42] [准备音频总时长 2794720 ms]
+[2019-10-30 10:36:21,984] [INFO] [test.py -- prepare_test_data:87] [测试数据入库成功]
+[2019-10-30 10:36:21,985] [INFO] [test.py -- prepare_test_data:88] [prepare_data_info入库条数：597]
+[2019-10-30 10:36:21,985] [INFO] [test.py -- prepare_test_data:89] [al_test_asr_audio_info入库条数：597]
+[2019-10-30 10:36:22,130] [INFO] [test.py -- prepare_test_data:102] [测试数据筛选处理结束]
+[2019-10-30 10:36:22,680] [INFO] [data_prepare.py -- finish_prepare_status:45] [数据准备请求修改：id: 255, prepare_uuid: fc552517965a4a2ca16efe8fdd5adc18, prepare_status: 1, prepare_data_path: 192.168.106.170:3306/yj_autolearning_test.al_test_asr_audio_info]
+[2019-10-30 10:42:35,968] [INFO] [data_prepare.py -- prepare_data:60] [**** 数据准备接口调用开始 ****]
+[2019-10-30 10:42:35,969] [INFO] [data_prepare.py -- prepare_data:61] [数据准备类型：1]
+[2019-10-30 10:42:35,969] [INFO] [data_prepare.py -- _inner_prepare_data:78] [数据准备全局ID：6f3b28686ce140339c0ba9282df7dd19]
+[2019-10-30 10:42:36,046] [INFO] [data_prepare.py -- _inner_prepare_data:92] [数据准备请求入库：id: 256, prepare_uuid: 6f3b28686ce140339c0ba9282df7dd19, prepare_status: 0]
+[2019-10-30 10:42:36,046] [INFO] [data_prepare.py -- _inner_prepare_data:100] [准备训练数据]
+[2019-10-30 10:42:36,047] [INFO] [data_prepare.py -- prepare_data:73] [**** 数据准备接口调用结束 ****]
+[2019-10-30 10:42:37,047] [INFO] [train.py -- prepare_train_data:24] [训练数据筛选处理开始]
+[2019-10-30 10:42:59,385] [INFO] [train.py -- prepare_train_data:66] [准备音频总时长 4077945 ms]
+[2019-10-30 10:43:15,044] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x7fc8a774dcd0 state=finished raised error>]
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/auto_test/tools/online_label_api_dev/src/app/libs/prepare_method/train.py", line 119, in prepare_train_data
+    ppl = cal_ppl(result)
+  File "/home/user/linjr/auto_test/tools/online_label_api_dev/src/app/libs/prepare_method/precog.py", line 15, in cal_ppl
+    conn.request(method='POST', url=url, body=body, headers=httpHeaders)
+  File "/usr/lib64/python2.7/httplib.py", line 1056, in request
+    self._send_request(method, url, body, headers)
+  File "/usr/lib64/python2.7/httplib.py", line 1090, in _send_request
+    self.endheaders(body)
+  File "/usr/lib64/python2.7/httplib.py", line 1052, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib64/python2.7/httplib.py", line 890, in _send_output
+    self.send(msg)
+  File "/usr/lib64/python2.7/httplib.py", line 852, in send
+    self.connect()
+  File "/usr/lib64/python2.7/httplib.py", line 833, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib64/python2.7/socket.py", line 571, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[2019-10-30 10:55:05,165] [INFO] [data_prepare.py -- prepare_data:60] [**** 数据准备接口调用开始 ****]
+[2019-10-30 10:55:05,166] [INFO] [data_prepare.py -- prepare_data:61] [数据准备类型：1]
+[2019-10-30 10:55:05,166] [INFO] [data_prepare.py -- _inner_prepare_data:78] [数据准备全局ID：83e9ee1266e24f79ad295234715f8ce1]
+[2019-10-30 10:55:05,249] [INFO] [data_prepare.py -- _inner_prepare_data:92] [数据准备请求入库：id: 257, prepare_uuid: 83e9ee1266e24f79ad295234715f8ce1, prepare_status: 0]
+[2019-10-30 10:55:05,250] [INFO] [data_prepare.py -- _inner_prepare_data:100] [准备训练数据]
+[2019-10-30 10:55:05,251] [INFO] [data_prepare.py -- prepare_data:73] [**** 数据准备接口调用结束 ****]
+[2019-10-30 10:55:06,250] [INFO] [train.py -- prepare_train_data:24] [训练数据筛选处理开始]
+[2019-10-30 10:55:32,688] [INFO] [train.py -- prepare_train_data:66] [准备音频总时长 3851625 ms]
+[2019-10-30 10:55:57,707] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x7fc0e8e08cd0 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/auto_test/tools/online_label_api_dev/src/app/libs/prepare_method/train.py", line 120, in prepare_train_data
+    pre_wer = precog(real_rtf, ppl)
+  File "/home/user/linjr/auto_test/tools/online_label_api_dev/src/app/libs/prepare_method/precog.py", line 25, in precog
+    pre_wer = a + b[1]*real_rtf + b[2]*ppl + b[3]*real_rtf*real_rtf + b[4]*real_rtf*ppl + b[5]*ppl*ppl
+TypeError: unsupported operand type(s) for *: 'float' and 'Decimal'
+[2019-10-30 11:08:24,280] [INFO] [data_prepare.py -- prepare_data:60] [**** 数据准备接口调用开始 ****]
+[2019-10-30 11:08:24,280] [INFO] [data_prepare.py -- prepare_data:61] [数据准备类型：1]
+[2019-10-30 11:08:24,281] [INFO] [data_prepare.py -- _inner_prepare_data:78] [数据准备全局ID：9c8a0c46a8e745cfbaeab13a95e84dee]
+[2019-10-30 11:08:24,376] [INFO] [data_prepare.py -- _inner_prepare_data:92] [数据准备请求入库：id: 258, prepare_uuid: 9c8a0c46a8e745cfbaeab13a95e84dee, prepare_status: 0]
+[2019-10-30 11:08:24,377] [INFO] [data_prepare.py -- _inner_prepare_data:100] [准备训练数据]
+[2019-10-30 11:08:24,378] [INFO] [data_prepare.py -- prepare_data:73] [**** 数据准备接口调用结束 ****]
+[2019-10-30 11:08:25,378] [INFO] [train.py -- prepare_train_data:24] [训练数据筛选处理开始]
+[2019-10-30 11:08:53,043] [INFO] [train.py -- prepare_train_data:66] [准备音频总时长 3997850 ms]
+[2019-10-30 11:09:17,684] [INFO] [train.py -- prepare_train_data:111] [准备音频总时长 3406765 ms]
+[2019-10-30 11:09:21,662] [INFO] [train.py -- prepare_train_data:145] [训练数据入库成功]
+[2019-10-30 11:09:21,663] [INFO] [train.py -- prepare_train_data:146] [prepare_data_info入库条数：1205]
+[2019-10-30 11:09:21,663] [INFO] [train.py -- prepare_train_data:150] [训练数据拉取开始]
+[2019-10-30 11:09:21,909] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x7f01344b8d10 state=finished raised OSError>]
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/auto_test/tools/online_label_api_dev/src/app/libs/prepare_method/train.py", line 155, in prepare_train_data
+    os.makedirs(target_dir)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib64/python2.7/os.py", line 150, in makedirs
+    makedirs(head, mode)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib64/python2.7/os.py", line 157, in makedirs
+    mkdir(name, mode)
+OSError: [Errno 13] Permission denied: '/home/user/hezw/train_tmp_data/9c8a0c46a8e745cfbaeab13a95e84dee'
+[2019-10-30 11:21:30,204] [INFO] [data_prepare.py -- prepare_data:60] [**** 数据准备接口调用开始 ****]
+[2019-10-30 11:21:30,205] [INFO] [data_prepare.py -- prepare_data:61] [数据准备类型：1]
+[2019-10-30 11:21:30,205] [INFO] [data_prepare.py -- _inner_prepare_data:78] [数据准备全局ID：a3c0083ba4184abb9ea2b9b31f0d1846]
+[2019-10-30 11:21:30,287] [INFO] [data_prepare.py -- _inner_prepare_data:92] [数据准备请求入库：id: 259, prepare_uuid: a3c0083ba4184abb9ea2b9b31f0d1846, prepare_status: 0]
+[2019-10-30 11:21:30,287] [INFO] [data_prepare.py -- _inner_prepare_data:100] [准备训练数据]
+[2019-10-30 11:21:30,288] [INFO] [data_prepare.py -- prepare_data:73] [**** 数据准备接口调用结束 ****]
+[2019-10-30 11:21:31,288] [INFO] [train.py -- prepare_train_data:24] [训练数据筛选处理开始]
+[2019-10-30 11:21:56,439] [INFO] [train.py -- prepare_train_data:66] [准备音频总时长 3120205 ms]
+[2019-10-30 11:22:20,248] [INFO] [train.py -- prepare_train_data:111] [准备音频总时长 4291810 ms]
+[2019-10-30 11:22:23,668] [INFO] [train.py -- prepare_train_data:145] [训练数据入库成功]
+[2019-10-30 11:22:23,668] [INFO] [train.py -- prepare_train_data:146] [prepare_data_info入库条数：1157]
+[2019-10-30 11:22:23,669] [INFO] [train.py -- prepare_train_data:150] [训练数据拉取开始]
+[2019-10-30 11:22:39,003] [INFO] [train.py -- prepare_train_data:158] [训练数据拉取结束]
+[2019-10-30 11:22:39,291] [INFO] [train.py -- prepare_train_data:167] [训练数据筛选处理开始]
+[2019-10-30 11:22:39,921] [INFO] [data_prepare.py -- finish_prepare_status:45] [数据准备请求修改：id: 259, prepare_uuid: a3c0083ba4184abb9ea2b9b31f0d1846, prepare_status: 1, prepare_data_path: /home/user/hezw/train_tmp_data/a3c0083ba4184abb9ea2b9b31f0d1846/data]
+[2019-10-30 14:54:55,246] [INFO] [data_prepare.py -- prepare_data:60] [**** 数据准备接口调用开始 ****]
+[2019-10-30 14:54:55,248] [INFO] [data_prepare.py -- prepare_data:61] [数据准备类型：1]
+[2019-10-30 14:54:55,250] [INFO] [data_prepare.py -- _inner_prepare_data:78] [数据准备全局ID：e5251fecc6054e15a15c16d554c0d0b4]
+[2019-10-30 14:54:55,442] [INFO] [data_prepare.py -- _inner_prepare_data:92] [数据准备请求入库：id: 260, prepare_uuid: e5251fecc6054e15a15c16d554c0d0b4, prepare_status: 0]
+[2019-10-30 14:54:55,442] [INFO] [data_prepare.py -- _inner_prepare_data:100] [准备训练数据]
+[2019-10-30 14:54:55,444] [INFO] [data_prepare.py -- prepare_data:73] [**** 数据准备接口调用结束 ****]
+[2019-10-30 14:54:56,443] [INFO] [train.py -- prepare_train_data:24] [训练数据筛选处理开始]
+[2019-10-30 14:55:19,509] [INFO] [train.py -- prepare_train_data:66] [准备音频总时长 36991180 ms]
+[2019-10-30 14:56:19,476] [INFO] [train.py -- prepare_train_data:111] [准备音频总时长 36987270 ms]
+[2019-10-30 14:56:29,523] [INFO] [train.py -- prepare_train_data:145] [训练数据入库成功]
+[2019-10-30 14:56:29,524] [INFO] [train.py -- prepare_train_data:146] [prepare_data_info入库条数：11227]
+[2019-10-30 14:56:29,524] [INFO] [train.py -- prepare_train_data:150] [训练数据拉取开始]
+[2019-10-30 14:56:29,620] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x7fd19e546d10 state=finished raised OSError>]
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/auto_test/tools/online_label_api_dev/src/app/libs/prepare_method/train.py", line 155, in prepare_train_data
+    os.makedirs(target_dir)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib64/python2.7/os.py", line 150, in makedirs
+    makedirs(head, mode)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib64/python2.7/os.py", line 157, in makedirs
+    mkdir(name, mode)
+OSError: [Errno 13] Permission denied: '/home/user/hezw/train_tmp_data/e5251fecc6054e15a15c16d554c0d0b4'
+[2019-10-30 15:07:40,986] [INFO] [data_prepare.py -- prepare_data:60] [**** 数据准备接口调用开始 ****]
+[2019-10-30 15:07:40,987] [INFO] [data_prepare.py -- prepare_data:61] [数据准备类型：1]
+[2019-10-30 15:07:40,987] [INFO] [data_prepare.py -- _inner_prepare_data:78] [数据准备全局ID：efa4b81393c740c6a2e098ce1572921a]
+[2019-10-30 15:07:41,080] [INFO] [data_prepare.py -- _inner_prepare_data:92] [数据准备请求入库：id: 261, prepare_uuid: efa4b81393c740c6a2e098ce1572921a, prepare_status: 0]
+[2019-10-30 15:07:41,081] [INFO] [data_prepare.py -- _inner_prepare_data:100] [准备训练数据]
+[2019-10-30 15:07:41,082] [INFO] [data_prepare.py -- prepare_data:73] [**** 数据准备接口调用结束 ****]
+[2019-10-30 15:07:42,082] [INFO] [train.py -- prepare_train_data:24] [训练数据筛选处理开始]
+[2019-10-30 15:08:05,653] [INFO] [train.py -- prepare_train_data:66] [准备音频总时长 35508250 ms]
+[2019-10-30 15:09:13,712] [INFO] [train.py -- prepare_train_data:111] [准备音频总时长 38464450 ms]
+[2019-10-30 15:09:23,905] [INFO] [train.py -- prepare_train_data:145] [训练数据入库成功]
+[2019-10-30 15:09:23,906] [INFO] [train.py -- prepare_train_data:146] [prepare_data_info入库条数：10977]
+[2019-10-30 15:09:23,906] [INFO] [train.py -- prepare_train_data:150] [训练数据拉取开始]
+[2019-10-30 15:11:36,534] [INFO] [train.py -- prepare_train_data:158] [训练数据拉取结束]
+[2019-10-30 15:11:36,759] [INFO] [train.py -- prepare_train_data:167] [训练数据筛选处理开始]
+[2019-10-30 15:11:37,253] [INFO] [data_prepare.py -- finish_prepare_status:45] [数据准备请求修改：id: 261, prepare_uuid: efa4b81393c740c6a2e098ce1572921a, prepare_status: 1, prepare_data_path: /home/user/hezw/train_tmp_data/efa4b81393c740c6a2e098ce1572921a/data]

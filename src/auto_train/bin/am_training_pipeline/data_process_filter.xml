@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Recipe action="DataEvaluation" resourceRootPath="/home/yourname/dcs_model_train_package/am/resource/"
+        outputDir="/home/yourname/local_update/King-ASR-384-17-Hubei-filtered/">
+    <EvaluateData>
+        <Corpus corpusname="train" waveList="/home/yourname/corpus/dataparsed/train/King-ASR-384-17-Hubei/wavelist.txt"
+                transcriptionList="/home/yourname/corpus/dataparsed/train/King-ASR-384-17-Hubei/transcriptionlist.txt"
+                samplerate="16000" wavType="wav"/>
+        <BasicFilter MinSentenceLengthInMillsecond="100" MaxSentenceLengthInMillsecond="15000"/>
+        <LatticeWerFilter/>
+    </EvaluateData>
+    <EvaluateData>
+        <Corpus corpusname="devtest"
+                waveList="/home/yourname/corpus/dataparsed/devtest/King-ASR-384-17-Hubei/wavelist.txt"
+                transcriptionList="/home/yourname/corpus/dataparsed/devtest/King-ASR-384-17-Hubei/transcriptionlist.txt"
+                samplerate="16000" wavType="wav"/>
+        <BasicFilter MinSentenceLengthInMillsecond="100" MaxSentenceLengthInMillsecond="15000"/>
+        <LatticeWerFilter/>
+    </EvaluateData>
+</Recipe>

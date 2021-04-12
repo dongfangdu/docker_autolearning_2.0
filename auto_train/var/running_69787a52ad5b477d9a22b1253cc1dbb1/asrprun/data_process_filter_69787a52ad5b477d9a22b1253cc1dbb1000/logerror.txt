@@ -1,0 +1,18 @@
+<time>2021-04-12 03:20:49</time><type>error</type>
+copy dir /home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/local to /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/local
+<time>2021-04-12 03:20:49</time><type>error</type>
+copy dir /home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/steps to /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/steps
+<time>2021-04-12 03:20:49</time><type>error</type>
+copy dir /home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/utils to /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/utils
+<time>2021-04-12 03:21:00</time><type>error</type>
+copy dir /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/make_fbank to /home/user/linjr/train_tmp_data/6d5438f6a7184c2db07d390bbec3952f/data/filtered/filtered_000/train/latticeWerFilter/make_fbank
+<time>2021-04-12 03:28:46</time><type>error</type>
+copy dir /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/log to /home/user/linjr/train_tmp_data/6d5438f6a7184c2db07d390bbec3952f/data/filtered/filtered_000/train/latticeWerFilter/smbr_ali_lat/log
+<time>2021-04-12 03:28:46</time><type>error</type>
+copy dir /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat to /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/feature_align_lattice_label_train/smbr_ali_lat
+<time>2021-04-12 03:28:46</time><type>error</type>
+copy dir /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data to /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/feature_align_lattice_label_train/data
+<time>2021-04-12 03:28:46</time><type>error</type>
+copy dir /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/fbank to /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/feature_align_lattice_label_train/fbank
+<time>2021-04-12 03:28:46</time><type>error</type>
+copy dir /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/done to /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/feature_align_lattice_label_train/done

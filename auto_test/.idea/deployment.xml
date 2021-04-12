@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="ljr210_auto_test">
+    <serverData>
+      <paths name="ljr210_auto_test">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/user/linjr/auto_test" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

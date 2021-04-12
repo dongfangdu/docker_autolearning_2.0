@@ -1,0 +1,11 @@
+You are using pip version 8.1.2, however version 19.3.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+http://mirrors.aliyun.com/epel/7/x86_64/repodata/51d82b56117bd789590c071ce452588fa7f9f9f22971b3c3d568a8e37f28a6be-updateinfo.xml.bz2: [Errno 12] Timeout on http://mirrors.aliyun.com/epel/7/x86_64/repodata/51d82b56117bd789590c071ce452588fa7f9f9f22971b3c3d568a8e37f28a6be-updateinfo.xml.bz2: (28, 'Operation too slow. Less than 1000 bytes/sec transferred the last 30 seconds')
+Trying other mirror.
+http://mirrors.aliyun.com/centos/7/os/x86_64/Packages/groff-base-1.22.2-8.el7.x86_64.rpm: [Errno 14] curl#6 - "Could not resolve host: mirrors.aliyun.com; Unknown error"
+Trying other mirror.
+
+
+Error downloading packages:
+  groff-base-1.22.2-8.el7.x86_64: [Errno 256] No more mirrors to try.
+

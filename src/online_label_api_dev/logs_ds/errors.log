@@ -1,0 +1,1219 @@
+[2019-10-28 16:17:47,580] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x7f89a8df4f90 state=finished raised OSError>]
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/auto_test/tools/online_label_api_dev/src/app/libs/prepare_method/train.py", line 151, in prepare_train_data
+    os.makedirs(target_dir)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib64/python2.7/os.py", line 150, in makedirs
+    makedirs(head, mode)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib64/python2.7/os.py", line 157, in makedirs
+    mkdir(name, mode)
+OSError: [Errno 13] Permission denied: '/home/user/hezw/train_tmp_data/a8de92fb18e74522a914eb0d0b3db29c'
+[2019-10-30 10:43:15,044] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x7fc8a774dcd0 state=finished raised error>]
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/auto_test/tools/online_label_api_dev/src/app/libs/prepare_method/train.py", line 119, in prepare_train_data
+    ppl = cal_ppl(result)
+  File "/home/user/linjr/auto_test/tools/online_label_api_dev/src/app/libs/prepare_method/precog.py", line 15, in cal_ppl
+    conn.request(method='POST', url=url, body=body, headers=httpHeaders)
+  File "/usr/lib64/python2.7/httplib.py", line 1056, in request
+    self._send_request(method, url, body, headers)
+  File "/usr/lib64/python2.7/httplib.py", line 1090, in _send_request
+    self.endheaders(body)
+  File "/usr/lib64/python2.7/httplib.py", line 1052, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib64/python2.7/httplib.py", line 890, in _send_output
+    self.send(msg)
+  File "/usr/lib64/python2.7/httplib.py", line 852, in send
+    self.connect()
+  File "/usr/lib64/python2.7/httplib.py", line 833, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib64/python2.7/socket.py", line 571, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[2019-10-30 10:55:57,707] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x7fc0e8e08cd0 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/auto_test/tools/online_label_api_dev/src/app/libs/prepare_method/train.py", line 120, in prepare_train_data
+    pre_wer = precog(real_rtf, ppl)
+  File "/home/user/linjr/auto_test/tools/online_label_api_dev/src/app/libs/prepare_method/precog.py", line 25, in precog
+    pre_wer = a + b[1]*real_rtf + b[2]*ppl + b[3]*real_rtf*real_rtf + b[4]*real_rtf*ppl + b[5]*ppl*ppl
+TypeError: unsupported operand type(s) for *: 'float' and 'Decimal'
+[2019-10-30 11:09:21,909] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x7f01344b8d10 state=finished raised OSError>]
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/auto_test/tools/online_label_api_dev/src/app/libs/prepare_method/train.py", line 155, in prepare_train_data
+    os.makedirs(target_dir)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib64/python2.7/os.py", line 150, in makedirs
+    makedirs(head, mode)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib64/python2.7/os.py", line 157, in makedirs
+    mkdir(name, mode)
+OSError: [Errno 13] Permission denied: '/home/user/hezw/train_tmp_data/9c8a0c46a8e745cfbaeab13a95e84dee'
+[2019-10-30 14:56:29,620] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x7fd19e546d10 state=finished raised OSError>]
+Traceback (most recent call last):
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/hezw/work_py/venv/online_label_api/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/auto_test/tools/online_label_api_dev/src/app/libs/prepare_method/train.py", line 155, in prepare_train_data
+    os.makedirs(target_dir)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib64/python2.7/os.py", line 150, in makedirs
+    makedirs(head, mode)
+  File "/home/user/hezw/work_py/venv/online_label_api/lib64/python2.7/os.py", line 157, in makedirs
+    mkdir(name, mode)
+OSError: [Errno 13] Permission denied: '/home/user/hezw/train_tmp_data/e5251fecc6054e15a15c16d554c0d0b4'
+[2019-11-07 15:22:20,682] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x3f9e650 state=finished raised NameError>]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 157, in prepare_train_data
+    enhance_res = DataEnhancement().enhance_data(EnhanceTypeEnum.ADD_NOISE.value, target_dir)
+NameError: global name 'DataEnhancement' is not defined
+[2019-11-07 15:42:05,538] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x3ebd610 state=finished raised error>]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 119, in prepare_train_data
+    ppl = cal_ppl(result)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/precog.py", line 17, in cal_ppl
+    conn.request(method='POST', url=url, body=body, headers=httpHeaders)
+  File "/usr/lib64/python2.7/httplib.py", line 1017, in request
+    self._send_request(method, url, body, headers)
+  File "/usr/lib64/python2.7/httplib.py", line 1051, in _send_request
+    self.endheaders(body)
+  File "/usr/lib64/python2.7/httplib.py", line 1013, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib64/python2.7/httplib.py", line 864, in _send_output
+    self.send(msg)
+  File "/usr/lib64/python2.7/httplib.py", line 826, in send
+    self.connect()
+  File "/usr/lib64/python2.7/httplib.py", line 807, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib64/python2.7/socket.py", line 571, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[2019-11-07 15:54:41,016] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x4e7a650 state=finished raised error>]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 119, in prepare_train_data
+    ppl = cal_ppl(result)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/precog.py", line 17, in cal_ppl
+    conn.request(method='POST', url=url, body=body, headers=httpHeaders)
+  File "/usr/lib64/python2.7/httplib.py", line 1017, in request
+    self._send_request(method, url, body, headers)
+  File "/usr/lib64/python2.7/httplib.py", line 1051, in _send_request
+    self.endheaders(body)
+  File "/usr/lib64/python2.7/httplib.py", line 1013, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib64/python2.7/httplib.py", line 864, in _send_output
+    self.send(msg)
+  File "/usr/lib64/python2.7/httplib.py", line 826, in send
+    self.connect()
+  File "/usr/lib64/python2.7/httplib.py", line 807, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib64/python2.7/socket.py", line 571, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[2019-11-07 16:08:49,206] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x3d65650 state=finished raised NameError>]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 158, in prepare_train_data
+    enhance_res = DataEnhancement().enhance_data(EnhanceTypeEnum.ADD_NOISE.value, target_dir)
+NameError: global name 'DataEnhancement' is not defined
+[2019-11-07 16:18:14,786] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x384ce10 state=finished raised NameError>]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 159, in prepare_train_data
+    enhance_res = DataEnhancement().enhance_data(EnhanceTypeEnum.ADD_NOISE.value, target_dir)
+NameError: global name 'EnhanceTypeEnum' is not defined
+[2019-11-07 16:39:46,045] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x4f17f10 state=finished raised error>]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 120, in prepare_train_data
+    ppl = cal_ppl(result)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/precog.py", line 17, in cal_ppl
+    conn.request(method='POST', url=url, body=body, headers=httpHeaders)
+  File "/usr/lib64/python2.7/httplib.py", line 1017, in request
+    self._send_request(method, url, body, headers)
+  File "/usr/lib64/python2.7/httplib.py", line 1051, in _send_request
+    self.endheaders(body)
+  File "/usr/lib64/python2.7/httplib.py", line 1013, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib64/python2.7/httplib.py", line 864, in _send_output
+    self.send(msg)
+  File "/usr/lib64/python2.7/httplib.py", line 826, in send
+    self.connect()
+  File "/usr/lib64/python2.7/httplib.py", line 807, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib64/python2.7/socket.py", line 571, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[2019-11-07 16:54:09,473] [ERROR] [data_enhance.py -- add_noise:130] [音频加躁失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-07 16:54:09,480] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x5256f10 state=finished raised NameError>]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 160, in prepare_train_data
+    enh_data_path = json.loads(enhance_res)['final_save_path']
+NameError: global name 'json' is not defined
+[2019-11-07 17:51:47,932] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x537ff10 state=finished raised InvalidURL>]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 195, in prepare_train_data
+    tmp_res = download_train_data(p_uuid, target_dir, prepare_data_info)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 223, in download_train_data
+    resp, content = h.request(url)
+  File "/usr/lib/python2.7/site-packages/httplib2/__init__.py", line 1973, in request
+    authority, timeout=self.timeout, proxy_info=proxy_info
+  File "/usr/lib/python2.7/site-packages/httplib2/__init__.py", line 1142, in __init__
+    httplib.HTTPConnection.__init__(self, host, port, strict)
+  File "/usr/lib64/python2.7/httplib.py", line 739, in __init__
+    self._set_hostport(host, port)
+  File "/usr/lib64/python2.7/httplib.py", line 767, in _set_hostport
+    raise InvalidURL("nonnumeric port: '%s'" % host[i+1:])
+InvalidURL: nonnumeric port: '777931a47e2210cfe467f798647c688b2bf5.wav'
+[2019-11-07 18:16:13,945] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x372cf10 state=finished raised InvalidURL>]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 195, in prepare_train_data
+    tmp_res = download_train_data(p_uuid, target_dir, prepare_data_info)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 223, in download_train_data
+    resp, content = h.request(url)
+  File "/usr/lib/python2.7/site-packages/httplib2/__init__.py", line 1973, in request
+    authority, timeout=self.timeout, proxy_info=proxy_info
+  File "/usr/lib/python2.7/site-packages/httplib2/__init__.py", line 1142, in __init__
+    httplib.HTTPConnection.__init__(self, host, port, strict)
+  File "/usr/lib64/python2.7/httplib.py", line 739, in __init__
+    self._set_hostport(host, port)
+  File "/usr/lib64/python2.7/httplib.py", line 767, in _set_hostport
+    raise InvalidURL("nonnumeric port: '%s'" % host[i+1:])
+InvalidURL: nonnumeric port: '7779931d06a9e44c37dbdaa35dd1f3f35027.wav'
+[2019-11-07 18:23:22,665] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x5391f10 state=finished raised InvalidURL>]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 195, in prepare_train_data
+    tmp_res = download_train_data(p_uuid, target_dir, prepare_data_info)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 223, in download_train_data
+    resp, content = h.request(url)
+  File "/usr/lib/python2.7/site-packages/httplib2/__init__.py", line 1973, in request
+    authority, timeout=self.timeout, proxy_info=proxy_info
+  File "/usr/lib/python2.7/site-packages/httplib2/__init__.py", line 1142, in __init__
+    httplib.HTTPConnection.__init__(self, host, port, strict)
+  File "/usr/lib64/python2.7/httplib.py", line 739, in __init__
+    self._set_hostport(host, port)
+  File "/usr/lib64/python2.7/httplib.py", line 767, in _set_hostport
+    raise InvalidURL("nonnumeric port: '%s'" % host[i+1:])
+InvalidURL: nonnumeric port: '77794cd84becf514995f25c91fe5852c7674.wav'
+[2019-11-08 10:18:07,679] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x4b04f10 state=finished raised InvalidURL>]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 195, in prepare_train_data
+    tmp_res = download_train_data(p_uuid, target_dir, prepare_data_info)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 223, in download_train_data
+    resp, content = h.request(url)
+  File "/usr/lib/python2.7/site-packages/httplib2/__init__.py", line 1973, in request
+    authority, timeout=self.timeout, proxy_info=proxy_info
+  File "/usr/lib/python2.7/site-packages/httplib2/__init__.py", line 1142, in __init__
+    httplib.HTTPConnection.__init__(self, host, port, strict)
+  File "/usr/lib64/python2.7/httplib.py", line 739, in __init__
+    self._set_hostport(host, port)
+  File "/usr/lib64/python2.7/httplib.py", line 767, in _set_hostport
+    raise InvalidURL("nonnumeric port: '%s'" % host[i+1:])
+InvalidURL: nonnumeric port: '7779a2c75493f6f1e682d662e2653ee75869.wav'
+[2019-11-08 14:40:05,362] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x47c5fd0 state=finished raised error>]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 123, in prepare_train_data
+    ppl = cal_ppl(result)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/precog.py", line 17, in cal_ppl
+    conn.request(method='POST', url=url, body=body, headers=httpHeaders)
+  File "/usr/lib64/python2.7/httplib.py", line 1017, in request
+    self._send_request(method, url, body, headers)
+  File "/usr/lib64/python2.7/httplib.py", line 1051, in _send_request
+    self.endheaders(body)
+  File "/usr/lib64/python2.7/httplib.py", line 1013, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib64/python2.7/httplib.py", line 864, in _send_output
+    self.send(msg)
+  File "/usr/lib64/python2.7/httplib.py", line 826, in send
+    self.connect()
+  File "/usr/lib64/python2.7/httplib.py", line 807, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib64/python2.7/socket.py", line 571, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[2019-11-08 14:54:53,224] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x40d2fd0 state=finished raised UnboundLocalError>]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 146, in prepare_train_data
+    print len(prepare_data_info_list)
+UnboundLocalError: local variable 'prepare_data_info_list' referenced before assignment
+[2019-11-08 15:06:35,504] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x38affd0 state=finished raised error>]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 123, in prepare_train_data
+    ppl = cal_ppl(result)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/precog.py", line 17, in cal_ppl
+    conn.request(method='POST', url=url, body=body, headers=httpHeaders)
+  File "/usr/lib64/python2.7/httplib.py", line 1017, in request
+    self._send_request(method, url, body, headers)
+  File "/usr/lib64/python2.7/httplib.py", line 1051, in _send_request
+    self.endheaders(body)
+  File "/usr/lib64/python2.7/httplib.py", line 1013, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib64/python2.7/httplib.py", line 864, in _send_output
+    self.send(msg)
+  File "/usr/lib64/python2.7/httplib.py", line 826, in send
+    self.connect()
+  File "/usr/lib64/python2.7/httplib.py", line 807, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib64/python2.7/socket.py", line 571, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[2019-11-08 15:35:57,960] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x1af910350 state=finished raised error>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 123, in prepare_train_data
+    ppl = cal_ppl(result)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/precog.py", line 17, in cal_ppl
+    conn.request(method='POST', url=url, body=body, headers=httpHeaders)
+  File "/usr/lib64/python2.7/httplib.py", line 1017, in request
+    self._send_request(method, url, body, headers)
+  File "/usr/lib64/python2.7/httplib.py", line 1051, in _send_request
+    self.endheaders(body)
+  File "/usr/lib64/python2.7/httplib.py", line 1013, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib64/python2.7/httplib.py", line 864, in _send_output
+    self.send(msg)
+  File "/usr/lib64/python2.7/httplib.py", line 826, in send
+    self.connect()
+  File "/usr/lib64/python2.7/httplib.py", line 807, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib64/python2.7/socket.py", line 571, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[2019-11-08 16:16:24,939] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x1ae270350 state=finished raised error>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 123, in prepare_train_data
+    ppl = cal_ppl(result)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/precog.py", line 17, in cal_ppl
+    conn.request(method='POST', url=url, body=body, headers=httpHeaders)
+  File "/usr/lib64/python2.7/httplib.py", line 1017, in request
+    self._send_request(method, url, body, headers)
+  File "/usr/lib64/python2.7/httplib.py", line 1051, in _send_request
+    self.endheaders(body)
+  File "/usr/lib64/python2.7/httplib.py", line 1013, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib64/python2.7/httplib.py", line 864, in _send_output
+    self.send(msg)
+  File "/usr/lib64/python2.7/httplib.py", line 826, in send
+    self.connect()
+  File "/usr/lib64/python2.7/httplib.py", line 807, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib64/python2.7/socket.py", line 571, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[2019-11-08 16:26:49,249] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x4267fd0 state=finished raised error>]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 123, in prepare_train_data
+    ppl = cal_ppl(result)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/precog.py", line 17, in cal_ppl
+    conn.request(method='POST', url=url, body=body, headers=httpHeaders)
+  File "/usr/lib64/python2.7/httplib.py", line 1017, in request
+    self._send_request(method, url, body, headers)
+  File "/usr/lib64/python2.7/httplib.py", line 1051, in _send_request
+    self.endheaders(body)
+  File "/usr/lib64/python2.7/httplib.py", line 1013, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib64/python2.7/httplib.py", line 864, in _send_output
+    self.send(msg)
+  File "/usr/lib64/python2.7/httplib.py", line 826, in send
+    self.connect()
+  File "/usr/lib64/python2.7/httplib.py", line 807, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib64/python2.7/socket.py", line 571, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[2019-11-08 16:36:35,347] [ERROR] [run_data_selection.py -- <module>:81] [已超出轮询次数，当前接口状态为0]
+[2019-11-08 17:16:12,360] [ERROR] [run_data_selection.py -- <module>:81] [已超出轮询次数，当前接口状态为0]
+[2019-11-08 17:17:05,522] [ERROR] [run_data_selection.py -- <module>:81] [已超出轮询次数，当前接口状态为0]
+[2019-11-08 17:20:10,211] [ERROR] [data_enhance.py -- adjust_volume:50] [音量调节失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-08 17:20:10,322] [ERROR] [data_enhance.py -- add_noise:130] [音频加躁失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-08 17:20:10,334] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x19321390 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 164, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+[2019-11-08 18:07:16,126] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x489dfd0 state=finished raised error>]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 123, in prepare_train_data
+    ppl = cal_ppl(result)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/precog.py", line 17, in cal_ppl
+    conn.request(method='POST', url=url, body=body, headers=httpHeaders)
+  File "/usr/lib64/python2.7/httplib.py", line 1017, in request
+    self._send_request(method, url, body, headers)
+  File "/usr/lib64/python2.7/httplib.py", line 1051, in _send_request
+    self.endheaders(body)
+  File "/usr/lib64/python2.7/httplib.py", line 1013, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib64/python2.7/httplib.py", line 864, in _send_output
+    self.send(msg)
+  File "/usr/lib64/python2.7/httplib.py", line 826, in send
+    self.connect()
+  File "/usr/lib64/python2.7/httplib.py", line 807, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib64/python2.7/socket.py", line 571, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[2019-11-08 18:17:59,376] [ERROR] [data_enhance.py -- adjust_volume:50] [音量调节失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-08 18:17:59,623] [ERROR] [data_enhance.py -- add_noise:130] [音频加躁失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-08 18:17:59,837] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x4a7ffd0 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 167, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+[2019-11-08 18:20:42,084] [ERROR] [run_data_selection.py -- <module>:81] [已超出轮询次数，当前接口状态为0]
+[2019-11-08 18:25:46,399] [ERROR] [data_enhance.py -- adjust_volume:50] [音量调节失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-08 18:25:46,613] [ERROR] [data_enhance.py -- add_noise:130] [音频加躁失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-08 18:25:46,855] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x3fb1fd0 state=finished raised OSError>]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 167, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+OSError: [Errno 2] No such file or directory: 'None'
+[2019-11-08 18:36:42,054] [ERROR] [data_enhance.py -- adjust_volume:50] [音量调节失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-08 18:36:42,200] [ERROR] [data_enhance.py -- add_noise:130] [音频加躁失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-08 18:36:42,213] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x183e33d0 state=finished raised OSError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 164, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+OSError: [Errno 2] No such file or directory: 'None'
+[2019-11-08 19:37:15,214] [ERROR] [run_data_selection.py -- <module>:81] [已超出轮询次数，当前接口状态为0]
+[2019-11-08 20:33:51,871] [ERROR] [data_enhance.py -- adjust_volume:50] [音量调节失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-08 20:33:51,977] [ERROR] [data_enhance.py -- add_noise:130] [音频加躁失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-08 20:33:51,988] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x1837e410 state=finished raised OSError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 165, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+OSError: [Errno 2] No such file or directory: 'None'
+[2019-11-08 20:36:00,953] [ERROR] [data_enhance.py -- adjust_volume:50] [音量调节失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-08 20:36:01,068] [ERROR] [data_enhance.py -- add_noise:130] [音频加躁失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-08 20:36:01,074] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x1854b410 state=finished raised OSError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 166, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+OSError: [Errno 2] No such file or directory: 'None'
+[2019-11-08 21:34:25,789] [ERROR] [run_data_selection.py -- <module>:81] [已超出轮询次数，当前接口状态为0]
+[2019-11-08 21:36:34,887] [ERROR] [run_data_selection.py -- <module>:81] [已超出轮询次数，当前接口状态为0]
+[2019-11-09 14:22:00,030] [ERROR] [data_enhance.py -- adjust_volume:50] [音量调节失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-09 14:22:00,122] [ERROR] [data_enhance.py -- add_noise:130] [音频加躁失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-09 14:22:00,129] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x18720450 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 167, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+[2019-11-09 15:19:22,815] [ERROR] [data_enhance.py -- adjust_volume:50] [音量调节失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-09 15:19:22,946] [ERROR] [data_enhance.py -- add_noise:130] [音频加躁失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-09 15:19:22,954] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x19665450 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 168, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+[2019-11-09 15:22:33,648] [ERROR] [run_data_selection.py -- <module>:81] [已超出轮询次数，当前接口状态为0]
+[2019-11-09 15:26:47,081] [ERROR] [data_enhance.py -- adjust_volume:50] [音量调节失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-09 15:26:47,167] [ERROR] [data_enhance.py -- add_noise:130] [音频加躁失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-09 15:26:47,176] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x179a5490 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 168, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+[2019-11-09 15:56:51,091] [ERROR] [data_enhance.py -- adjust_volume:50] [音量调节失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-09 15:56:51,194] [ERROR] [data_enhance.py -- add_noise:130] [音频加躁失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-09 15:56:51,202] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x187a4490 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 168, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+[2019-11-09 16:19:55,900] [ERROR] [run_data_selection.py -- <module>:81] [已超出轮询次数，当前接口状态为0]
+[2019-11-09 16:27:21,028] [ERROR] [run_data_selection.py -- <module>:81] [已超出轮询次数，当前接口状态为0]
+[2019-11-09 16:57:25,265] [ERROR] [run_data_selection.py -- <module>:81] [已超出轮询次数，当前接口状态为0]
+[2019-11-09 17:24:35,441] [ERROR] [run_data_selection.py -- <module>:81] [已超出轮询次数，当前接口状态为2]
+[2019-11-09 17:32:15,988] [ERROR] [run_data_selection.py -- <module>:81] [已超出轮询次数，当前接口状态为2]
+[2019-11-09 17:46:53,784] [ERROR] [run_data_selection.py -- <module>:81] [已超出轮询次数，当前接口状态为2]
+[2019-11-09 18:09:45,151] [ERROR] [run_data_selection.py -- <module>:81] [已超出轮询次数，当前接口状态为2]
+[2019-11-10 16:29:52,525] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x18bb2510 state=finished raised UnboundLocalError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 151, in prepare_train_data
+    target_dir = os.path.join(target_dir, 'wav')
+UnboundLocalError: local variable 'target_dir' referenced before assignment
+[2019-11-10 16:36:50,722] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x17aae510 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 161, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+[2019-11-10 16:41:15,589] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x17f16510 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 164, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+[2019-11-10 16:49:26,177] [ERROR] [data_enhance.py -- adjust_volume:50] [音量调节失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-10 16:49:26,259] [ERROR] [data_enhance.py -- add_noise:130] [音频加躁失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-10 16:49:26,276] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x1933b510 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 167, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+[2019-11-10 17:01:04,762] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x1895e510 state=finished raised NameError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 188, in prepare_train_data
+    db_v2.session.bulk_save_objects(prepare_data_info_list)
+NameError: global name 'prepare_data_info_list' is not defined
+[2019-11-10 17:30:13,188] [ERROR] [run_data_selection.py -- <module>:81] [已超出轮询次数，当前接口状态为0]
+[2019-11-10 17:37:12,498] [ERROR] [run_data_selection.py -- <module>:81] [已超出轮询次数，当前接口状态为0]
+[2019-11-10 17:40:39,643] [ERROR] [data_enhance.py -- adjust_volume:50] [音量调节失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-10 17:40:39,744] [ERROR] [data_enhance.py -- add_noise:130] [音频加躁失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-10 17:40:39,776] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x18004550 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 169, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+[2019-11-10 17:41:38,662] [ERROR] [run_data_selection.py -- <module>:81] [已超出轮询次数，当前接口状态为0]
+[2019-11-10 17:49:48,957] [ERROR] [run_data_selection.py -- <module>:81] [已超出轮询次数，当前接口状态为0]
+[2019-11-10 18:01:26,421] [ERROR] [run_data_selection.py -- <module>:81] [已超出轮询次数，当前接口状态为0]
+[2019-11-10 18:05:29,316] [ERROR] [data_enhance.py -- adjust_volume:50] [音量调节失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-10 18:05:29,471] [ERROR] [data_enhance.py -- add_noise:130] [音频加躁失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-10 18:05:29,556] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x18550550 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 169, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+[2019-11-10 18:12:13,132] [ERROR] [data_enhance.py -- adjust_volume:50] [音量调节失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-10 18:12:13,247] [ERROR] [data_enhance.py -- add_noise:130] [音频加躁失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-10 18:12:13,266] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x1815e510 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 169, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+[2019-11-10 18:40:31,509] [ERROR] [run_data_selection.py -- <module>:81] [已超出轮询次数，当前接口状态为0]
+[2019-11-10 18:51:17,460] [ERROR] [data_enhance.py -- adjust_volume:50] [音量调节失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-10 18:51:17,546] [ERROR] [data_enhance.py -- add_noise:130] [音频加躁失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-10 18:51:17,579] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x186b4550 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 169, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+[2019-11-10 19:05:19,124] [ERROR] [run_data_selection.py -- <module>:81] [已超出轮询次数，当前接口状态为0]
+[2019-11-10 19:07:01,578] [ERROR] [data_enhance.py -- adjust_volume:50] [音量调节失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-10 19:07:01,633] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x1808d550 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 169, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+[2019-11-10 19:08:00,645] [ERROR] [run_data_selection.py -- <module>:81] [已超出轮询次数，当前接口状态为0]
+[2019-11-10 19:12:07,288] [ERROR] [run_data_selection.py -- <module>:81] [已超出轮询次数，当前接口状态为0]
+[2019-11-10 19:20:37,829] [ERROR] [data_enhance.py -- adjust_volume:50] [音量调节失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-10 19:20:37,881] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x3b10190 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 169, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+[2019-11-10 19:22:33,043] [ERROR] [data_enhance.py -- adjust_volume:50] [音量调节失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-10 19:22:33,085] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x3d72190 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 169, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+[2019-11-10 19:24:08,931] [ERROR] [data_enhance.py -- adjust_volume:50] [音量调节失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-10 19:24:08,984] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x17d5c550 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 169, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+[2019-11-10 19:37:24,638] [ERROR] [data_enhance.py -- adjust_volume:50] [音量调节失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-10 19:37:24,976] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x1874f550 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 169, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+[2019-11-10 19:48:10,897] [ERROR] [data_enhance.py -- adjust_volume:50] [音量调节失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-10 19:48:11,175] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x185641d0 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 116, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+[2019-11-10 19:51:11,435] [ERROR] [run_data_selection.py -- <module>:81] [已超出轮询次数，当前接口状态为0]
+[2019-11-10 19:55:42,010] [ERROR] [data_enhance.py -- adjust_volume:50] [音量调节失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-10 19:55:42,069] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x17e91590 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 169, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+[2019-11-10 19:59:29,031] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x17cbb590 state=finished raised OSError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 169, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+OSError: [Errno 2] No such file or directory: '/home/user/linjr/enh_tmp_data/Test_data/increase_vol/a97425ab73e5487fa911e8bd36684195/data/wav'
+[2019-11-10 20:06:56,347] [ERROR] [run_data_selection.py -- <module>:81] [已超出轮询次数，当前接口状态为0]
+[2019-11-10 20:24:04,887] [ERROR] [run_data_selection.py -- <module>:81] [已超出轮询次数，当前接口状态为0]
+[2019-11-10 20:37:35,608] [ERROR] [run_data_selection.py -- <module>:81] [已超出轮询次数，当前接口状态为0]
+[2019-11-11 09:25:43,976] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x18561550 state=finished raised OSError>]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 168, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+OSError: [Errno 2] No such file or directory: '/home/user/linjr/enh_tmp_data/Test_data/increase_vol/3edf030cebf1475484d95f28cd71f344/data/wav'
+[2019-11-11 09:34:08,549] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x18c17590 state=finished raised OSError>]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/usr/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 168, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+OSError: [Errno 2] No such file or directory: '/home/user/linjr/enh_tmp_data/Test_data/increase_vol/7db75823ff964b289687a94ee9b8d27f/data/wav'
+[2019-11-11 09:49:44,766] [ERROR] [data_enhance.py -- adjust_volume:51] [音量调节失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-11 09:49:44,790] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x17f8d650 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 168, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+[2019-11-11 10:10:04,530] [ERROR] [data_enhance.py -- adjust_volume:51] [音量调节失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-11 10:10:04,583] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x184c6650 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 168, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+[2019-11-11 10:28:41,699] [ERROR] [data_enhance.py -- adjust_volume:51] [音量调节失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-11 10:28:41,741] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x17b25650 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 168, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+[2019-11-11 11:08:27,889] [ERROR] [data_enhance.py -- adjust_volume:51] [音量调节失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-11 11:08:27,914] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x18d3f650 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 168, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+[2019-11-11 11:15:18,965] [ERROR] [data_enhance.py -- adjust_volume:51] [音量调节失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-11 11:15:19,016] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x188dc650 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 168, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+[2019-11-11 11:27:01,859] [ERROR] [data_enhance.py -- adjust_volume:52] [音量调节失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-11 11:27:01,878] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x180cd650 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 168, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+[2019-11-11 11:42:52,684] [ERROR] [data_enhance.py -- adjust_volume:53] [音量调节失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-11 11:42:52,723] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x19123650 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 168, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+[2019-11-11 11:49:52,965] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x1923d650 state=finished raised error>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 126, in prepare_train_data
+    ppl = cal_ppl(result)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/precog.py", line 17, in cal_ppl
+    conn.request(method='POST', url=url, body=body, headers=httpHeaders)
+  File "/usr/lib64/python2.7/httplib.py", line 1017, in request
+    self._send_request(method, url, body, headers)
+  File "/usr/lib64/python2.7/httplib.py", line 1051, in _send_request
+    self.endheaders(body)
+  File "/usr/lib64/python2.7/httplib.py", line 1013, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib64/python2.7/httplib.py", line 864, in _send_output
+    self.send(msg)
+  File "/usr/lib64/python2.7/httplib.py", line 826, in send
+    self.connect()
+  File "/usr/lib64/python2.7/httplib.py", line 807, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib64/python2.7/socket.py", line 571, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+[2019-11-11 11:54:18,515] [ERROR] [data_enhance.py -- adjust_volume:53] [音量调节失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-11 11:54:18,561] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x183c5650 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 168, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+[2019-11-11 11:58:15,167] [ERROR] [data_enhance.py -- adjust_volume:54] [音量调节失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-11 11:58:15,204] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x18c3c650 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 168, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+[2019-11-11 12:04:49,796] [ERROR] [data_enhance.py -- adjust_volume:56] [音量调节失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-11 12:04:49,840] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x17ba8650 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 168, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+[2019-11-11 12:10:59,523] [ERROR] [data_enhance.py -- adjust_volume:58] [None]
+[2019-11-11 12:10:59,524] [ERROR] [data_enhance.py -- adjust_volume:59] [音量调节失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-11 12:10:59,583] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x18427690 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 168, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+[2019-11-11 12:26:50,629] [ERROR] [run_data_selection.py -- <module>:81] [已超出轮询次数，当前接口状态为0]
+[2019-11-11 12:37:22,085] [ERROR] [data_enhance.py -- adjust_volume:58] [None]
+[2019-11-11 12:37:22,086] [ERROR] [data_enhance.py -- adjust_volume:59] [音量调节失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-11 12:37:22,114] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x17d666d0 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 168, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+[2019-11-11 13:04:25,808] [ERROR] [data_enhance.py -- adjust_volume:58] [None]
+[2019-11-11 13:04:25,809] [ERROR] [data_enhance.py -- adjust_volume:59] [音量调节失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-11-11 13:04:25,837] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x187c06d0 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib64/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 168, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+[2019-12-06 11:12:03,879] [ERROR] [data_enhance.py -- adjust_volume:54] [None]
+[2019-12-06 11:12:03,880] [ERROR] [data_enhance.py -- adjust_volume:55] [音量调节失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-12-06 11:12:03,970] [ERROR] [data_enhance.py -- voice_convert:165] [声音转换失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-12-06 11:12:04,212] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x7f7407809a50 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 185, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+[2019-12-06 11:21:56,502] [ERROR] [data_enhance.py -- adjust_volume:54] [None]
+[2019-12-06 11:21:56,503] [ERROR] [data_enhance.py -- adjust_volume:55] [音量调节失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-12-06 11:21:56,592] [ERROR] [data_enhance.py -- voice_convert:165] [声音转换失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-12-06 11:21:56,818] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x7f085cfbf410 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 185, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+[2019-12-06 11:24:32,541] [ERROR] [data_enhance.py -- adjust_volume:54] [None]
+[2019-12-06 11:24:32,542] [ERROR] [data_enhance.py -- adjust_volume:55] [音量调节失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-12-06 11:24:32,641] [ERROR] [data_enhance.py -- voice_convert:165] [声音转换失败: exceptions must be old-style classes or derived from BaseException, not NoneType]
+[2019-12-06 11:24:32,871] [ERROR] [_base.py -- _invoke_callbacks:333] [exception calling callback for <Future at 0x7feb25d6e410 state=finished raised TypeError>]
+Traceback (most recent call last):
+  File "/home/user/linjr/venv/auto_train/lib/python2.7/site-packages/concurrent/futures/_base.py", line 331, in _invoke_callbacks
+    callback(self)
+  File "/home/user/linjr/online_label_api_dev/src/local_api/data_prepare.py", line 32, in finish_prepare_status
+    res = obj.result()
+  File "/home/user/linjr/venv/auto_train/lib/python2.7/site-packages/concurrent/futures/_base.py", line 455, in result
+    return self.__get_result()
+  File "/home/user/linjr/venv/auto_train/lib/python2.7/site-packages/concurrent/futures/thread.py", line 63, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/linjr/online_label_api_dev/src/app/libs/prepare_method/train.py", line 185, in prepare_train_data
+    for wav_ele in os.listdir(enh_data_path):
+TypeError: coercing to Unicode: need string or buffer, NoneType found

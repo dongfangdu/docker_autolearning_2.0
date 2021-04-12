@@ -1,0 +1,282 @@
+<time>2021-04-12 03:29:46</time><type>output</type>
+execute:
+chmod -R +x /home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local; chmod -R +x /home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/feature_extraction_cpu_server
+
+<time>2021-04-12 03:29:46</time><type>output</type>
+Set the path.sh.
+<time>2021-04-12 03:29:46</time><type>output</type>
+execute:
+echo $PATH; echo $LD_LIBRARY_PATH; echo $OPAL_PREFIX
+
+<time>2021-04-12 03:29:46</time><type>output</type>
+<output><id>33961203</id><command>echo $PATH; echo $LD_LIBRARY_PATH; echo $OPAL_PREFIX</command><message>/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/utils/:/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/middleware_bin/:/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/feature_extraction_cpu_server/:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+/usr/lib64:/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/middleware_bin/tools/openmpi-1.10.0/install/lib/:/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/middleware_bin/tools/lib/:/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/middleware_bin/tools/lib64/:/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/middleware_bin/tools/openfst-1.3.4/lib/:/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/middleware_bin/tools/OpenBLAS/install/lib/:/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/middleware_bin/tools/cuda-8.0/lib64/:/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/middleware_bin/tools/cudalib-8.0/:/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/GMMTraining/ATLAS/lib/:/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/feature_extraction_cpu_server/net-forward-libs/:/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/gen_id/:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1:/usr/local/nvidia/lib:/usr/local/nvidia/lib64
+/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/middleware_bin/tools/openmpi-1.10.0/install
+</message></output>
+
+<time>2021-04-12 03:29:46</time><type>output</type>
+From global.cfg, this is a ctc model.
+<time>2021-04-12 03:29:46</time><type>output</type>
+STATUS_LOG|21072100|IN_PROGRESS|AM training pipeline is started|0/2
+<time>2021-04-12 03:29:46</time><type>output</type>
+deleting local path: /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/local
+<time>2021-04-12 03:29:46</time><type>output</type>
+deleting local path: /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/steps
+<time>2021-04-12 03:29:46</time><type>output</type>
+deleting local path: /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/utils
+<time>2021-04-12 03:29:46</time><type>output</type>
+Cuda version is set to 10.0
+<time>2021-04-12 03:29:46</time><type>output</type>
+execute:
+touch /home/user/linjr/train_tmp_data/6d5438f6a7184c2db07d390bbec3952f/data/trained/trained_000/tempFile; /home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/gen_id/gen_model_id 192.168.108.197 /home/user/linjr/train_tmp_data/6d5438f6a7184c2db07d390bbec3952f/data/trained/trained_000/tempFile;
+
+<time>2021-04-12 03:29:46</time><type>output</type>
+<output><id>57704862</id><command>touch /home/user/linjr/train_tmp_data/6d5438f6a7184c2db07d390bbec3952f/data/trained/trained_000/tempFile; /home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/gen_id/gen_model_id 192.168.108.197 /home/user/linjr/train_tmp_data/6d5438f6a7184c2db07d390bbec3952f/data/trained/trained_000/tempFile;</command><message>apes sdk commit date: 20190318
+License not passed, failed to login to license server: encode data failed</message></output>
+
+<time>2021-04-12 03:29:46</time><type>output</type>
+<error><id>57704862</id><command>touch /home/user/linjr/train_tmp_data/6d5438f6a7184c2db07d390bbec3952f/data/trained/trained_000/tempFile; /home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/gen_id/gen_model_id 192.168.108.197 /home/user/linjr/train_tmp_data/6d5438f6a7184c2db07d390bbec3952f/data/trained/trained_000/tempFile;</command><message>stderr: encode data failed
+</message></error>
+
+<time>2021-04-12 03:29:46</time><type>error</type>
+The model signature generation will not work. If you need to generate the signature file, please check 1: the signature generation is supported in this license server; 2. you do have license to run acoustic model training; 3. you specified the correct license server ip address.
+<time>2021-04-12 03:29:46</time><type>output</type>
+/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/feature_align_lattice_label_train/wavelist_new.txt is used.
+<time>2021-04-12 03:29:46</time><type>output</type>
+/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/feature_align_lattice_label_train/transcriptionlist_new.txt is used.
+<time>2021-04-12 03:29:46</time><type>error</type>
+copy dir /home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/local to /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/local
+<time>2021-04-12 03:29:46</time><type>error</type>
+copy dir /home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/steps to /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/steps
+<time>2021-04-12 03:29:47</time><type>error</type>
+copy dir /home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/utils to /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/utils
+<time>2021-04-12 03:29:47</time><type>output</type>
+execute:
+lspci | grep -i --color 'vga\|3d\|2d' | grep NVIDIA | wc -l > /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/asrprun/dcs_am_pipeline_69787a52ad5b477d9a22b1253cc1dbb1000/gpunum.txt
+
+<time>2021-04-12 03:29:47</time><type>output</type>
+GPU number is 2.
+<time>2021-04-12 03:29:47</time><type>output</type>
+execute:
+lscpu | grep 'Core(s) per socket:' > /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/asrprun/dcs_am_pipeline_69787a52ad5b477d9a22b1253cc1dbb1000/cpunum.txt
+
+<time>2021-04-12 03:29:47</time><type>output</type>
+execute:
+lscpu | grep 'Socket(s):' > /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/asrprun/dcs_am_pipeline_69787a52ad5b477d9a22b1253cc1dbb1000/cpunum.txt
+
+<time>2021-04-12 03:29:47</time><type>output</type>
+CPU number is 32.
+<time>2021-04-12 03:29:47</time><type>output</type>
+execute:
+/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/feature_extraction_cpu_server/nnet-info /home/user/linjr/auto_train/corpus/model/fsmn.net > /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/tmp/model.txt
+
+<time>2021-04-12 03:29:48</time><type>output</type>
+<error><id>29037294</id><command>/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/feature_extraction_cpu_server/nnet-info /home/user/linjr/auto_train/corpus/model/fsmn.net > /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/tmp/model.txt</command><message>/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/feature_extraction_cpu_server/nnet-info /home/user/linjr/auto_train/corpus/model/fsmn.net 
+LOG (nnet-info:main():nnet-info.cc:57) Printed info about /home/user/linjr/auto_train/corpus/model/fsmn.net
+</message></error>
+
+<time>2021-04-12 03:29:48</time><type>output</type>
+The model type of /home/user/linjr/auto_train/corpus/model/fsmn.net is fsmn with input and output dim 400 and 2037
+<time>2021-04-12 03:29:48</time><type>output</type>
+The fbank feature dim is 80
+<time>2021-04-12 03:29:48</time><type>output</type>
+converting /home/user/linjr/auto_train/corpus/model/fsmn.mvn to /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/input/final.converted.feature_transform for training.
+<time>2021-04-12 03:29:48</time><type>output</type>
+shiftDim is 400
+<time>2021-04-12 03:29:48</time><type>output</type>
+shiftVec is -9.779496 -10.17968 -11.04767 -11.74731 -12.45807 -13.01676 -13.38614 -13.53106 -13.63347 -13.54875 -13.64929 -13.74808 -13.99678 -14.17873 -14.22228 -14.2559 -14.22717 -14.15447 -14.2799 -14.09589 -13.94303 -14.125 -13.88888 -13.98882 -13.89508 -13.96625 -13.85131 -13.92239 -13.89101 -13.89632 -13.91906 -13.92846 -13.96165 -14.0238 -14.07646 -14.13894 -14.18006 -14.1989 -14.23782 -14.1618 -14.21031 -14.15769 -14.23065 -14.22876 -14.29921 -14.39304 -14.4983 -14.59453 -14.69442 -14.84121 -14.88892 -14.91286 -14.96963 -15.04683 -15.05349 -15.10239 -15.12843 -15.15369 -15.13995 -15.08053 -14.94418 -14.81066 -14.7258 -14.63319 -14.52988 -14.43472 -14.35868 -14.3162 -14.27607 -14.22714 -14.17327 -14.14497 -14.11783 -14.08898 -14.05862 -14.00302 -13.89603 -13.5968 -13.01556 -12.29613 -9.779496 -10.17968 -11.04767 -11.74731 -12.45807 -13.01676 -13.38614 -13.53106 -13.63347 -13.54875 -13.64929 -13.74808 -13.99678 -14.17873 -14.22228 -14.2559 -14.22717 -14.15447 -14.2799 -14.09589 -13.94303 -14.125 -13.88888 -13.98882 -13.89508 -13.96625 -13.85131 -13.92239 -13.89101 -13.89632 -13.91906 -13.92846 -13.96165 -14.0238 -14.07646 -14.13894 -14.18006 -14.1989 -14.23782 -14.1618 -14.21031 -14.15769 -14.23065 -14.22876 -14.29921 -14.39304 -14.4983 -14.59453 -14.69442 -14.84121 -14.88892 -14.91286 -14.96963 -15.04683 -15.05349 -15.10239 -15.12843 -15.15369 -15.13995 -15.08053 -14.94418 -14.81066 -14.7258 -14.63319 -14.52988 -14.43472 -14.35868 -14.3162 -14.27607 -14.22714 -14.17327 -14.14497 -14.11783 -14.08898 -14.05862 -14.00302 -13.89603 -13.5968 -13.01556 -12.29613 -9.779496 -10.17968 -11.04767 -11.74731 -12.45807 -13.01676 -13.38614 -13.53106 -13.63347 -13.54875 -13.64929 -13.74808 -13.99678 -14.17873 -14.22228 -14.2559 -14.22717 -14.15447 -14.2799 -14.09589 -13.94303 -14.125 -13.88888 -13.98882 -13.89508 -13.96625 -13.85131 -13.92239 -13.89101 -13.89632 -13.91906 -13.92846 -13.96165 -14.0238 -14.07646 -14.13894 -14.18006 -14.1989 -14.23782 -14.1618 -14.21031 -14.15769 -14.23065 -14.22876 -14.29921 -14.39304 -14.4983 -14.59453 -14.69442 -14.84121 -14.88892 -14.91286 -14.96963 -15.04683 -15.05349 -15.10239 -15.12843 -15.15369 -15.13995 -15.08053 -14.94418 -14.81066 -14.7258 -14.63319 -14.52988 -14.43472 -14.35868 -14.3162 -14.27607 -14.22714 -14.17327 -14.14497 -14.11783 -14.08898 -14.05862 -14.00302 -13.89603 -13.5968 -13.01556 -12.29613 -9.779496 -10.17968 -11.04767 -11.74731 -12.45807 -13.01676 -13.38614 -13.53106 -13.63347 -13.54875 -13.64929 -13.74808 -13.99678 -14.17873 -14.22228 -14.2559 -14.22717 -14.15447 -14.2799 -14.09589 -13.94303 -14.125 -13.88888 -13.98882 -13.89508 -13.96625 -13.85131 -13.92239 -13.89101 -13.89632 -13.91906 -13.92846 -13.96165 -14.0238 -14.07646 -14.13894 -14.18006 -14.1989 -14.23782 -14.1618 -14.21031 -14.15769 -14.23065 -14.22876 -14.29921 -14.39304 -14.4983 -14.59453 -14.69442 -14.84121 -14.88892 -14.91286 -14.96963 -15.04683 -15.05349 -15.10239 -15.12843 -15.15369 -15.13995 -15.08053 -14.94418 -14.81066 -14.7258 -14.63319 -14.52988 -14.43472 -14.35868 -14.3162 -14.27607 -14.22714 -14.17327 -14.14497 -14.11783 -14.08898 -14.05862 -14.00302 -13.89603 -13.5968 -13.01556 -12.29613 -9.779496 -10.17968 -11.04767 -11.74731 -12.45807 -13.01676 -13.38614 -13.53106 -13.63347 -13.54875 -13.64929 -13.74808 -13.99678 -14.17873 -14.22228 -14.2559 -14.22717 -14.15447 -14.2799 -14.09589 -13.94303 -14.125 -13.88888 -13.98882 -13.89508 -13.96625 -13.85131 -13.92239 -13.89101 -13.89632 -13.91906 -13.92846 -13.96165 -14.0238 -14.07646 -14.13894 -14.18006 -14.1989 -14.23782 -14.1618 -14.21031 -14.15769 -14.23065 -14.22876 -14.29921 -14.39304 -14.4983 -14.59453 -14.69442 -14.84121 -14.88892 -14.91286 -14.96963 -15.04683 -15.05349 -15.10239 -15.12843 -15.15369 -15.13995 -15.08053 -14.94418 -14.81066 -14.7258 -14.63319 -14.52988 -14.43472 -14.35868 -14.3162 -14.27607 -14.22714 -14.17327 -14.14497 -14.11783 -14.08898 -14.05862 -14.00302 -13.89603 -13.5968 -13.01556 -12.29613
+<time>2021-04-12 03:29:48</time><type>output</type>
+rescaleDim is 400
+<time>2021-04-12 03:29:48</time><type>output</type>
+rescaleVec is 0.1703147 0.1662858 0.1640368 0.1639188 0.1626563 0.1609633 0.1591265 0.1570481 0.157183 0.1584311 0.1590866 0.1586399 0.1577977 0.1569393 0.1566197 0.1568001 0.1571419 0.1574919 0.1578906 0.1585393 0.1590682 0.159734 0.1606047 0.1614155 0.1621844 0.1626973 0.1632999 0.1636185 0.1640687 0.164453 0.1647387 0.1652064 0.1655645 0.1658966 0.1662401 0.1663964 0.1665422 0.1669482 0.1674234 0.1677311 0.1681923 0.1686018 0.168889 0.1690458 0.1691212 0.1690474 0.1687663 0.1685536 0.1682469 0.1674447 0.1668178 0.1665462 0.1658472 0.1652451 0.1659545 0.1662146 0.1667587 0.1671022 0.1675046 0.1674606 0.166842 0.1665051 0.166844 0.1670859 0.1676217 0.1681893 0.1684764 0.1684832 0.1683846 0.1686104 0.1688256 0.1687341 0.1689544 0.1690883 0.1692635 0.1695683 0.1703938 0.172589 0.1757412 0.1783363 0.1703147 0.1662858 0.1640368 0.1639188 0.1626563 0.1609633 0.1591265 0.1570481 0.157183 0.1584311 0.1590866 0.1586399 0.1577977 0.1569393 0.1566197 0.1568001 0.1571419 0.1574919 0.1578906 0.1585393 0.1590682 0.159734 0.1606047 0.1614155 0.1621844 0.1626973 0.1632999 0.1636185 0.1640687 0.164453 0.1647387 0.1652064 0.1655645 0.1658966 0.1662401 0.1663964 0.1665422 0.1669482 0.1674234 0.1677311 0.1681923 0.1686018 0.168889 0.1690458 0.1691212 0.1690474 0.1687663 0.1685536 0.1682469 0.1674447 0.1668178 0.1665462 0.1658472 0.1652451 0.1659545 0.1662146 0.1667587 0.1671022 0.1675046 0.1674606 0.166842 0.1665051 0.166844 0.1670859 0.1676217 0.1681893 0.1684764 0.1684832 0.1683846 0.1686104 0.1688256 0.1687341 0.1689544 0.1690883 0.1692635 0.1695683 0.1703938 0.172589 0.1757412 0.1783363 0.1703147 0.1662858 0.1640368 0.1639188 0.1626563 0.1609633 0.1591265 0.1570481 0.157183 0.1584311 0.1590866 0.1586399 0.1577977 0.1569393 0.1566197 0.1568001 0.1571419 0.1574919 0.1578906 0.1585393 0.1590682 0.159734 0.1606047 0.1614155 0.1621844 0.1626973 0.1632999 0.1636185 0.1640687 0.164453 0.1647387 0.1652064 0.1655645 0.1658966 0.1662401 0.1663964 0.1665422 0.1669482 0.1674234 0.1677311 0.1681923 0.1686018 0.168889 0.1690458 0.1691212 0.1690474 0.1687663 0.1685536 0.1682469 0.1674447 0.1668178 0.1665462 0.1658472 0.1652451 0.1659545 0.1662146 0.1667587 0.1671022 0.1675046 0.1674606 0.166842 0.1665051 0.166844 0.1670859 0.1676217 0.1681893 0.1684764 0.1684832 0.1683846 0.1686104 0.1688256 0.1687341 0.1689544 0.1690883 0.1692635 0.1695683 0.1703938 0.172589 0.1757412 0.1783363 0.1703147 0.1662858 0.1640368 0.1639188 0.1626563 0.1609633 0.1591265 0.1570481 0.157183 0.1584311 0.1590866 0.1586399 0.1577977 0.1569393 0.1566197 0.1568001 0.1571419 0.1574919 0.1578906 0.1585393 0.1590682 0.159734 0.1606047 0.1614155 0.1621844 0.1626973 0.1632999 0.1636185 0.1640687 0.164453 0.1647387 0.1652064 0.1655645 0.1658966 0.1662401 0.1663964 0.1665422 0.1669482 0.1674234 0.1677311 0.1681923 0.1686018 0.168889 0.1690458 0.1691212 0.1690474 0.1687663 0.1685536 0.1682469 0.1674447 0.1668178 0.1665462 0.1658472 0.1652451 0.1659545 0.1662146 0.1667587 0.1671022 0.1675046 0.1674606 0.166842 0.1665051 0.166844 0.1670859 0.1676217 0.1681893 0.1684764 0.1684832 0.1683846 0.1686104 0.1688256 0.1687341 0.1689544 0.1690883 0.1692635 0.1695683 0.1703938 0.172589 0.1757412 0.1783363 0.1703147 0.1662858 0.1640368 0.1639188 0.1626563 0.1609633 0.1591265 0.1570481 0.157183 0.1584311 0.1590866 0.1586399 0.1577977 0.1569393 0.1566197 0.1568001 0.1571419 0.1574919 0.1578906 0.1585393 0.1590682 0.159734 0.1606047 0.1614155 0.1621844 0.1626973 0.1632999 0.1636185 0.1640687 0.164453 0.1647387 0.1652064 0.1655645 0.1658966 0.1662401 0.1663964 0.1665422 0.1669482 0.1674234 0.1677311 0.1681923 0.1686018 0.168889 0.1690458 0.1691212 0.1690474 0.1687663 0.1685536 0.1682469 0.1674447 0.1668178 0.1665462 0.1658472 0.1652451 0.1659545 0.1662146 0.1667587 0.1671022 0.1675046 0.1674606 0.166842 0.1665051 0.166844 0.1670859 0.1676217 0.1681893 0.1684764 0.1684832 0.1683846 0.1686104 0.1688256 0.1687341 0.1689544 0.1690883 0.1692635 0.1695683 0.1703938 0.172589 0.1757412 0.1783363
+<time>2021-04-12 03:29:48</time><type>output</type>
+deleting local path: /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train
+<time>2021-04-12 03:29:48</time><type>output</type>
+execute:
+cat /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/feature_align_lattice_label_train/smbr_ali_lat/ali.*.scp > /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/all.ali.scp.tmp;
+
+<time>2021-04-12 03:29:49</time><type>output</type>
+ReplaceDirectoryForKaldiFile
+<time>2021-04-12 03:29:49</time><type>output</type>
+execute:
+cat /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/all.ali.scp.tmp >> /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/all.ali.scp;
+
+<time>2021-04-12 03:29:49</time><type>output</type>
+execute:
+cat /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/feature_align_lattice_label_train/smbr_ali_lat/lat.*.scp > /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/all.lat.scp.tmp;
+
+<time>2021-04-12 03:29:49</time><type>output</type>
+ReplaceDirectoryForKaldiFile
+<time>2021-04-12 03:29:49</time><type>output</type>
+execute:
+cat /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/all.lat.scp.tmp >> /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/all.lat.scp;
+
+<time>2021-04-12 03:29:49</time><type>output</type>
+ReplaceDirectoryForKaldiFile
+<time>2021-04-12 03:29:49</time><type>output</type>
+execute:
+cat /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train/feats.scp.tmp >> /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train/feats.scp;
+
+<time>2021-04-12 03:29:49</time><type>output</type>
+execute:
+cat /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train/spk2utt.tmp >> /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train/spk2utt;
+
+<time>2021-04-12 03:29:49</time><type>output</type>
+execute:
+cat /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train/text.tmp >> /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train/text;
+
+<time>2021-04-12 03:29:49</time><type>output</type>
+execute:
+cat /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train/utt2spk.tmp >> /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train/utt2spk;
+
+<time>2021-04-12 03:29:49</time><type>output</type>
+execute:
+cat /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train/wav.scp.tmp >> /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train/wav.scp;
+
+<time>2021-04-12 03:29:49</time><type>output</type>
+Shuffling the align and lattice results
+<time>2021-04-12 03:29:49</time><type>output</type>
+FilterWaveForFiles
+<time>2021-04-12 03:29:49</time><type>output</type>
+FilterWaveForFiles
+<time>2021-04-12 03:29:49</time><type>output</type>
+FilterWaveForFiles
+<time>2021-04-12 03:29:49</time><type>output</type>
+FilterWaveForFiles
+<time>2021-04-12 03:29:49</time><type>output</type>
+FilterWaveForFiles
+<time>2021-04-12 03:29:49</time><type>output</type>
+FilterWaveForFiles
+<time>2021-04-12 03:29:49</time><type>output</type>
+FilterWaveForFiles
+<time>2021-04-12 03:29:49</time><type>output</type>
+execute:
+/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/steps/nnet/group.align.for.smbr.sh /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train/ /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/feature_align_lattice_label_train/smbr_ali_lat /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat 50;
+
+<time>2021-04-12 03:30:03</time><type>output</type>
+<output><id>47092516</id><command>/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/steps/nnet/group.align.for.smbr.sh /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train/ /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/feature_align_lattice_label_train/smbr_ali_lat /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat 50;</command><message>/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/steps/nnet/group.align.for.smbr.sh /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train/ /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/feature_align_lattice_label_train/smbr_ali_lat /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat 50
+</message></output>
+
+<time>2021-04-12 03:30:03</time><type>output</type>
+<error><id>47092516</id><command>/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/steps/nnet/group.align.for.smbr.sh /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train/ /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/feature_align_lattice_label_train/smbr_ali_lat /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat 50;</command><message>feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/1/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/2/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/3/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/4/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/5/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/6/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/7/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/8/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/9/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/10/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/11/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/12/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/13/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/14/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/15/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/16/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/17/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/18/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/19/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/20/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/21/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/22/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/23/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/24/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/25/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/26/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/27/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/28/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/29/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/30/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/31/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/32/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/33/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/34/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/35/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/36/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/37/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/38/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/39/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/40/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/41/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/42/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/43/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/44/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/45/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/46/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/47/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/48/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/49/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/50/feats.scp 
+</message></error>
+
+<time>2021-04-12 03:30:03</time><type>error</type>
+Assigning the epoch number to 10.
+<time>2021-04-12 03:30:03</time><type>error</type>
+Changing the epoch number to 455 according to automatic epoch calculation.
+<time>2021-04-12 03:30:03</time><type>output</type>
+For smbr, the data contains 3245 utterances, which is 2.2 hours. We select 0.2 hours data for validation, and run 455 epoch. Given that we will dump at most 0.0549450549451 models per epoch, we need to set dump interval as 178, and validation interval as 356.
+<time>2021-04-12 03:30:03</time><type>output</type>
+execute:
+nvidia-smi -L | wc -l > /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/asrprun/dcs_am_pipeline_69787a52ad5b477d9a22b1253cc1dbb1000/gpunumInDriver.txt
+
+<time>2021-04-12 03:30:03</time><type>output</type>
+We will be using 2 GPU cards for smbr training.
+<time>2021-04-12 03:30:03</time><type>output</type>
+execute:
+/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/steps/make_tr_cv_data.sh 0.2 /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_dataList SmbrTrain 2 ;
+
+<time>2021-04-12 03:30:03</time><type>output</type>
+<output><id>52747517</id><command>/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/steps/make_tr_cv_data.sh 0.2 /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_dataList SmbrTrain 2 ;</command><message>Begin making train & cv data for SmbrTrain!
+Succeed making train & cv data for SmbrTrain!
+</message></output>
+
+<time>2021-04-12 03:30:03</time><type>output</type>
+execute:
+echo `hostname` >> /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/conf/smbr_hosts
+
+<time>2021-04-12 03:30:03</time><type>output</type>
+execute:
+echo `hostname` >> /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/conf/smbr_hosts
+
+<time>2021-04-12 03:30:03</time><type>output</type>
+STATUS_LOG|21072100|IN_PROGRESS|Smbr training is started.|1/2
+<time>2021-04-12 03:30:03</time><type>output</type>
+execute:
+/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/feature_extraction_cpu_server/gmm-info /home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/ctc_16k_fsmn_court_resource/16k_general_wholeword_lfr/final.mdl > /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/tmp/gmmModel.txt
+
+<time>2021-04-12 03:30:04</time><type>output</type>
+<error><id>64936768</id><command>/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/feature_extraction_cpu_server/gmm-info /home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/ctc_16k_fsmn_court_resource/16k_general_wholeword_lfr/final.mdl > /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/tmp/gmmModel.txt</command><message>/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/feature_extraction_cpu_server/gmm-info /home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/ctc_16k_fsmn_court_resource/16k_general_wholeword_lfr/final.mdl 
+</message></error>
+
+<time>2021-04-12 03:30:04</time><type>output</type>
+execute:
+/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/middleware_bin/tools/openmpi-1.10.0/install/bin/mpiexec --allow-run-as-root --mca pml ob1 --mca btl tcp,sm,self --hostfile /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/conf/smbr_hosts --map-by node -np 2 /home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/middleware_bin/bin_ctc_cuda10.0_software_protected/nnet-train-ctc-smbr-sequential-middleware-protected --class-frame-counts=/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/ctc_16k_fsmn_court_resource/16k_general_wholeword_lfr/ali_train_pdf.counts --acoustic-scale=1.0 --lm-scale=1.0 --fsmooth=0.0 --do-smbr=true --one-silence-class=true --silence-phones=1 /home/user/linjr/auto_train/corpus/model/fsmn.net /home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/ctc_16k_fsmn_court_resource/16k_general_wholeword_lfr/final.mdl /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/conf/mw_config_SmbrTrain.txt /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_nnet/nnet_smbr > /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_nnet/log/log 2>&1 ;
+
+<time>2021-04-12 03:30:05</time><type>error</type>
+copy dir /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_nnet/log to /home/user/linjr/train_tmp_data/6d5438f6a7184c2db07d390bbec3952f/data/trained/trained_000/smbr_nnet/log
+<time>2021-04-12 03:30:05</time><type>output</type>
+execute:
+tail -n200 /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_nnet/log/log > /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_nnet/check.txt
+
+<time>2021-04-12 03:30:05</time><type>error</type>
+ERROR_LOG|51072000|INTERNAL_ERROR|The smbr training is failed.|-1
+<time>2021-04-12 03:30:05</time><type>error</type>
+Unexpected error <type 'exceptions.Exception'>
+ERROR_LOG|51072000|INTERNAL_ERROR|The smbr training is failed.|-1
+Traceback (most recent call last):
+  File "/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/asrp.py", line 39, in <module>
+    asrpAction.Run(inputargs)
+  File "/disk9/chenda.liao/dcs_am/release_tmp_dir/asrp_am/src/asrpAction.py", line 69, in Run
+  File "/disk9/chenda.liao/dcs_am/release_tmp_dir/asrp_am/src/asrpAction.py", line 108, in ParseInputxmlfile
+  File "/disk9/chenda.liao/dcs_am/release_tmp_dir/asrp_am/src/asrpAMTrainingPipelineSmbr.py", line 2229, in Run
+  File "/disk9/chenda.liao/dcs_am/release_tmp_dir/asrp_am/src/asrpGlobal.py", line 735, in pipelineInternalException
+  File "/disk9/chenda.liao/dcs_am/release_tmp_dir/asrp_am/src/asrpGlobal.py", line 702, in asrpExceptionWithCode
+  File "/disk9/chenda.liao/dcs_am/release_tmp_dir/asrp_am/src/asrpGlobal.py", line 520, in asrpException
+Exception: ERROR_LOG|51072000|INTERNAL_ERROR|The smbr training is failed.|-1
+
+<time>2021-04-12 03:30:05</time><type>output</type>
+
+------------------------
+start time: 20210412 11:29:46	end time: 20210412 11:30:05	elapsed time: 0.005h
+

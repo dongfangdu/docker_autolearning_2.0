@@ -1,0 +1,192 @@
+[2020-01-21 14:55:06.356] [ERROR] [1886,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 14:55:06.356] [ERROR] [1886,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 14:55:06.356] [WARN] [1886,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 14:55:15.429] [ERROR] [1897,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 14:55:15.429] [ERROR] [1897,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 14:55:15.429] [WARN] [1897,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 14:55:25.498] [ERROR] [1903,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 14:55:25.498] [ERROR] [1903,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 14:55:25.498] [WARN] [1903,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 14:55:35.572] [ERROR] [1909,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 14:55:35.572] [ERROR] [1909,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 14:55:35.572] [WARN] [1909,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:06:24.752] [ERROR] [280,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:06:24.752] [ERROR] [280,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:06:24.752] [WARN] [280,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:06:34.810] [ERROR] [524,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:06:34.810] [ERROR] [524,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:06:34.810] [WARN] [524,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:06:44.878] [ERROR] [528,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:06:44.879] [ERROR] [528,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:06:44.879] [WARN] [528,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:06:55.651] [ERROR] [532,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:06:55.651] [ERROR] [532,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:06:55.651] [WARN] [532,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:07:05.714] [ERROR] [536,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:07:05.714] [ERROR] [536,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:07:05.714] [WARN] [536,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:07:15.563] [ERROR] [545,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:07:15.563] [ERROR] [545,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:07:15.563] [WARN] [545,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:07:24.802] [ERROR] [549,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:07:24.802] [ERROR] [549,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:07:24.802] [WARN] [549,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:07:35.593] [ERROR] [553,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:07:35.593] [ERROR] [553,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:07:35.593] [WARN] [553,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:07:45.673] [ERROR] [557,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:07:45.673] [ERROR] [557,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:07:45.673] [WARN] [557,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:07:55.759] [ERROR] [561,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:07:55.759] [ERROR] [561,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:07:55.759] [WARN] [561,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:08:05.841] [ERROR] [565,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:08:05.842] [ERROR] [565,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:08:05.842] [WARN] [565,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:08:15.906] [ERROR] [574,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:08:15.906] [ERROR] [574,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:08:15.906] [WARN] [574,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:08:28.409] [ERROR] [578,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:08:28.409] [ERROR] [578,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:08:28.409] [WARN] [578,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:08:38.493] [ERROR] [582,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:08:38.493] [ERROR] [582,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:08:38.493] [WARN] [582,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:08:48.568] [ERROR] [586,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:08:48.568] [ERROR] [586,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:08:48.568] [WARN] [586,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:08:57.625] [ERROR] [590,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:08:57.625] [ERROR] [590,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:08:57.626] [WARN] [590,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:09:07.703] [ERROR] [594,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:09:07.703] [ERROR] [594,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:09:07.703] [WARN] [594,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:09:17.784] [ERROR] [603,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:09:17.784] [ERROR] [603,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:09:17.784] [WARN] [603,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:09:27.866] [ERROR] [607,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:09:27.867] [ERROR] [607,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:09:27.867] [WARN] [607,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:09:38.344] [ERROR] [611,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:09:38.344] [ERROR] [611,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:09:38.344] [WARN] [611,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:09:48.421] [ERROR] [615,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:09:48.421] [ERROR] [615,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:09:48.421] [WARN] [615,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:09:58.489] [ERROR] [619,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:09:58.489] [ERROR] [619,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:09:58.489] [WARN] [619,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:10:07.961] [ERROR] [623,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:10:07.961] [ERROR] [623,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:10:07.961] [WARN] [623,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:10:18.042] [ERROR] [632,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:10:18.042] [ERROR] [632,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:10:18.042] [WARN] [632,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:10:28.122] [ERROR] [636,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:10:28.123] [ERROR] [636,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:10:28.123] [WARN] [636,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:10:40.077] [ERROR] [640,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:10:40.077] [ERROR] [640,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:10:40.077] [WARN] [640,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:10:49.183] [ERROR] [644,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:10:49.183] [ERROR] [644,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:10:49.183] [WARN] [644,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:10:59.267] [ERROR] [648,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:10:59.268] [ERROR] [648,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:10:59.268] [WARN] [648,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:11:09.350] [ERROR] [652,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:11:09.350] [ERROR] [652,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:11:09.351] [WARN] [652,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:11:22.054] [ERROR] [661,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:11:22.054] [ERROR] [661,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:11:22.054] [WARN] [661,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:11:34.650] [ERROR] [667,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:11:34.650] [ERROR] [667,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:11:34.650] [WARN] [667,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:11:44.860] [ERROR] [671,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:11:44.860] [ERROR] [671,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:11:44.860] [WARN] [671,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:11:54.965] [ERROR] [675,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:11:54.965] [ERROR] [675,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:11:54.965] [WARN] [675,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:12:05.026] [ERROR] [679,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:12:05.026] [ERROR] [679,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:12:05.026] [WARN] [679,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:12:16.014] [ERROR] [688,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:12:16.014] [ERROR] [688,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:12:16.014] [WARN] [688,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:12:27.499] [ERROR] [692,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:12:27.500] [ERROR] [692,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:12:27.500] [WARN] [692,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:12:37.619] [ERROR] [696,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:12:37.619] [ERROR] [696,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:12:37.619] [WARN] [696,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:12:47.700] [ERROR] [700,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:12:47.700] [ERROR] [700,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:12:47.701] [WARN] [700,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:12:57.769] [ERROR] [704,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:12:57.769] [ERROR] [704,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:12:57.769] [WARN] [704,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:13:07.841] [ERROR] [708,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:13:07.842] [ERROR] [708,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:13:07.842] [WARN] [708,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:13:17.915] [ERROR] [717,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:13:17.915] [ERROR] [717,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:13:17.915] [WARN] [717,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:13:27.982] [ERROR] [721,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:13:27.982] [ERROR] [721,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:13:27.982] [WARN] [721,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:13:38.055] [ERROR] [725,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:13:38.055] [ERROR] [725,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:13:38.055] [WARN] [725,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]
+[2020-01-21 15:13:48.140] [ERROR] [729,build/release64/alisr/util/apes/apes_check.cpp -- IsInitCheckSuccess():33] [License not passed, failed to login to license server: apes: connect server[203.18.255.28] failed.code:-1 resp:apes: access violation (invalid request)[The number of services exceeds the limit 1, current:1](实例超限，请下线其他实例或稍等重试)
+ ]
+[2020-01-21 15:13:48.140] [ERROR] [729,build/release64/alisr/server/alisr_server.cpp -- Init():144] [License not passed!]
+[2020-01-21 15:13:48.140] [WARN] [729,build/release64/alisr/server/sr_server.cpp -- Stop():102] [SrServer is already stopped!]

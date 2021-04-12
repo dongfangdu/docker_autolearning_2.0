@@ -1,0 +1,6 @@
+<Recipe action="RecognitionTool">
+    <Basic serviceUrl="ws://192.168.108.197/realtime" type="realtime" />
+    <DataList>
+        <Data asrSc="pcm" customizationId="" name="20181109_test" sampleRate="16000" transcriptionListFile="/home/admin/hzw/seven_parse_wyd/devtest/20181109_test/transcriptionlist.txt" waveListFile="/home/admin/hzw/seven_parse_wyd/devtest/20181109_test/wavelist.txt" />
+    </DataList>
+</Recipe>

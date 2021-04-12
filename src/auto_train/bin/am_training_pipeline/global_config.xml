@@ -1,0 +1,32 @@
+<Recipe action="Global_Config">
+
+    <corpus AG_package="C:/Users/yyh/TranscriberAG" Model_Type="smbr" Tagged_type="PLAIN"
+            VAD_package="/home/admin/vad_for_license_server.yunjia"
+            corpus="/home/user/zhangxing/auto_train/corpus/data/359eebc6d2464db9ac7973e4ddf727a4/data"
+            initFeature="/home/user/zhangxing/amtrain0617/AMtrain_test/corpus/model/fsmn.mvn"
+            initModel="/home/user/zhangxing/auto_train/corpus/data/d44feca1e6144195bd7d2f6596648896/data/trained/trained_000/models/nnet_smbr"
+            licenseServerList="192.168.108.197" name=""
+            resource_package="/home/admin/20181115_ctc/resource_ctc_16k_fsmn_court/" samplerate="16000"
+            speech_alisr="/home/admin/speech-alisr" trainpercentage="1.0" trans_name="txt" type="" wave_name="wav">
+    </corpus>
+
+
+    <TrainDetail Ce_Epoch="15" Ce_maxValHour="4" Skip_CE_Length="3000" Smbr_Epoch="auto" Smbr_maxValHour="4"
+                 dp_numinark="1000" dp_partsize="2000" dpf_MaxSentenceLengthInMillsecond="10000"
+                 dpf_MinSentenceLengthInMillsecond="100" dpf_PeakPointRatio="0.01" dpf_werThresholdDrop="50"
+                 fsmn_CE_Batch="2048" fsmn_ctc_CE_Batch="2560" fsmn_ctc_smbr_Batch="4096">
+    </TrainDetail>
+
+    <test customizationId="" fix_test="F"
+          fix_trans="/home/user/yuanyh/yyh_data_about/test_for_engine/transcriptionlist.txt"
+          fix_wave="/home/user/yuanyh/yyh_data_about/test_for_engine/wavelist.txt">
+    </test>
+
+    <RunShell fill_flag="T"
+              local_src="/home/user/zhangxing/amtrain0617/dcs_model_train_package_general_06052019/am/code/asrp_am/src"
+              local_xml_dir="/home/user/zhangxing/auto_train/bin/am_training_pipeline" run_dp="T" run_dpf="T"
+              run_test="F" run_train="T"
+              test_src="/home/admin/20181115_ctc/dcs_model_train_package_general_11122018/dcs_model_train_package/test/asr-tools-new/src">
+    </RunShell>
+
+</Recipe>

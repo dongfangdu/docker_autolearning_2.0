@@ -1,0 +1,10 @@
+PLUGINS:
+  LOG_PARSER:
+    PLUGIN_SWITCH: ON
+    PLUGIN_NAME: 解析入库
+    PLUGIN_PATH: /home/user/hezw/work_py/online_label_api_dev/modules/new_log_parser
+    PLUGIN_MAIN_RUNNER: ./src/run_log_parser.py
+    PLUGIN_VENV_PATH: /home/user/hezw/work_py/venv/new_log_parser
+
+
+

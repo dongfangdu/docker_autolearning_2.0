@@ -1,0 +1,428 @@
+[2021-01-19 16:06:26,734] [Autotest_logger:DEBUG   ]--[auto_test]:no new model has been generated!
+[2021-01-19 16:13:32,884] [Autotest_logger:DEBUG   ]--[auto_test]:no new model has been generated!
+[2021-01-19 16:45:57,638] [Autotest_logger:DEBUG   ]--[auto_test]:no new model has been generated!
+[2021-01-19 16:51:35,831] [Autotest_logger:DEBUG   ]--[auto_test]:no new model has been generated!
+[2021-01-19 17:15:53,433] [Autotest_logger:DEBUG   ]--[auto_test]:no new model has been generated!
+[2021-01-19 17:21:09,569] [Autotest_logger:DEBUG   ]--[auto_test]:no new model has been generated!
+[2021-01-19 17:42:55,752] [Autotest_logger:DEBUG   ]--[auto_test]:no new model has been generated!
+[2021-01-19 17:56:33,980] [Autotest_logger:DEBUG   ]--[auto_test]:no new model has been generated!
+[2021-01-19 18:05:28,473] [Autotest_logger:DEBUG   ]--[auto_test]:no new model has been generated!
+[2021-01-19 20:08:51,143] [Autotest_logger:DEBUG   ]--[auto_test]:no new model has been generated!
+[2021-01-19 20:34:30,786] [Autotest_logger:DEBUG   ]--[auto_test]:start testing new model!
+[2021-01-19 20:36:31,984] [Autotest_logger:INFO    ]--[auto_test]:copy data to restful_path successful!
+[2021-01-19 20:36:32,360] [Autotest_logger:INFO    ]--[auto_test]:replace model successful!
+[2021-01-19 20:36:32,367] [Autotest_logger:INFO    ]--[auto_test]:modify conf successful!
+[2021-01-19 20:36:32    ] [Autotest_logger:INFO    ]--[abt_engine]:clear log and data successful!
+[2021-01-19 20:36:32    ] [Autotest_logger:DEBUG   ]--[abt_engine]:stop ASR server...
+[2021-01-19 20:37:20    ] [Autotest_logger:INFO    ]--[abt_engine]:stop ASR server successful!
+[2021-01-19 20:42:21    ] [Autotest_logger:INFO    ]--[abt_engine]:clean and init image successful!
+[2021-01-19 20:42:21    ] [Autotest_logger:DEBUG   ]--[abt_engine]:restart ASR server...
+[2021-01-19 21:06:30,519] [Autotest_logger:INFO    ]--[auto_test]:test successful!
+[2021-01-19 21:06:31,088] [Autotest_logger:INFO    ]--[auto_test]:move log successful!
+[2021-01-19 21:06:44,628] [Autotest_logger:INFO    ]--[auto_test]:parse log to mysql successful!
+[2021-01-19 21:07:24,661] [Autotest_logger:INFO    ]--[auto_test]:calculate result to mysql successful!
+[2021-01-19 21:07:25,430] [Autotest_logger:INFO    ]--[auto_test]:generate report successful!
+[2021-01-19 21:07:25,761] [Autotest_logger:INFO    ]--[auto_test]:clear pcm successful!
+[2021-01-19 21:07:25,789] [Autotest_logger:INFO    ]--[auto_test]:recover model successful!
+[2021-01-19 21:09:34,847] [Autotest_logger:INFO    ]--[auto_test]:copy data to restful_path successful!
+[2021-01-19 21:09:35,256] [Autotest_logger:INFO    ]--[auto_test]:replace model successful!
+[2021-01-19 21:09:35,262] [Autotest_logger:INFO    ]--[auto_test]:modify conf successful!
+[2021-01-19 21:09:35    ] [Autotest_logger:INFO    ]--[abt_engine]:clear log and data successful!
+[2021-01-19 21:09:35    ] [Autotest_logger:DEBUG   ]--[abt_engine]:stop ASR server...
+[2021-01-19 21:10:21    ] [Autotest_logger:INFO    ]--[abt_engine]:stop ASR server successful!
+[2021-01-19 21:14:35    ] [Autotest_logger:INFO    ]--[abt_engine]:clean and init image successful!
+[2021-01-19 21:14:35    ] [Autotest_logger:DEBUG   ]--[abt_engine]:restart ASR server...
+[2021-01-19 21:38:43,312] [Autotest_logger:INFO    ]--[auto_test]:test successful!
+[2021-01-19 21:38:43,663] [Autotest_logger:INFO    ]--[auto_test]:move log successful!
+[2021-01-19 21:38:57,352] [Autotest_logger:INFO    ]--[auto_test]:parse log to mysql successful!
+[2021-01-19 21:39:40,581] [Autotest_logger:INFO    ]--[auto_test]:calculate result to mysql successful!
+[2021-01-19 21:39:41,372] [Autotest_logger:INFO    ]--[auto_test]:generate report successful!
+[2021-01-19 21:39:41,725] [Autotest_logger:INFO    ]--[auto_test]:clear pcm successful!
+[2021-01-19 21:39:41,745] [Autotest_logger:INFO    ]--[auto_test]:recover model successful!
+[2021-01-19 22:06:11,504] [Autotest_logger:DEBUG   ]--[auto_test]:start testing new model!
+[2021-01-19 22:08:37,905] [Autotest_logger:INFO    ]--[auto_test]:copy data to restful_path successful!
+[2021-01-19 22:08:38,301] [Autotest_logger:INFO    ]--[auto_test]:replace model successful!
+[2021-01-19 22:08:38,308] [Autotest_logger:INFO    ]--[auto_test]:modify conf successful!
+[2021-01-19 22:08:38    ] [Autotest_logger:INFO    ]--[abt_engine]:clear log and data successful!
+[2021-01-19 22:08:38    ] [Autotest_logger:DEBUG   ]--[abt_engine]:stop ASR server...
+[2021-01-19 22:09:23    ] [Autotest_logger:INFO    ]--[abt_engine]:stop ASR server successful!
+[2021-01-19 22:13:37    ] [Autotest_logger:INFO    ]--[abt_engine]:clean and init image successful!
+[2021-01-19 22:13:37    ] [Autotest_logger:DEBUG   ]--[abt_engine]:restart ASR server...
+[2021-01-19 22:37:43,467] [Autotest_logger:INFO    ]--[auto_test]:test successful!
+[2021-01-19 22:37:43,773] [Autotest_logger:INFO    ]--[auto_test]:move log successful!
+[2021-01-19 22:37:57,678] [Autotest_logger:INFO    ]--[auto_test]:parse log to mysql successful!
+[2021-01-19 22:38:37,103] [Autotest_logger:INFO    ]--[auto_test]:calculate result to mysql successful!
+[2021-01-19 22:38:37,937] [Autotest_logger:INFO    ]--[auto_test]:generate report successful!
+[2021-01-19 22:38:38,276] [Autotest_logger:INFO    ]--[auto_test]:clear pcm successful!
+[2021-01-19 22:38:38,304] [Autotest_logger:INFO    ]--[auto_test]:recover model successful!
+[2021-01-19 23:04:18,665] [Autotest_logger:DEBUG   ]--[auto_test]:start testing new model!
+[2021-01-19 23:06:13,956] [Autotest_logger:INFO    ]--[auto_test]:copy data to restful_path successful!
+[2021-01-19 23:06:14,355] [Autotest_logger:INFO    ]--[auto_test]:replace model successful!
+[2021-01-19 23:06:14,361] [Autotest_logger:INFO    ]--[auto_test]:modify conf successful!
+[2021-01-19 23:06:14    ] [Autotest_logger:INFO    ]--[abt_engine]:clear log and data successful!
+[2021-01-19 23:06:14    ] [Autotest_logger:DEBUG   ]--[abt_engine]:stop ASR server...
+[2021-01-19 23:06:59    ] [Autotest_logger:INFO    ]--[abt_engine]:stop ASR server successful!
+[2021-01-19 23:11:27    ] [Autotest_logger:INFO    ]--[abt_engine]:clean and init image successful!
+[2021-01-19 23:11:27    ] [Autotest_logger:DEBUG   ]--[abt_engine]:restart ASR server...
+[2021-01-19 23:35:34,943] [Autotest_logger:INFO    ]--[auto_test]:test successful!
+[2021-01-19 23:35:35,322] [Autotest_logger:INFO    ]--[auto_test]:move log successful!
+[2021-01-19 23:35:47,804] [Autotest_logger:INFO    ]--[auto_test]:parse log to mysql successful!
+[2021-01-19 23:36:27,921] [Autotest_logger:INFO    ]--[auto_test]:calculate result to mysql successful!
+[2021-01-19 23:36:28,635] [Autotest_logger:INFO    ]--[auto_test]:generate report successful!
+[2021-01-19 23:36:29,002] [Autotest_logger:INFO    ]--[auto_test]:clear pcm successful!
+[2021-01-19 23:36:29,024] [Autotest_logger:INFO    ]--[auto_test]:recover model successful!
+[2021-01-20 00:01:47,185] [Autotest_logger:DEBUG   ]--[auto_test]:start testing new model!
+[2021-01-20 00:03:22,507] [Autotest_logger:INFO    ]--[auto_test]:copy data to restful_path successful!
+[2021-01-20 00:03:22,901] [Autotest_logger:INFO    ]--[auto_test]:replace model successful!
+[2021-01-20 00:03:22,905] [Autotest_logger:INFO    ]--[auto_test]:modify conf successful!
+[2021-01-20 00:03:23    ] [Autotest_logger:INFO    ]--[abt_engine]:clear log and data successful!
+[2021-01-20 00:03:23    ] [Autotest_logger:DEBUG   ]--[abt_engine]:stop ASR server...
+[2021-01-20 00:04:07    ] [Autotest_logger:INFO    ]--[abt_engine]:stop ASR server successful!
+[2021-01-20 00:08:28    ] [Autotest_logger:INFO    ]--[abt_engine]:clean and init image successful!
+[2021-01-20 00:08:28    ] [Autotest_logger:DEBUG   ]--[abt_engine]:restart ASR server...
+[2021-01-20 00:32:35,919] [Autotest_logger:INFO    ]--[auto_test]:test successful!
+[2021-01-20 00:32:36,282] [Autotest_logger:INFO    ]--[auto_test]:move log successful!
+[2021-01-20 00:32:50,351] [Autotest_logger:INFO    ]--[auto_test]:parse log to mysql successful!
+[2021-01-20 00:33:30,546] [Autotest_logger:INFO    ]--[auto_test]:calculate result to mysql successful!
+[2021-01-20 00:33:31,257] [Autotest_logger:INFO    ]--[auto_test]:generate report successful!
+[2021-01-20 00:33:31,576] [Autotest_logger:INFO    ]--[auto_test]:clear pcm successful!
+[2021-01-20 00:33:31,597] [Autotest_logger:INFO    ]--[auto_test]:recover model successful!
+[2021-01-20 00:58:50,467] [Autotest_logger:DEBUG   ]--[auto_test]:start testing new model!
+[2021-01-20 01:00:35,717] [Autotest_logger:INFO    ]--[auto_test]:copy data to restful_path successful!
+[2021-01-20 01:00:36,114] [Autotest_logger:INFO    ]--[auto_test]:replace model successful!
+[2021-01-20 01:00:36,120] [Autotest_logger:INFO    ]--[auto_test]:modify conf successful!
+[2021-01-20 01:00:36    ] [Autotest_logger:INFO    ]--[abt_engine]:clear log and data successful!
+[2021-01-20 01:00:36    ] [Autotest_logger:DEBUG   ]--[abt_engine]:stop ASR server...
+[2021-01-20 01:01:22    ] [Autotest_logger:INFO    ]--[abt_engine]:stop ASR server successful!
+[2021-01-20 01:05:42    ] [Autotest_logger:INFO    ]--[abt_engine]:clean and init image successful!
+[2021-01-20 01:05:42    ] [Autotest_logger:DEBUG   ]--[abt_engine]:restart ASR server...
+[2021-01-20 01:29:51,296] [Autotest_logger:INFO    ]--[auto_test]:test successful!
+[2021-01-20 01:29:51,706] [Autotest_logger:INFO    ]--[auto_test]:move log successful!
+[2021-01-20 01:30:05,944] [Autotest_logger:INFO    ]--[auto_test]:parse log to mysql successful!
+[2021-01-20 01:30:41,907] [Autotest_logger:INFO    ]--[auto_test]:calculate result to mysql successful!
+[2021-01-20 01:30:42,635] [Autotest_logger:INFO    ]--[auto_test]:generate report successful!
+[2021-01-20 01:30:42,945] [Autotest_logger:INFO    ]--[auto_test]:clear pcm successful!
+[2021-01-20 01:30:42,963] [Autotest_logger:INFO    ]--[auto_test]:recover model successful!
+[2021-01-20 01:55:37,732] [Autotest_logger:DEBUG   ]--[auto_test]:start testing new model!
+[2021-01-20 01:57:55,869] [Autotest_logger:INFO    ]--[auto_test]:copy data to restful_path successful!
+[2021-01-20 01:57:56,241] [Autotest_logger:INFO    ]--[auto_test]:replace model successful!
+[2021-01-20 01:57:56,247] [Autotest_logger:INFO    ]--[auto_test]:modify conf successful!
+[2021-01-20 01:57:56    ] [Autotest_logger:INFO    ]--[abt_engine]:clear log and data successful!
+[2021-01-20 01:57:56    ] [Autotest_logger:DEBUG   ]--[abt_engine]:stop ASR server...
+[2021-01-20 01:58:41    ] [Autotest_logger:INFO    ]--[abt_engine]:stop ASR server successful!
+[2021-01-20 02:02:56    ] [Autotest_logger:INFO    ]--[abt_engine]:clean and init image successful!
+[2021-01-20 02:02:56    ] [Autotest_logger:DEBUG   ]--[abt_engine]:restart ASR server...
+[2021-01-20 02:27:01,757] [Autotest_logger:INFO    ]--[auto_test]:test successful!
+[2021-01-20 02:27:02,164] [Autotest_logger:INFO    ]--[auto_test]:move log successful!
+[2021-01-20 02:27:15,805] [Autotest_logger:INFO    ]--[auto_test]:parse log to mysql successful!
+[2021-01-20 02:27:55,362] [Autotest_logger:INFO    ]--[auto_test]:calculate result to mysql successful!
+[2021-01-20 02:27:56,179] [Autotest_logger:INFO    ]--[auto_test]:generate report successful!
+[2021-01-20 02:27:56,541] [Autotest_logger:INFO    ]--[auto_test]:clear pcm successful!
+[2021-01-20 02:27:56,562] [Autotest_logger:INFO    ]--[auto_test]:recover model successful!
+[2021-01-20 02:53:40,446] [Autotest_logger:DEBUG   ]--[auto_test]:start testing new model!
+[2021-01-20 02:55:16,925] [Autotest_logger:INFO    ]--[auto_test]:copy data to restful_path successful!
+[2021-01-20 02:55:17,275] [Autotest_logger:INFO    ]--[auto_test]:replace model successful!
+[2021-01-20 02:55:17,281] [Autotest_logger:INFO    ]--[auto_test]:modify conf successful!
+[2021-01-20 02:55:17    ] [Autotest_logger:INFO    ]--[abt_engine]:clear log and data successful!
+[2021-01-20 02:55:17    ] [Autotest_logger:DEBUG   ]--[abt_engine]:stop ASR server...
+[2021-01-20 02:56:02    ] [Autotest_logger:INFO    ]--[abt_engine]:stop ASR server successful!
+[2021-01-20 03:00:30    ] [Autotest_logger:INFO    ]--[abt_engine]:clean and init image successful!
+[2021-01-20 03:00:30    ] [Autotest_logger:DEBUG   ]--[abt_engine]:restart ASR server...
+[2021-01-20 03:24:37,500] [Autotest_logger:INFO    ]--[auto_test]:test successful!
+[2021-01-20 03:24:37,933] [Autotest_logger:INFO    ]--[auto_test]:move log successful!
+[2021-01-20 03:24:51,200] [Autotest_logger:INFO    ]--[auto_test]:parse log to mysql successful!
+[2021-01-20 03:25:30,027] [Autotest_logger:INFO    ]--[auto_test]:calculate result to mysql successful!
+[2021-01-20 03:25:30,774] [Autotest_logger:INFO    ]--[auto_test]:generate report successful!
+[2021-01-20 03:25:31,119] [Autotest_logger:INFO    ]--[auto_test]:clear pcm successful!
+[2021-01-20 03:25:31,140] [Autotest_logger:INFO    ]--[auto_test]:recover model successful!
+[2021-01-20 03:51:37,924] [Autotest_logger:DEBUG   ]--[auto_test]:start testing new model!
+[2021-01-20 03:53:13,220] [Autotest_logger:INFO    ]--[auto_test]:copy data to restful_path successful!
+[2021-01-20 03:53:13,607] [Autotest_logger:INFO    ]--[auto_test]:replace model successful!
+[2021-01-20 03:53:13,610] [Autotest_logger:INFO    ]--[auto_test]:modify conf successful!
+[2021-01-20 03:53:13    ] [Autotest_logger:INFO    ]--[abt_engine]:clear log and data successful!
+[2021-01-20 03:53:13    ] [Autotest_logger:DEBUG   ]--[abt_engine]:stop ASR server...
+[2021-01-20 03:53:57    ] [Autotest_logger:INFO    ]--[abt_engine]:stop ASR server successful!
+[2021-01-20 03:58:12    ] [Autotest_logger:INFO    ]--[abt_engine]:clean and init image successful!
+[2021-01-20 03:58:12    ] [Autotest_logger:DEBUG   ]--[abt_engine]:restart ASR server...
+[2021-01-20 04:22:18,936] [Autotest_logger:INFO    ]--[auto_test]:test successful!
+[2021-01-20 04:22:19,321] [Autotest_logger:INFO    ]--[auto_test]:move log successful!
+[2021-01-20 04:22:32,752] [Autotest_logger:INFO    ]--[auto_test]:parse log to mysql successful!
+[2021-01-20 04:23:13,617] [Autotest_logger:INFO    ]--[auto_test]:calculate result to mysql successful!
+[2021-01-20 04:23:14,377] [Autotest_logger:INFO    ]--[auto_test]:generate report successful!
+[2021-01-20 04:23:14,696] [Autotest_logger:INFO    ]--[auto_test]:clear pcm successful!
+[2021-01-20 04:23:14,723] [Autotest_logger:INFO    ]--[auto_test]:recover model successful!
+[2021-01-20 04:47:36,165] [Autotest_logger:DEBUG   ]--[auto_test]:start testing new model!
+[2021-01-20 04:49:37,486] [Autotest_logger:INFO    ]--[auto_test]:copy data to restful_path successful!
+[2021-01-20 04:49:37,897] [Autotest_logger:INFO    ]--[auto_test]:replace model successful!
+[2021-01-20 04:49:37,903] [Autotest_logger:INFO    ]--[auto_test]:modify conf successful!
+[2021-01-20 04:49:38    ] [Autotest_logger:INFO    ]--[abt_engine]:clear log and data successful!
+[2021-01-20 04:49:38    ] [Autotest_logger:DEBUG   ]--[abt_engine]:stop ASR server...
+[2021-01-20 04:50:23    ] [Autotest_logger:INFO    ]--[abt_engine]:stop ASR server successful!
+[2021-01-20 04:54:44    ] [Autotest_logger:INFO    ]--[abt_engine]:clean and init image successful!
+[2021-01-20 04:54:44    ] [Autotest_logger:DEBUG   ]--[abt_engine]:restart ASR server...
+[2021-01-20 05:18:52,002] [Autotest_logger:INFO    ]--[auto_test]:test successful!
+[2021-01-20 05:18:52,426] [Autotest_logger:INFO    ]--[auto_test]:move log successful!
+[2021-01-20 05:19:05,849] [Autotest_logger:INFO    ]--[auto_test]:parse log to mysql successful!
+[2021-01-20 05:19:48,938] [Autotest_logger:INFO    ]--[auto_test]:calculate result to mysql successful!
+[2021-01-20 05:19:49,667] [Autotest_logger:INFO    ]--[auto_test]:generate report successful!
+[2021-01-20 05:19:50,025] [Autotest_logger:INFO    ]--[auto_test]:clear pcm successful!
+[2021-01-20 05:19:50,053] [Autotest_logger:INFO    ]--[auto_test]:recover model successful!
+[2021-01-20 05:45:46,256] [Autotest_logger:DEBUG   ]--[auto_test]:start testing new model!
+[2021-01-20 05:48:11,607] [Autotest_logger:INFO    ]--[auto_test]:copy data to restful_path successful!
+[2021-01-20 05:48:12,015] [Autotest_logger:INFO    ]--[auto_test]:replace model successful!
+[2021-01-20 05:48:12,021] [Autotest_logger:INFO    ]--[auto_test]:modify conf successful!
+[2021-01-20 05:48:12    ] [Autotest_logger:INFO    ]--[abt_engine]:clear log and data successful!
+[2021-01-20 05:48:12    ] [Autotest_logger:DEBUG   ]--[abt_engine]:stop ASR server...
+[2021-01-20 05:48:56    ] [Autotest_logger:INFO    ]--[abt_engine]:stop ASR server successful!
+[2021-01-20 05:53:11    ] [Autotest_logger:INFO    ]--[abt_engine]:clean and init image successful!
+[2021-01-20 05:53:11    ] [Autotest_logger:DEBUG   ]--[abt_engine]:restart ASR server...
+[2021-01-20 06:17:18,926] [Autotest_logger:INFO    ]--[auto_test]:test successful!
+[2021-01-20 06:17:19,407] [Autotest_logger:INFO    ]--[auto_test]:move log successful!
+[2021-01-20 06:17:33,452] [Autotest_logger:INFO    ]--[auto_test]:parse log to mysql successful!
+[2021-01-20 06:18:14,627] [Autotest_logger:INFO    ]--[auto_test]:calculate result to mysql successful!
+[2021-01-20 06:18:15,388] [Autotest_logger:INFO    ]--[auto_test]:generate report successful!
+[2021-01-20 06:18:15,720] [Autotest_logger:INFO    ]--[auto_test]:clear pcm successful!
+[2021-01-20 06:18:15,744] [Autotest_logger:INFO    ]--[auto_test]:recover model successful!
+[2021-01-20 06:42:28,288] [Autotest_logger:DEBUG   ]--[auto_test]:start testing new model!
+[2021-01-20 06:44:03,051] [Autotest_logger:INFO    ]--[auto_test]:copy data to restful_path successful!
+[2021-01-20 06:44:03,393] [Autotest_logger:INFO    ]--[auto_test]:replace model successful!
+[2021-01-20 06:44:03,399] [Autotest_logger:INFO    ]--[auto_test]:modify conf successful!
+[2021-01-20 06:44:03    ] [Autotest_logger:INFO    ]--[abt_engine]:clear log and data successful!
+[2021-01-20 06:44:03    ] [Autotest_logger:DEBUG   ]--[abt_engine]:stop ASR server...
+[2021-01-20 06:44:48    ] [Autotest_logger:INFO    ]--[abt_engine]:stop ASR server successful!
+[2021-01-20 06:49:04    ] [Autotest_logger:INFO    ]--[abt_engine]:clean and init image successful!
+[2021-01-20 06:49:04    ] [Autotest_logger:DEBUG   ]--[abt_engine]:restart ASR server...
+[2021-01-20 07:13:14,381] [Autotest_logger:INFO    ]--[auto_test]:test successful!
+[2021-01-20 07:13:14,881] [Autotest_logger:INFO    ]--[auto_test]:move log successful!
+[2021-01-20 07:13:29,140] [Autotest_logger:INFO    ]--[auto_test]:parse log to mysql successful!
+[2021-01-20 07:14:10,155] [Autotest_logger:INFO    ]--[auto_test]:calculate result to mysql successful!
+[2021-01-20 07:14:10,918] [Autotest_logger:INFO    ]--[auto_test]:generate report successful!
+[2021-01-20 07:14:11,259] [Autotest_logger:INFO    ]--[auto_test]:clear pcm successful!
+[2021-01-20 07:14:11,277] [Autotest_logger:INFO    ]--[auto_test]:recover model successful!
+[2021-01-20 07:39:18,493] [Autotest_logger:DEBUG   ]--[auto_test]:start testing new model!
+[2021-01-20 07:41:03,247] [Autotest_logger:INFO    ]--[auto_test]:copy data to restful_path successful!
+[2021-01-20 07:41:03,656] [Autotest_logger:INFO    ]--[auto_test]:replace model successful!
+[2021-01-20 07:41:03,662] [Autotest_logger:INFO    ]--[auto_test]:modify conf successful!
+[2021-01-20 07:41:03    ] [Autotest_logger:INFO    ]--[abt_engine]:clear log and data successful!
+[2021-01-20 07:41:03    ] [Autotest_logger:DEBUG   ]--[abt_engine]:stop ASR server...
+[2021-01-20 07:41:48    ] [Autotest_logger:INFO    ]--[abt_engine]:stop ASR server successful!
+[2021-01-20 07:46:05    ] [Autotest_logger:INFO    ]--[abt_engine]:clean and init image successful!
+[2021-01-20 07:46:05    ] [Autotest_logger:DEBUG   ]--[abt_engine]:restart ASR server...
+[2021-01-20 08:10:12,360] [Autotest_logger:INFO    ]--[auto_test]:test successful!
+[2021-01-20 08:10:12,858] [Autotest_logger:INFO    ]--[auto_test]:move log successful!
+[2021-01-20 08:10:26,815] [Autotest_logger:INFO    ]--[auto_test]:parse log to mysql successful!
+[2021-01-20 08:11:06,988] [Autotest_logger:INFO    ]--[auto_test]:calculate result to mysql successful!
+[2021-01-20 08:11:07,710] [Autotest_logger:INFO    ]--[auto_test]:generate report successful!
+[2021-01-20 08:11:08,044] [Autotest_logger:INFO    ]--[auto_test]:clear pcm successful!
+[2021-01-20 08:11:08,072] [Autotest_logger:INFO    ]--[auto_test]:recover model successful!
+[2021-01-20 08:36:57,846] [Autotest_logger:DEBUG   ]--[auto_test]:start testing new model!
+[2021-01-20 08:39:15,122] [Autotest_logger:INFO    ]--[auto_test]:copy data to restful_path successful!
+[2021-01-20 08:39:15,488] [Autotest_logger:INFO    ]--[auto_test]:replace model successful!
+[2021-01-20 08:39:15,495] [Autotest_logger:INFO    ]--[auto_test]:modify conf successful!
+[2021-01-20 08:39:15    ] [Autotest_logger:INFO    ]--[abt_engine]:clear log and data successful!
+[2021-01-20 08:39:15    ] [Autotest_logger:DEBUG   ]--[abt_engine]:stop ASR server...
+[2021-01-20 08:39:59    ] [Autotest_logger:INFO    ]--[abt_engine]:stop ASR server successful!
+[2021-01-20 08:44:22    ] [Autotest_logger:INFO    ]--[abt_engine]:clean and init image successful!
+[2021-01-20 08:44:22    ] [Autotest_logger:DEBUG   ]--[abt_engine]:restart ASR server...
+[2021-01-20 09:08:32,194] [Autotest_logger:INFO    ]--[auto_test]:test successful!
+[2021-01-20 09:08:32,702] [Autotest_logger:INFO    ]--[auto_test]:move log successful!
+[2021-01-20 09:08:46,225] [Autotest_logger:INFO    ]--[auto_test]:parse log to mysql successful!
+[2021-01-20 09:09:27,137] [Autotest_logger:INFO    ]--[auto_test]:calculate result to mysql successful!
+[2021-01-20 09:09:27,862] [Autotest_logger:INFO    ]--[auto_test]:generate report successful!
+[2021-01-20 09:09:28,189] [Autotest_logger:INFO    ]--[auto_test]:clear pcm successful!
+[2021-01-20 09:09:28,210] [Autotest_logger:INFO    ]--[auto_test]:recover model successful!
+[2021-01-20 15:22:36,694] [Autotest_logger:DEBUG   ]--[auto_test]:no new model has been generated!
+[2021-01-20 15:48:41,183] [Autotest_logger:DEBUG   ]--[auto_test]:start testing new model!
+[2021-01-20 15:50:36,107] [Autotest_logger:INFO    ]--[auto_test]:copy data to restful_path successful!
+[2021-01-20 15:50:36,467] [Autotest_logger:INFO    ]--[auto_test]:replace model successful!
+[2021-01-20 15:50:36,472] [Autotest_logger:INFO    ]--[auto_test]:modify conf successful!
+[2021-01-20 15:50:36    ] [Autotest_logger:INFO    ]--[abt_engine]:clear log and data successful!
+[2021-01-20 15:50:36    ] [Autotest_logger:DEBUG   ]--[abt_engine]:stop ASR server...
+[2021-01-20 15:51:22    ] [Autotest_logger:INFO    ]--[abt_engine]:stop ASR server successful!
+[2021-01-20 15:55:37    ] [Autotest_logger:INFO    ]--[abt_engine]:clean and init image successful!
+[2021-01-20 15:55:37    ] [Autotest_logger:DEBUG   ]--[abt_engine]:restart ASR server...
+[2021-01-20 16:19:28,586] [Autotest_logger:INFO    ]--[auto_test]:test successful!
+[2021-01-20 16:19:29,120] [Autotest_logger:INFO    ]--[auto_test]:move log successful!
+[2021-01-20 16:19:41,993] [Autotest_logger:INFO    ]--[auto_test]:parse log to mysql successful!
+[2021-01-20 16:20:22,966] [Autotest_logger:INFO    ]--[auto_test]:calculate result to mysql successful!
+[2021-01-20 16:20:23,680] [Autotest_logger:INFO    ]--[auto_test]:generate report successful!
+[2021-01-20 16:20:23,994] [Autotest_logger:INFO    ]--[auto_test]:clear pcm successful!
+[2021-01-20 16:20:24,015] [Autotest_logger:INFO    ]--[auto_test]:recover model successful!
+[2021-01-20 16:21:58,816] [Autotest_logger:INFO    ]--[auto_test]:copy data to restful_path successful!
+[2021-01-20 16:21:59,174] [Autotest_logger:INFO    ]--[auto_test]:replace model successful!
+[2021-01-20 16:21:59,177] [Autotest_logger:INFO    ]--[auto_test]:modify conf successful!
+[2021-01-20 16:21:59    ] [Autotest_logger:INFO    ]--[abt_engine]:clear log and data successful!
+[2021-01-20 16:21:59    ] [Autotest_logger:DEBUG   ]--[abt_engine]:stop ASR server...
+[2021-01-20 16:22:46    ] [Autotest_logger:INFO    ]--[abt_engine]:stop ASR server successful!
+[2021-01-20 16:27:02    ] [Autotest_logger:INFO    ]--[abt_engine]:clean and init image successful!
+[2021-01-20 16:27:02    ] [Autotest_logger:DEBUG   ]--[abt_engine]:restart ASR server...
+[2021-01-20 16:50:52,847] [Autotest_logger:INFO    ]--[auto_test]:test successful!
+[2021-01-20 16:50:53,405] [Autotest_logger:INFO    ]--[auto_test]:move log successful!
+[2021-01-20 16:51:07,322] [Autotest_logger:INFO    ]--[auto_test]:parse log to mysql successful!
+[2021-01-20 16:51:46,142] [Autotest_logger:INFO    ]--[auto_test]:calculate result to mysql successful!
+[2021-01-20 16:51:46,776] [Autotest_logger:INFO    ]--[auto_test]:generate report successful!
+[2021-01-20 16:51:47,110] [Autotest_logger:INFO    ]--[auto_test]:clear pcm successful!
+[2021-01-20 16:51:47,152] [Autotest_logger:INFO    ]--[auto_test]:recover model successful!
+[2021-01-20 17:16:14,238] [Autotest_logger:DEBUG   ]--[auto_test]:start testing new model!
+[2021-01-20 17:18:41,190] [Autotest_logger:INFO    ]--[auto_test]:copy data to restful_path successful!
+[2021-01-20 17:18:41,573] [Autotest_logger:INFO    ]--[auto_test]:replace model successful!
+[2021-01-20 17:18:41,579] [Autotest_logger:INFO    ]--[auto_test]:modify conf successful!
+[2021-01-20 17:18:41    ] [Autotest_logger:INFO    ]--[abt_engine]:clear log and data successful!
+[2021-01-20 17:18:41    ] [Autotest_logger:DEBUG   ]--[abt_engine]:stop ASR server...
+[2021-01-20 17:19:27    ] [Autotest_logger:INFO    ]--[abt_engine]:stop ASR server successful!
+[2021-01-20 17:23:40    ] [Autotest_logger:INFO    ]--[abt_engine]:clean and init image successful!
+[2021-01-20 17:23:40    ] [Autotest_logger:DEBUG   ]--[abt_engine]:restart ASR server...
+[2021-01-20 17:47:31,057] [Autotest_logger:INFO    ]--[auto_test]:test successful!
+[2021-01-20 17:47:31,611] [Autotest_logger:INFO    ]--[auto_test]:move log successful!
+[2021-01-20 17:47:44,691] [Autotest_logger:INFO    ]--[auto_test]:parse log to mysql successful!
+[2021-01-20 17:48:21,928] [Autotest_logger:INFO    ]--[auto_test]:calculate result to mysql successful!
+[2021-01-20 17:48:22,713] [Autotest_logger:INFO    ]--[auto_test]:generate report successful!
+[2021-01-20 17:48:23,051] [Autotest_logger:INFO    ]--[auto_test]:clear pcm successful!
+[2021-01-20 17:48:23,075] [Autotest_logger:INFO    ]--[auto_test]:recover model successful!
+[2021-01-20 18:13:19,200] [Autotest_logger:DEBUG   ]--[auto_test]:start testing new model!
+[2021-01-20 18:14:53,392] [Autotest_logger:INFO    ]--[auto_test]:copy data to restful_path successful!
+[2021-01-20 18:14:53,828] [Autotest_logger:INFO    ]--[auto_test]:replace model successful!
+[2021-01-20 18:14:53,833] [Autotest_logger:INFO    ]--[auto_test]:modify conf successful!
+[2021-01-20 18:14:54    ] [Autotest_logger:INFO    ]--[abt_engine]:clear log and data successful!
+[2021-01-20 18:14:54    ] [Autotest_logger:DEBUG   ]--[abt_engine]:stop ASR server...
+[2021-01-20 18:15:38    ] [Autotest_logger:INFO    ]--[abt_engine]:stop ASR server successful!
+[2021-01-20 18:19:52    ] [Autotest_logger:INFO    ]--[abt_engine]:clean and init image successful!
+[2021-01-20 18:19:52    ] [Autotest_logger:DEBUG   ]--[abt_engine]:restart ASR server...
+[2021-01-20 18:43:47,288] [Autotest_logger:INFO    ]--[auto_test]:test successful!
+[2021-01-20 18:43:47,891] [Autotest_logger:INFO    ]--[auto_test]:move log successful!
+[2021-01-20 18:44:01,928] [Autotest_logger:INFO    ]--[auto_test]:parse log to mysql successful!
+[2021-01-20 18:44:40,302] [Autotest_logger:INFO    ]--[auto_test]:calculate result to mysql successful!
+[2021-01-20 18:44:41,060] [Autotest_logger:INFO    ]--[auto_test]:generate report successful!
+[2021-01-20 18:44:41,406] [Autotest_logger:INFO    ]--[auto_test]:clear pcm successful!
+[2021-01-20 18:44:41,429] [Autotest_logger:INFO    ]--[auto_test]:recover model successful!
+[2021-01-21 05:13:05,827] [Autotest_logger:DEBUG   ]--[auto_test]:start testing new model!
+[2021-01-21 05:14:41,486] [Autotest_logger:INFO    ]--[auto_test]:copy data to restful_path successful!
+[2021-01-21 05:14:41,874] [Autotest_logger:INFO    ]--[auto_test]:replace model successful!
+[2021-01-21 05:14:41,880] [Autotest_logger:INFO    ]--[auto_test]:modify conf successful!
+[2021-01-21 05:14:42    ] [Autotest_logger:INFO    ]--[abt_engine]:clear log and data successful!
+[2021-01-21 05:14:42    ] [Autotest_logger:DEBUG   ]--[abt_engine]:stop ASR server...
+[2021-01-21 05:15:27    ] [Autotest_logger:INFO    ]--[abt_engine]:stop ASR server successful!
+[2021-01-21 05:19:40    ] [Autotest_logger:INFO    ]--[abt_engine]:clean and init image successful!
+[2021-01-21 05:19:40    ] [Autotest_logger:DEBUG   ]--[abt_engine]:restart ASR server...
+[2021-01-21 05:43:32,608] [Autotest_logger:INFO    ]--[auto_test]:test successful!
+[2021-01-21 05:43:33,229] [Autotest_logger:INFO    ]--[auto_test]:move log successful!
+[2021-01-21 05:43:47,666] [Autotest_logger:INFO    ]--[auto_test]:parse log to mysql successful!
+[2021-01-21 05:44:26,878] [Autotest_logger:INFO    ]--[auto_test]:calculate result to mysql successful!
+[2021-01-21 05:44:27,623] [Autotest_logger:INFO    ]--[auto_test]:generate report successful!
+[2021-01-21 05:44:27,964] [Autotest_logger:INFO    ]--[auto_test]:clear pcm successful!
+[2021-01-21 05:44:27,992] [Autotest_logger:INFO    ]--[auto_test]:recover model successful!
+[2021-01-21 15:55:56,461] [Autotest_logger:DEBUG   ]--[auto_test]:start testing new model!
+[2021-01-21 15:58:35,840] [Autotest_logger:INFO    ]--[auto_test]:copy data to restful_path successful!
+[2021-01-21 15:58:36,266] [Autotest_logger:INFO    ]--[auto_test]:replace model successful!
+[2021-01-21 15:58:36,270] [Autotest_logger:INFO    ]--[auto_test]:modify conf successful!
+[2021-01-21 15:58:36    ] [Autotest_logger:INFO    ]--[abt_engine]:clear log and data successful!
+[2021-01-21 15:58:36    ] [Autotest_logger:DEBUG   ]--[abt_engine]:stop ASR server...
+[2021-01-21 15:59:22    ] [Autotest_logger:INFO    ]--[abt_engine]:stop ASR server successful!
+[2021-01-21 16:03:34    ] [Autotest_logger:INFO    ]--[abt_engine]:clean and init image successful!
+[2021-01-21 16:03:34    ] [Autotest_logger:DEBUG   ]--[abt_engine]:restart ASR server...
+[2021-01-21 16:27:24,757] [Autotest_logger:INFO    ]--[auto_test]:test successful!
+[2021-01-21 16:27:25,612] [Autotest_logger:INFO    ]--[auto_test]:move log successful!
+[2021-01-21 16:27:39,447] [Autotest_logger:INFO    ]--[auto_test]:parse log to mysql successful!
+[2021-01-21 16:28:21,088] [Autotest_logger:INFO    ]--[auto_test]:calculate result to mysql successful!
+[2021-01-21 16:28:21,920] [Autotest_logger:INFO    ]--[auto_test]:generate report successful!
+[2021-01-21 16:28:22,262] [Autotest_logger:INFO    ]--[auto_test]:clear pcm successful!
+[2021-01-21 16:28:22,290] [Autotest_logger:INFO    ]--[auto_test]:recover model successful!
+[2021-01-22 03:11:55,832] [Autotest_logger:DEBUG   ]--[auto_test]:start testing new model!
+[2021-01-22 03:14:05,612] [Autotest_logger:INFO    ]--[auto_test]:copy data to restful_path successful!
+[2021-01-22 03:14:06,000] [Autotest_logger:INFO    ]--[auto_test]:replace model successful!
+[2021-01-22 03:14:06,004] [Autotest_logger:INFO    ]--[auto_test]:modify conf successful!
+[2021-01-22 03:14:06    ] [Autotest_logger:INFO    ]--[abt_engine]:clear log and data successful!
+[2021-01-22 03:14:06    ] [Autotest_logger:DEBUG   ]--[abt_engine]:stop ASR server...
+[2021-01-22 03:14:55    ] [Autotest_logger:INFO    ]--[abt_engine]:stop ASR server successful!
+[2021-01-22 03:19:53    ] [Autotest_logger:INFO    ]--[abt_engine]:clean and init image successful!
+[2021-01-22 03:19:53    ] [Autotest_logger:DEBUG   ]--[abt_engine]:restart ASR server...
+[2021-01-22 03:43:39,497] [Autotest_logger:INFO    ]--[auto_test]:test successful!
+[2021-01-22 03:43:41,192] [Autotest_logger:INFO    ]--[auto_test]:move log successful!
+[2021-01-22 03:43:54,366] [Autotest_logger:INFO    ]--[auto_test]:parse log to mysql successful!
+[2021-01-22 03:44:38,050] [Autotest_logger:INFO    ]--[auto_test]:calculate result to mysql successful!
+[2021-01-22 03:44:38,881] [Autotest_logger:INFO    ]--[auto_test]:generate report successful!
+[2021-01-22 03:44:39,230] [Autotest_logger:INFO    ]--[auto_test]:clear pcm successful!
+[2021-01-22 03:44:39,257] [Autotest_logger:INFO    ]--[auto_test]:recover model successful!
+[2021-01-22 13:40:39,137] [Autotest_logger:DEBUG   ]--[auto_test]:start testing new model!
+[2021-01-22 13:42:49,560] [Autotest_logger:INFO    ]--[auto_test]:copy data to restful_path successful!
+[2021-01-22 13:42:49,931] [Autotest_logger:INFO    ]--[auto_test]:replace model successful!
+[2021-01-22 13:42:49,936] [Autotest_logger:INFO    ]--[auto_test]:modify conf successful!
+[2021-01-22 13:42:50    ] [Autotest_logger:INFO    ]--[abt_engine]:clear log and data successful!
+[2021-01-22 13:42:50    ] [Autotest_logger:DEBUG   ]--[abt_engine]:stop ASR server...
+[2021-01-22 13:43:35    ] [Autotest_logger:INFO    ]--[abt_engine]:stop ASR server successful!
+[2021-01-22 13:48:06    ] [Autotest_logger:INFO    ]--[abt_engine]:clean and init image successful!
+[2021-01-22 13:48:06    ] [Autotest_logger:DEBUG   ]--[abt_engine]:restart ASR server...
+[2021-01-22 13:58:22,414] [Autotest_logger:ERROR   ]--[auto_test]:test failed!
+[2021-01-22 13:58:22,415] [Autotest_logger:ERROR   ]--[auto_test]:
+[2021-01-22 13:58:23,067] [Autotest_logger:INFO    ]--[auto_test]:move log successful!
+[2021-01-22 13:58:23,076] [Autotest_logger:INFO    ]--[auto_test]:parse log to mysql successful!
+[2021-01-22 13:58:59,435] [Autotest_logger:INFO    ]--[auto_test]:calculate result to mysql successful!
+[2021-01-22 13:59:00,179] [Autotest_logger:INFO    ]--[auto_test]:generate report successful!
+[2021-01-22 13:59:00,181] [Autotest_logger:INFO    ]--[auto_test]:clear pcm successful!
+[2021-01-22 13:59:00,206] [Autotest_logger:INFO    ]--[auto_test]:recover model successful!
+[2021-01-23 00:14:19,945] [Autotest_logger:DEBUG   ]--[auto_test]:start testing new model!
+[2021-01-23 00:17:20,361] [Autotest_logger:INFO    ]--[auto_test]:copy data to restful_path successful!
+[2021-01-23 00:17:20,737] [Autotest_logger:INFO    ]--[auto_test]:replace model successful!
+[2021-01-23 00:17:20,743] [Autotest_logger:INFO    ]--[auto_test]:modify conf successful!
+[2021-01-23 00:17:20    ] [Autotest_logger:INFO    ]--[abt_engine]:clear log and data successful!
+[2021-01-23 00:17:20    ] [Autotest_logger:DEBUG   ]--[abt_engine]:stop ASR server...
+[2021-01-23 00:18:09    ] [Autotest_logger:INFO    ]--[abt_engine]:stop ASR server successful!
+[2021-01-23 00:22:46    ] [Autotest_logger:INFO    ]--[abt_engine]:clean and init image successful!
+[2021-01-23 00:22:46    ] [Autotest_logger:DEBUG   ]--[abt_engine]:restart ASR server...
+[2021-01-23 00:46:34,447] [Autotest_logger:INFO    ]--[auto_test]:test successful!
+[2021-01-23 00:46:36,188] [Autotest_logger:INFO    ]--[auto_test]:move log successful!
+[2021-01-23 00:46:49,484] [Autotest_logger:INFO    ]--[auto_test]:parse log to mysql successful!
+[2021-01-23 00:47:35,737] [Autotest_logger:INFO    ]--[auto_test]:calculate result to mysql successful!
+[2021-01-23 00:47:36,513] [Autotest_logger:INFO    ]--[auto_test]:generate report successful!
+[2021-01-23 00:47:36,886] [Autotest_logger:INFO    ]--[auto_test]:clear pcm successful!
+[2021-01-23 00:47:36,914] [Autotest_logger:INFO    ]--[auto_test]:recover model successful!
+[2021-01-23 15:53:20,780] [Autotest_logger:DEBUG   ]--[auto_test]:start testing new model!
+[2021-01-23 15:55:46,373] [Autotest_logger:INFO    ]--[auto_test]:copy data to restful_path successful!
+[2021-01-23 15:55:46,765] [Autotest_logger:INFO    ]--[auto_test]:replace model successful!
+[2021-01-23 15:55:46,768] [Autotest_logger:INFO    ]--[auto_test]:modify conf successful!
+[2021-01-23 15:55:46    ] [Autotest_logger:INFO    ]--[abt_engine]:clear log and data successful!
+[2021-01-23 15:55:46    ] [Autotest_logger:DEBUG   ]--[abt_engine]:stop ASR server...
+[2021-01-23 15:56:33    ] [Autotest_logger:INFO    ]--[abt_engine]:stop ASR server successful!
+[2021-01-23 16:01:11    ] [Autotest_logger:INFO    ]--[abt_engine]:clean and init image successful!
+[2021-01-23 16:01:11    ] [Autotest_logger:DEBUG   ]--[abt_engine]:restart ASR server...
+[2021-01-23 16:25:00,111] [Autotest_logger:INFO    ]--[auto_test]:test successful!
+[2021-01-23 16:25:00,789] [Autotest_logger:INFO    ]--[auto_test]:move log successful!
+[2021-01-23 16:25:14,691] [Autotest_logger:INFO    ]--[auto_test]:parse log to mysql successful!
+[2021-01-23 16:25:54,572] [Autotest_logger:INFO    ]--[auto_test]:calculate result to mysql successful!
+[2021-01-23 16:25:55,379] [Autotest_logger:INFO    ]--[auto_test]:generate report successful!
+[2021-01-23 16:25:55,717] [Autotest_logger:INFO    ]--[auto_test]:clear pcm successful!
+[2021-01-23 16:25:55,743] [Autotest_logger:INFO    ]--[auto_test]:recover model successful!
+[2021-01-24 07:00:27,184] [Autotest_logger:DEBUG   ]--[auto_test]:start testing new model!
+[2021-01-24 07:02:35,742] [Autotest_logger:INFO    ]--[auto_test]:copy data to restful_path successful!
+[2021-01-24 07:02:36,140] [Autotest_logger:INFO    ]--[auto_test]:replace model successful!
+[2021-01-24 07:02:36,145] [Autotest_logger:INFO    ]--[auto_test]:modify conf successful!
+[2021-01-24 07:02:36    ] [Autotest_logger:INFO    ]--[abt_engine]:clear log and data successful!
+[2021-01-24 07:02:36    ] [Autotest_logger:DEBUG   ]--[abt_engine]:stop ASR server...
+[2021-01-24 07:03:23    ] [Autotest_logger:INFO    ]--[abt_engine]:stop ASR server successful!
+[2021-01-24 07:07:50    ] [Autotest_logger:INFO    ]--[abt_engine]:clean and init image successful!
+[2021-01-24 07:07:50    ] [Autotest_logger:DEBUG   ]--[abt_engine]:restart ASR server...
+[2021-01-24 07:31:37,074] [Autotest_logger:INFO    ]--[auto_test]:test successful!
+[2021-01-24 07:31:38,406] [Autotest_logger:INFO    ]--[auto_test]:move log successful!
+[2021-01-24 07:31:52,151] [Autotest_logger:INFO    ]--[auto_test]:parse log to mysql successful!
+[2021-01-24 07:32:33,972] [Autotest_logger:INFO    ]--[auto_test]:calculate result to mysql successful!
+[2021-01-24 07:32:34,801] [Autotest_logger:INFO    ]--[auto_test]:generate report successful!
+[2021-01-24 07:32:35,150] [Autotest_logger:INFO    ]--[auto_test]:clear pcm successful!
+[2021-01-24 07:32:35,173] [Autotest_logger:INFO    ]--[auto_test]:recover model successful!
+[2021-01-24 21:48:12,975] [Autotest_logger:DEBUG   ]--[auto_test]:start testing new model!
+[2021-01-24 21:51:22,556] [Autotest_logger:INFO    ]--[auto_test]:copy data to restful_path successful!
+[2021-01-24 21:51:22,943] [Autotest_logger:INFO    ]--[auto_test]:replace model successful!
+[2021-01-24 21:51:22,949] [Autotest_logger:INFO    ]--[auto_test]:modify conf successful!
+[2021-01-24 21:51:23    ] [Autotest_logger:INFO    ]--[abt_engine]:clear log and data successful!
+[2021-01-24 21:51:23    ] [Autotest_logger:DEBUG   ]--[abt_engine]:stop ASR server...
+[2021-01-24 21:52:09    ] [Autotest_logger:INFO    ]--[abt_engine]:stop ASR server successful!
+[2021-01-24 21:56:32    ] [Autotest_logger:INFO    ]--[abt_engine]:clean and init image successful!
+[2021-01-24 21:56:32    ] [Autotest_logger:DEBUG   ]--[abt_engine]:restart ASR server...
+[2021-01-24 22:20:18,963] [Autotest_logger:INFO    ]--[auto_test]:test successful!
+[2021-01-24 22:20:19,650] [Autotest_logger:INFO    ]--[auto_test]:move log successful!
+[2021-01-24 22:20:33,672] [Autotest_logger:INFO    ]--[auto_test]:parse log to mysql successful!
+[2021-01-24 22:21:13,549] [Autotest_logger:INFO    ]--[auto_test]:calculate result to mysql successful!
+[2021-01-24 22:21:14,354] [Autotest_logger:INFO    ]--[auto_test]:generate report successful!
+[2021-01-24 22:21:14,681] [Autotest_logger:INFO    ]--[auto_test]:clear pcm successful!
+[2021-01-24 22:21:14,705] [Autotest_logger:INFO    ]--[auto_test]:recover model successful!
+[2021-04-12 09:53:19,775] [Autotest_logger:DEBUG   ]--[auto_test]:no new model has been generated!
+[2021-04-12 10:47:57,823] [Autotest_logger:DEBUG   ]--[auto_test]:no new model has been generated!

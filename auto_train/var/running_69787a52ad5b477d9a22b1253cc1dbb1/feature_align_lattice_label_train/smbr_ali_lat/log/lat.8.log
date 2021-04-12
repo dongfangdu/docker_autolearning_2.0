@@ -1,0 +1,345 @@
+# latgen-faster --acoustic-scale=1.0 --beam=17 --lattice-beam=10 --max-mem=20000000 --max-active=5000 --word-symbol-table=/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/ctc_16k_fsmn_court_resource/16k_general_wholeword_lfr/words.txt /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/final.mdl /home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/ctc_16k_fsmn_court_resource/16k_general_wholeword_lfr/HCLG.fst "ark:copy-feats scp:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train/split20/8/feats.scp ark:- | add-deltas --delta-order=0 ark:- ark:- | nnet-forward --ctc-blank-scale=1.0 --no-softmax=true --prior-scale=1.0 --feature-transform=/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/ctc_16k_fsmn_court_resource/16k_general_wholeword_lfr/final.fe.feature_transform --class-frame-counts=/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/ctc_16k_fsmn_court_resource/16k_general_wholeword_lfr/ali_train_pdf.counts --use-gpu=no /home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/ctc_16k_fsmn_court_resource/16k_general_wholeword_lfr/adv.model.ce.mdl ark:- ark:- |" ark,scp,f:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/lat.8.ark,/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/lat.8.scp 
+# Started at Mon Apr 12 11:22:09 CST 2021
+#
+latgen-faster --acoustic-scale=1.0 --beam=17 --lattice-beam=10 --max-mem=20000000 --max-active=5000 --word-symbol-table=/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/ctc_16k_fsmn_court_resource/16k_general_wholeword_lfr/words.txt /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/final.mdl /home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/ctc_16k_fsmn_court_resource/16k_general_wholeword_lfr/HCLG.fst 'ark:copy-feats scp:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train/split20/8/feats.scp ark:- | add-deltas --delta-order=0 ark:- ark:- | nnet-forward --ctc-blank-scale=1.0 --no-softmax=true --prior-scale=1.0 --feature-transform=/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/ctc_16k_fsmn_court_resource/16k_general_wholeword_lfr/final.fe.feature_transform --class-frame-counts=/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/ctc_16k_fsmn_court_resource/16k_general_wholeword_lfr/ali_train_pdf.counts --use-gpu=no /home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/ctc_16k_fsmn_court_resource/16k_general_wholeword_lfr/adv.model.ce.mdl ark:- ark:- |' ark,scp,f:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/lat.8.ark,/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/lat.8.scp 
+copy-feats scp:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train/split20/8/feats.scp ark:- 
+add-deltas --delta-order=0 ark:- ark:- 
+nnet-forward --ctc-blank-scale=1.0 --no-softmax=true --prior-scale=1.0 --feature-transform=/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/ctc_16k_fsmn_court_resource/16k_general_wholeword_lfr/final.fe.feature_transform --class-frame-counts=/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/ctc_16k_fsmn_court_resource/16k_general_wholeword_lfr/ali_train_pdf.counts --use-gpu=no /home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/ctc_16k_fsmn_court_resource/16k_general_wholeword_lfr/adv.model.ce.mdl ark:- ark:- 
+LOG (nnet-forward:SelectGpuId():cu-device.cc:114) Manually selected to compute on CPU.
+LOG (nnet-forward:main():nnet-forward.cc:110) Removing <Softmax> from the nnet /home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/ctc_16k_fsmn_court_resource/16k_general_wholeword_lfr/adv.model.ce.mdl
+LOG (nnet-forward:PdfPrior():nnet-pdf-prior.cc:34) Computing pdf-priors from : /home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/ctc_16k_fsmn_court_resource/16k_general_wholeword_lfr/ali_train_pdf.counts
+LOG (nnet-forward:PdfPrior():nnet-pdf-prior.cc:63) Floored 0 pdf-priors (hard-set to 1.84467e+19, which disables DNN output when decoding)
+wav000_0120_d9ae85c096cb289fe39e4f3844d9f7a4_160_0.8 我们 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0120_d9ae85c096cb289fe39e4f3844d9f7a4_160_0.8 is 42.4406 over 29 frames.
+wav000_0548_2803ea66149046f38a00c854151cbd7c 这个 你 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0548_2803ea66149046f38a00c854151cbd7c is 40.3616 over 30 frames.
+wav001_0473_76b29053bd12adea42cdea474a1b0adf_185_0.9 嗯 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0473_76b29053bd12adea42cdea474a1b0adf_185_0.9 is 36.819 over 52 frames.
+wav000_0799_40cfff0d80769bcab0fdb8608c8eb991_85_0.85 第一次 合作 证明 七 合作 商 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0799_40cfff0d80769bcab0fdb8608c8eb991_85_0.85 is 28.1409 over 82 frames.
+wav000_0717_6288e70a064090b684d1d8aee2d5e11e_260_1.1 因为 新的 证据 一审 有没有 提供 过 的 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0717_6288e70a064090b684d1d8aee2d5e11e_260_1.1 is 34.3325 over 75 frames.
+wav001_0585_046482ffb2d5770ead19409c7cd610c6_160_0.8 嗯嗯 嗯嗯 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0585_046482ffb2d5770ead19409c7cd610c6_160_0.8 is 48.4358 over 31 frames.
+wav000_0334_340a54151f0a07fdbf1dda797547cdfc_285_1.2 嗯 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0334_340a54151f0a07fdbf1dda797547cdfc_285_1.2 is 60.6945 over 38 frames.
+wav001_0755_2e19c124eafa11889e3f92a560b03fe1_235_1.2 好 公诉人 下面 问 你 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0755_2e19c124eafa11889e3f92a560b03fe1_235_1.2 is 40.3893 over 45 frames.
+wav000_0181_897f69e1ad85069195301af27627a8d_260_1.15 就是 是否 申请 回避 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0181_897f69e1ad85069195301af27627a8d_260_1.15 is 31.5729 over 42 frames.
+wav001_0968_bd09b08591152f80149d8a8186fa291_235_1.15 完整 的 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0968_bd09b08591152f80149d8a8186fa291_235_1.15 is 40.9912 over 45 frames.
+wav000_0530_f66dda517ce359d1fec62c2ec1ba1afd_235_1.1 是谁 叫 才 进 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0530_f66dda517ce359d1fec62c2ec1ba1afd_235_1.1 is 40.007 over 89 frames.
+wav000_0158_bdc93fa7bac5ba670cf58cd410ca2fa7_85_0.85 特征 符合 套路 贷 的 这个 理由 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0158_bdc93fa7bac5ba670cf58cd410ca2fa7_85_0.85 is 38.178 over 102 frames.
+wav000_0677_6b29053bd12adea42cdea474a1b0adf_135_0.75 嗯 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0677_6b29053bd12adea42cdea474a1b0adf_135_0.75 is 33.3625 over 52 frames.
+wav001_0479_c7b50c3b08a786e49e97cb7ac0211ed_310_1.45 怎么 知道 才 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0479_c7b50c3b08a786e49e97cb7ac0211ed_310_1.45 is 29.9057 over 42 frames.
+wav000_0844_d6431b369c8fc51bac0fa82bd95507c_210_1.25 证 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0844_d6431b369c8fc51bac0fa82bd95507c_210_1.25 is 37.1686 over 24 frames.
+wav000_0482_df175583a3adb02542cb1ef36cf2959a_160_0.7 就是我 所有的 证据法 院 是 通过 顺丰 的 公诉人 起诉书 里面 进行 认定 的 诉讼 吗 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0482_df175583a3adb02542cb1ef36cf2959a_160_0.7 is 28.8508 over 198 frames.
+wav001_0216__7a949a16ddf7245a52f160ba02cd2703_85_0.7 我 为什么 会 与 之前 的 实际上 从事 交通运输 我们 就 没有 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0216__7a949a16ddf7245a52f160ba02cd2703_85_0.7 is 31.8776 over 180 frames.
+wav000_0951_82a057776266f6fc52e786cd03d6220a_235_1.2 天天 在 收到 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0951_82a057776266f6fc52e786cd03d6220a_235_1.2 is 31.2272 over 55 frames.
+wav000_0906_b75590cd445c3953b501b177c9fc215_260_1.15 该 申请书 是在 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0906_b75590cd445c3953b501b177c9fc215_260_1.15 is 38.1958 over 48 frames.
+wav001_0280_869dc520547b3bbdac6e733c32467af7_160_0.8 已 确认 劳动 走 的 工作 岗位 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0280_869dc520547b3bbdac6e733c32467af7_160_0.8 is 35.248 over 103 frames.
+wav001_0982_185b9f0288c8387623960a1702987af0 法定继承 人是 没有 主张 保险金 赔偿 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0982_185b9f0288c8387623960a1702987af0 is 38.9389 over 121 frames.
+wav000_0311_589b93f750ec5e3715d57db8453f39f9_135_0.8 你 用 的 账号 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0311_589b93f750ec5e3715d57db8453f39f9_135_0.8 is 42.6351 over 56 frames.
+wav000_0479_41287a06109fe3b435a96006cad1d4ec 侵犯 了 原告 的 注册 商标 专用 权 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0479_41287a06109fe3b435a96006cad1d4ec is 38.4842 over 74 frames.
+wav001_0144_c5d3ac6abe16e3b456866a4c5cef6816 提请 公诉 请 依法 审判 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0144_c5d3ac6abe16e3b456866a4c5cef6816 is 39.396 over 92 frames.
+wav000_0380_734a10832610fcceca9c474a21c756b8_285_1.1 那你 这个 叫 讲 这个 是 他 公司 占有 一直 给你的 还给 成分 但是 怎么会 拿到 你的手 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0380_734a10832610fcceca9c474a21c756b8_285_1.1 is 36.1366 over 205 frames.
+wav000_0284_46b84e03709e2dd46ff0ad4807846bc_285_1.15 是不是 你 要 注明 今天 没 生意 呃 二零一八年 三月 十日 这个 借条 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0284_46b84e03709e2dd46ff0ad4807846bc_285_1.15 is 37.1043 over 205 frames.
+wav000_0071_d78d381be9f85e772938123b5eb309b_185_0.75 呃 一共 是 他 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0071_d78d381be9f85e772938123b5eb309b_185_0.75 is 34.7079 over 56 frames.
+wav000_0506_9c4841814ba8531d568f0c273c29ced_135_0.85 份额 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0506_9c4841814ba8531d568f0c273c29ced_135_0.85 is 33.0893 over 24 frames.
+wav000_0549_f5d27982693dd6eaa10d9bde7312da9_160_0.85 一共 归还 原告 借款 两万 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0549_f5d27982693dd6eaa10d9bde7312da9_160_0.85 is 33.068 over 81 frames.
+wav000_0975_364b2f4cfc592cb3681cd6a9ac30ade5_185_0.9 居然 有 一种 维持 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0975_364b2f4cfc592cb3681cd6a9ac30ade5_185_0.9 is 34.2551 over 45 frames.
+wav000_0459_3c7b50c3b08a786e49e97cb7ac0211ed_235_1.1 怎么 知道 在 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0459_3c7b50c3b08a786e49e97cb7ac0211ed_235_1.1 is 32.7907 over 42 frames.
+wav000_0595_c887039d28ad27674c25f09eb0b241cf_285_1.2 对 这个 联系 金额 啊 公诉人 就 起诉书 指控 的 放在 邓 金兴 伟 呢 如实 回答 不要 讲 讲话 没 听 清楚 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0595_c887039d28ad27674c25f09eb0b241cf_285_1.2 is 34.7019 over 205 frames.
+wav001_0773__efb5ba0cf85d979ac233654b7a0fbf88_85_0.8 就是说 给 忘了 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0773__efb5ba0cf85d979ac233654b7a0fbf88_85_0.8 is 35.4135 over 42 frames.
+wav001_0675_6698db448505266abeb88b1ae4b9ec85_235_1.1 那么 本案 这个 啊 刚才 庭审 时 已 查明 这个 赖 水 羊 啊 明确 表述 认罪 认罚 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0675_6698db448505266abeb88b1ae4b9ec85_235_1.1 is 37.2912 over 205 frames.
+wav001_0997_1402aefe6dd451d5900f698747a64a3_235_1.15 那么 你的 最后一次 的 还款 是 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0997_1402aefe6dd451d5900f698747a64a3_235_1.15 is 35.4202 over 85 frames.
+wav000_0123_1f3316e1e920f69af08138f792caa0d4 那那 你是 否认 罪 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0123_1f3316e1e920f69af08138f792caa0d4 is 41.3109 over 62 frames.
+wav000_0820_9c43d39864d3c4910f3bb3380e71b33_160_0.75 你 没有 救助 局 送你 的 独立 的 诉讼 请求 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0820_9c43d39864d3c4910f3bb3380e71b33_160_0.75 is 36.0492 over 101 frames.
+wav000_0796_41b31595885967c2ec13931ed15b6ab_310_1.45 这个 不是 这样 在 这次 事件 行 了 对不对 
+LOG (latgen-faster:RebuildRepository():determinize-lattice-pruned.cc:294) Rebuilding repository.
+WARNING (latgen-faster:CheckMemoryUsage():determinize-lattice-pruned.cc:327) Did not reach requested beam in determinize-lattice: size exceeds maximum 20000000 bytes; (repo,arcs,elems) = (10954944,75168,8999832), after rebuilding, repo size was 7424896, effective beam was 7.84077 vs. requested beam 10
+WARNING (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:370) Determinization finished earlier than the beam for utterance wav000_0796_41b31595885967c2ec13931ed15b6ab_310_1.45
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0796_41b31595885967c2ec13931ed15b6ab_310_1.45 is 31.2034 over 98 frames.
+wav000_0502_6e34bbca2015163080f644aa0c3c75c8_85_0.85 这一 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0502_6e34bbca2015163080f644aa0c3c75c8_85_0.85 is 43.5196 over 28 frames.
+wav000_0129_53a3fe44c98dc221aecfe83af07f4e0_310_1.45 异位妊娠 曾在 厦门 这样 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0129_53a3fe44c98dc221aecfe83af07f4e0_310_1.45 is 37.4406 over 105 frames.
+wav000_0721_0ab5dac8a25a0eea0187fd7397e5983_260_1.15 对 一下 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0721_0ab5dac8a25a0eea0187fd7397e5983_260_1.15 is 40.2411 over 29 frames.
+wav001_0314_7f96da1b1c7d1f389fd8e138e20e5b0_310_1.45 对对对 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0314_7f96da1b1c7d1f389fd8e138e20e5b0_310_1.45 is 32.2779 over 38 frames.
+wav000_0858_64b2f4cfc592cb3681cd6a9ac30ade5_235_1.25 居然 予以 的 维持 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0858_64b2f4cfc592cb3681cd6a9ac30ade5_235_1.25 is 33.56 over 45 frames.
+wav000_0747_074fab5f06decd2c5a942bc9a0e5ee29 呃 申请人 的 申请 请求 口头 答辩 意见 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0747_074fab5f06decd2c5a942bc9a0e5ee29 is 39.9628 over 93 frames.
+wav000_0868_17eb4b97bcebc0dfab64bcb2797d70a3_310_1.3 加速 人才 能 证明 的 目的 就是 在 批 空调 装载 了 起火 办公室 这一 台 空调 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0868_17eb4b97bcebc0dfab64bcb2797d70a3_310_1.3 is 35.9845 over 181 frames.
+wav000_0373_9bdde0f9ca372796592c7b9fe0ed4c2_260_1.25 不服 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0373_9bdde0f9ca372796592c7b9fe0ed4c2_260_1.25 is 39.9912 over 34 frames.
+wav000_0622_9daf8a2c68c1b576d21f6a1906ab5beb_85_0.75 我 签字 我 车 的 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0622_9daf8a2c68c1b576d21f6a1906ab5beb_85_0.75 is 32.8326 over 75 frames.
+wav000_0234_1af9aec492331a6ac836b7f9437fe6fa_135_0.8 你 先 补充 一点 关于 二次元 吗 跟 那个 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0234_1af9aec492331a6ac836b7f9437fe6fa_135_0.8 is 33.2502 over 96 frames.
+wav000_0086_d78d381be9f85e772938123b5eb309b_210_1.25 嗯 一个 是 他的 这个 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0086_d78d381be9f85e772938123b5eb309b_210_1.25 is 44.1559 over 56 frames.
+wav001_0182_1d96703554fdf9c21d8a517a9b5bd1e_260_1.15 侵权 之 术 的话 就是说 我们 根据 实际 发生 的 损失 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0182_1d96703554fdf9c21d8a517a9b5bd1e_260_1.15 is 38.7456 over 111 frames.
+wav001_0870_05012fd7e2939563974faa32f8c1511_185_0.75 定 出来 了 游泳 它的 责任 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0870_05012fd7e2939563974faa32f8c1511_185_0.75 is 35.5297 over 81 frames.
+wav000_0817_f9ba0d30d3e0cff718e89a3492e319b_285_1.25 你 去了 多少 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0817_f9ba0d30d3e0cff718e89a3492e319b_285_1.25 is 38.2455 over 42 frames.
+wav001_0704_ffd159f2fe476da7b12968e190cf1a73_285_1.1 就是你 这 就是说 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0704_ffd159f2fe476da7b12968e190cf1a73_285_1.1 is 41.8126 over 76 frames.
+wav000_0401_1a3e6ef323fc79f67ce9b9e93dc1f3cd_185_0.7 我 原告 对 对方 出庭 身份 的 名句 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0401_1a3e6ef323fc79f67ce9b9e93dc1f3cd_185_0.7 is 34.1844 over 93 frames.
+wav000_0710_d789d5dfb80b69ce777645b5c05e0cc8 道路 又是 一 粘膜 的 倾向 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0710_d789d5dfb80b69ce777645b5c05e0cc8 is 39.1193 over 74 frames.
+wav000_0921_d60bc449d83e7d0460bfff44ddab3cc_310_1.35 在 沙子 定 这个 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0921_d60bc449d83e7d0460bfff44ddab3cc_310_1.35 is 39.4053 over 57 frames.
+wav001_0800_506ec9b44840ec42418c51b9fe916718_110_0.9 没没 有 没 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0800_506ec9b44840ec42418c51b9fe916718_110_0.9 is 41.7875 over 39 frames.
+wav000_0652_8c414787fb01c0309568b27808948bb5_310_1.4 上诉 三万 元 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0652_8c414787fb01c0309568b27808948bb5_310_1.4 is 37.3301 over 41 frames.
+wav001_0571_c1984eab3265e50feb79c0669110c1b8 我 先 问 一下 啊 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0571_c1984eab3265e50feb79c0669110c1b8 is 42.4215 over 46 frames.
+wav000_0147_68a2ecb38980c35631493a840e2ae4c_210_1.25 嗯 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0147_68a2ecb38980c35631493a840e2ae4c_210_1.25 is 47.5213 over 23 frames.
+wav001_0404_bba1ab93a8e3b77a901429fd7e7a24d_235_1.15 民事 庭 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0404_bba1ab93a8e3b77a901429fd7e7a24d_235_1.15 is 38.1177 over 46 frames.
+wav001_0153_c5b273922a590ce041c2bbe119872a8_135_0.85 喂 是 法人 名字 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0153_c5b273922a590ce041c2bbe119872a8_135_0.85 is 39.3256 over 47 frames.
+wav000_0117_320e1c761ef71951574036dbf38f168a_310_1.3 中铁 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0117_320e1c761ef71951574036dbf38f168a_310_1.3 is 32.7672 over 60 frames.
+wav000_0928_b89d0b79549439a64b0bdcd3123e9488_235_1.2 参 赌 人员 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0928_b89d0b79549439a64b0bdcd3123e9488_235_1.2 is 38.5947 over 46 frames.
+wav001_0140_96452175b0cedd23243289d9d97bab0_210_1.15 呃 要求 被告 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0140_96452175b0cedd23243289d9d97bab0_210_1.15 is 44.3659 over 64 frames.
+wav001_0875_869dc520547b3bbdac6e733c32467af7_185_0.8 已 确认 劳动 走 的 工作 岗位 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0875_869dc520547b3bbdac6e733c32467af7_185_0.8 is 36.213 over 103 frames.
+wav000_0001__cdf8f8438fa48cf354ba66126de2210d_85_0.9 问题 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0001__cdf8f8438fa48cf354ba66126de2210d_85_0.9 is 29.1562 over 26 frames.
+wav001_0003_805262845521d6bdb52d1db36604446e_110_0.9 六 期 嘛 然后 就 不行 不是 驾驶 的话 这个 是 没有 异议 的 只有 非常 的 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0003_805262845521d6bdb52d1db36604446e_110_0.9 is 33.086 over 187 frames.
+wav000_0883_d68d95e2d6fb7c666ecb5ee300e4833_310_1.35 这世界 上 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0883_d68d95e2d6fb7c666ecb5ee300e4833_310_1.35 is 31.9217 over 47 frames.
+wav000_0005_2c4316f3f09c1bf81091b98805d8fb15_160_0.9 嗯 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0005_2c4316f3f09c1bf81091b98805d8fb15_160_0.9 is 41.059 over 26 frames.
+wav000_0295_6c1e0a4d8de614f8116a4f928ecdeb7_235_1.25 嗯 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0295_6c1e0a4d8de614f8116a4f928ecdeb7_235_1.25 is 45.7013 over 26 frames.
+wav001_0837_1f7a4124c36c0f210d5f6dc5269ded59 可 最后 却 被 法院 判处 了 刑法 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0837_1f7a4124c36c0f210d5f6dc5269ded59 is 38.2493 over 71 frames.
+wav000_0750_5a7560c9daf537547ace4d405433898_260_1.15 对 一审 的 这个 问题 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0750_5a7560c9daf537547ace4d405433898_260_1.15 is 37.8823 over 66 frames.
+wav000_0487_4b7fa45434ca0b494a45bf297e9501d_310_1.45 但是 大量 去 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0487_4b7fa45434ca0b494a45bf297e9501d_310_1.45 is 30.9749 over 51 frames.
+wav001_0083_f13a629093a26c2558c58d9273a5e41_110_0.85 有 一种 完全 是一种 临时性 为什么呢 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0083_f13a629093a26c2558c58d9273a5e41_110_0.85 is 40.5445 over 106 frames.
+wav001_0996_3e5fa03da5507187f4b83ce75c9cf7b_185_0.75 出租 实际 造成 了 上诉 人的 巨大 租金 损失 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0996_3e5fa03da5507187f4b83ce75c9cf7b_185_0.75 is 36.7238 over 117 frames.
+wav001_0609_5687722464abff756730dc13b7cc660c_110_0.7 千千 七楼 证据 有没有 没有了 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0609_5687722464abff756730dc13b7cc660c_110_0.7 is 34.4272 over 102 frames.
+wav000_0285_c414787fb01c0309568b27808948bb5_260_1.25 上诉 三万 元 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0285_c414787fb01c0309568b27808948bb5_260_1.25 is 38.6709 over 41 frames.
+wav001_0358_1d96703554fdf9c21d8a517a9b5bd1e_135_0.85 侵权 之 术 的话 就是说 我们 根据 实际 发生 的 损失 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0358_1d96703554fdf9c21d8a517a9b5bd1e_135_0.85 is 38.4291 over 111 frames.
+wav001_0299_6698db448505266abeb88b1ae4b9ec85_135_0.7 我不知道 这个 我 刚才 庭审 时 与 查明 就 冒 水 荣 我 明确 表述 认罪 认罚 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0299_6698db448505266abeb88b1ae4b9ec85_135_0.7 is 33.2174 over 205 frames.
+wav000_0429_65ca39c93bd4d567fe0881e9497131b7_85_0.85 呃 对 同一 组 证据 吧 因为 刚才 是 那个 是 第 几 组 证据 来 呃 你 方 在 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0429_65ca39c93bd4d567fe0881e9497131b7_85_0.85 is 37.7519 over 205 frames.
+wav001_0670_ce3f2c5603ffb53b11e34c1c1e34afc_260_1.25 有 受害人 的 亲属 啊 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0670_ce3f2c5603ffb53b11e34c1c1e34afc_260_1.25 is 39.9809 over 86 frames.
+wav000_0437_f656ed95aa4c25120dd34c1f21f9a322 根据 我们 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0437_f656ed95aa4c25120dd34c1f21f9a322 is 34.57 over 47 frames.
+wav000_0666_897f69e1ad85069195301af27627a8d_235_1.15 就是 是否 申请 回避 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0666_897f69e1ad85069195301af27627a8d_235_1.15 is 31.1395 over 42 frames.
+wav000_0988_8a0afc46b7b90e8598c7a8adeb1cb2b5_210_1.1 多 吗 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0988_8a0afc46b7b90e8598c7a8adeb1cb2b5_210_1.1 is 31.3516 over 42 frames.
+wav000_0187__01d96703554fdf9c21d8a517a9b5bd1e_85_0.9 亲 简直 数 的话 就是说 我们 根据 实际 发生 的 损失 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0187__01d96703554fdf9c21d8a517a9b5bd1e_85_0.9 is 38.0331 over 111 frames.
+wav001_0277_66fa358c7a6d4b80cfb09471b35ac356_110_0.8 报 餐 后 去 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0277_66fa358c7a6d4b80cfb09471b35ac356_110_0.8 is 34.5531 over 42 frames.
+wav000_0097_7821950ecd8fec2f813cf30e26c62aec_85_0.85 啊 就是 碳化 碳化 珪 嗯 这个 呢 其实 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0097_7821950ecd8fec2f813cf30e26c62aec_85_0.85 is 37.3176 over 114 frames.
+wav000_0323_f66dda517ce359d1fec62c2ec1ba1afd_185_0.7 嗯 陈 叫床 君 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0323_f66dda517ce359d1fec62c2ec1ba1afd_185_0.7 is 35.1492 over 89 frames.
+wav001_0587_64099486579857f62bc5d5ee0ee8e5e9_160_0.8 嗯嗯 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0587_64099486579857f62bc5d5ee0ee8e5e9_160_0.8 is 39.4123 over 33 frames.
+wav000_0753_6e00f7758ccb23bcbcff31d789a06659_185_0.9 进行 这个 是 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0753_6e00f7758ccb23bcbcff31d789a06659_185_0.9 is 36.4822 over 43 frames.
+wav001_0796_5c03acd358b4b4adddf4ad02fe2dac3e_185_0.8 不是你 这边 他 办公室 啊 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0796_5c03acd358b4b4adddf4ad02fe2dac3e_185_0.8 is 32.9267 over 93 frames.
+wav000_0566_270b16fdbecc161e1f08a8ee2db5e933_160_0.8 嗯 审判长 提问 说明 这个 投诉 我 只有 一个 手机号码 是 吧 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0566_270b16fdbecc161e1f08a8ee2db5e933_160_0.8 is 37.7432 over 191 frames.
+wav001_0972_b70e68223c41bb505c1fd6dd5e908cee_185_0.8 哦 这个 工程 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0972_b70e68223c41bb505c1fd6dd5e908cee_185_0.8 is 36.1223 over 44 frames.
+wav000_0575_651f0ea57b7468a78e6fcdefd24732fc 请坐 下 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0575_651f0ea57b7468a78e6fcdefd24732fc is 40.122 over 35 frames.
+wav000_0024__7f85e9f5ea90d78f8d53168f750f3a2d_85_0.9 嗯 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0024__7f85e9f5ea90d78f8d53168f750f3a2d_85_0.9 is 28.2028 over 22 frames.
+wav000_0835_64b2f4cfc592cb3681cd6a9ac30ade5_210_1.15 居然 予以 维持 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0835_64b2f4cfc592cb3681cd6a9ac30ade5_210_1.15 is 35.0971 over 45 frames.
+wav000_0317_8ded7f972f36e3829da58ea368a63313_285_1.1 那 我们 没有 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0317_8ded7f972f36e3829da58ea368a63313_285_1.1 is 28.2914 over 22 frames.
+wav000_0724_fe031d37e37dab57fbaad548cc89737f_85_0.75 那个 你是不是 没 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0724_fe031d37e37dab57fbaad548cc89737f_85_0.75 is 41.5089 over 54 frames.
+wav001_0136_340a54151f0a07fdbf1dda797547cdfc_160_0.9 嗯 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0136_340a54151f0a07fdbf1dda797547cdfc_160_0.9 is 34.6203 over 38 frames.
+wav000_0613_8f78594b3bdbd504213822662219bde_235_1.15 按照 事实 在 这边 房姐 是谁 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0613_8f78594b3bdbd504213822662219bde_235_1.15 is 30.7172 over 73 frames.
+wav001_0181_9d3db1b42701c2aa3feec87ba67dd64_185_0.85 上诉 人 六十五 万 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0181_9d3db1b42701c2aa3feec87ba67dd64_185_0.85 is 39.6597 over 53 frames.
+wav000_0544_185b9f0288c8387623960a1702987af0_85_0.85 法定继承 人是 没有 主张 保险金 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0544_185b9f0288c8387623960a1702987af0_85_0.85 is 36.4857 over 121 frames.
+wav000_0492_e7bfa612e0f09e847feb076233627ec8_235_1.1 不是 先知 道 我也 不会 去 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0492_e7bfa612e0f09e847feb076233627ec8_235_1.1 is 38.928 over 90 frames.
+wav000_0756_4a06f8bdf0465c4aff17d8328dcd0df_310_1.45 啊 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0756_4a06f8bdf0465c4aff17d8328dcd0df_310_1.45 is 40.3278 over 22 frames.
+wav001_0978_02b6d6a02d8b390cb33765a900a0539_210_1.25 也就是 六十二 页 的 倒数第二 段 这个 内容 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0978_02b6d6a02d8b390cb33765a900a0539_210_1.25 is 37.7883 over 119 frames.
+wav000_0027_91402aefe6dd451d5900f698747a64a3_310_1.3 那么 你的 最后一次 的 还款期 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0027_91402aefe6dd451d5900f698747a64a3_310_1.3 is 32.6376 over 85 frames.
+wav000_0914_b65f72461c71fd5e577a46974d925da_285_1.15 没没 联系 上 就是 支付宝 就 找 找 那 几天 联系 的 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0914_b65f72461c71fd5e577a46974d925da_285_1.15 is 39.0882 over 129 frames.
+wav000_0408_e15a302273c31a8753976f81e42a29c2_285_1.1 法定代表人 是谁 呀 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0408_e15a302273c31a8753976f81e42a29c2_285_1.1 is 41.0803 over 51 frames.
+wav000_0307_40e398a1e4af5effbbd95d183cc3b277_185_0.7 不容易 定金 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0307_40e398a1e4af5effbbd95d183cc3b277_185_0.7 is 33.3312 over 80 frames.
+wav000_0091__98bf7c9c9cad365cf003a7910af8220c_85_0.9 他的 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0091__98bf7c9c9cad365cf003a7910af8220c_85_0.9 is 34.8032 over 123 frames.
+wav000_0890_7a949a16ddf7245a52f160ba02cd2703 那 为什么 会 一次 钱 给他 呢 实际上 从 开始 交易 的 时候 那个 就 没有 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0890_7a949a16ddf7245a52f160ba02cd2703 is 43.0226 over 180 frames.
+wav001_0611_3b2661bb2fe4ba826e09b3969c25c970_285_1.1 这位 庭审 是 做 的 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0611_3b2661bb2fe4ba826e09b3969c25c970_285_1.1 is 33.9151 over 65 frames.
+wav001_0977_76b29053bd12adea42cdea474a1b0adf_285_1.2 嗯 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0977_76b29053bd12adea42cdea474a1b0adf_285_1.2 is 42.8535 over 52 frames.
+wav001_0560_af815a1688d656f887fd6bec26741fb_185_0.85 呃 举证 完毕 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0560_af815a1688d656f887fd6bec26741fb_185_0.85 is 33.7943 over 76 frames.
+wav001_0156_c049aeae884ad7d2c7a20967f1cc7c45_185_0.7 辩护人 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0156_c049aeae884ad7d2c7a20967f1cc7c45_185_0.7 is 39.4509 over 27 frames.
+wav000_0152_17fd363d3d23fc0484271a860c1a24af_185_0.8 三零 五 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0152_17fd363d3d23fc0484271a860c1a24af_185_0.8 is 38.1361 over 32 frames.
+wav000_0982_75a7560c9daf537547ace4d405433898_285_1.1 对 一审 的 这个 问题 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0982_75a7560c9daf537547ace4d405433898_285_1.1 is 37.37 over 66 frames.
+wav000_0791_7fd363d3d23fc0484271a860c1a24af_235_1.25 三零 五 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0791_7fd363d3d23fc0484271a860c1a24af_235_1.25 is 40.1311 over 32 frames.
+wav001_0374_02df136f66ba013d5eb435dd830161b_110_0.85 这个 账户 呢 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0374_02df136f66ba013d5eb435dd830161b_110_0.85 is 43.7005 over 37 frames.
+wav001_0543_aafcba5a13328180a8650914f4c138e_185_0.75 嗯 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0543_aafcba5a13328180a8650914f4c138e_185_0.75 is 37.8025 over 41 frames.
+wav000_0786_01bf215e4cbc62707b412adc31564a75_260_1.2 无关 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0786_01bf215e4cbc62707b412adc31564a75_260_1.2 is 38.9638 over 26 frames.
+wav001_0173_40a54151f0a07fdbf1dda797547cdfc_135_0.85 我 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0173_40a54151f0a07fdbf1dda797547cdfc_135_0.85 is 32.9518 over 38 frames.
+wav001_0750_4eeb3e9bf79ba4cfcda92741712b33e_285_1.15 但是 不是你 又 跟 公诉人 刚才 询问 的 时候 你 要说 你 没有 做 这个 事情 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0750_4eeb3e9bf79ba4cfcda92741712b33e_285_1.15 is 37.3993 over 168 frames.
+wav000_0377_3fc3153cb1b50dd4471e402ea1bf608_260_1.15 这个 时间 不 按 你 你是 在 指定 规章 考核 的 尺寸 制度 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0377_3fc3153cb1b50dd4471e402ea1bf608_260_1.15 is 35.3536 over 195 frames.
+wav000_0029_372089c3257466b3be898361fadf2e9e_310_1.3 这是 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0029_372089c3257466b3be898361fadf2e9e_310_1.3 is 29.5639 over 35 frames.
+wav001_0190_59a3397890c9d6e22e034a21907df3d_235_1.25 就是 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0190_59a3397890c9d6e22e034a21907df3d_235_1.25 is 41.1914 over 24 frames.
+wav000_0239__e897f69e1ad85069195301af27627a8d_85_0.7 嗯 是否 收据 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0239__e897f69e1ad85069195301af27627a8d_85_0.7 is 30.0221 over 42 frames.
+wav001_0243_d1ce52ad41732c6d5a4e4b4950c9188c_235_1.2 嗯 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0243_d1ce52ad41732c6d5a4e4b4950c9188c_235_1.2 is 32.496 over 24 frames.
+wav000_0697_159a3397890c9d6e22e034a21907df3d_185_0.8 嗯嗯 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0697_159a3397890c9d6e22e034a21907df3d_185_0.8 is 37.5996 over 24 frames.
+wav001_0392_ff7766327a1781858281677e5ee0929d_285_1.1 就 那七 天 的 人 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0392_ff7766327a1781858281677e5ee0929d_285_1.1 is 29.007 over 46 frames.
+wav001_0601__cec5f743e604e5c6cdbde9e965370566_85_0.9 是在 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0601__cec5f743e604e5c6cdbde9e965370566_85_0.9 is 44.6557 over 29 frames.
+wav001_0937_3f36649e73c06a678bd1dbca774b582_235_1.25 记不清 了 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0937_3f36649e73c06a678bd1dbca774b582_235_1.25 is 35.0564 over 35 frames.
+wav001_0599_9f4aab142200dd6ba403dbe76d158a0_310_1.45 谢谢 大家 看一下 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0599_9f4aab142200dd6ba403dbe76d158a0_310_1.45 is 30.7951 over 92 frames.
+wav000_0579_be219dadf3461f82585e8fd9d87ddb80_235_1.1 嗯 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0579_be219dadf3461f82585e8fd9d87ddb80_235_1.1 is 39.6062 over 25 frames.
+wav000_0726_3f36649e73c06a678bd1dbca774b582_110_0.75 记不清 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0726_3f36649e73c06a678bd1dbca774b582_110_0.75 is 31.6123 over 35 frames.
+wav000_0517_3390be235b191f33b8dd0addc7f419a_160_0.85 福建省 福州市 长汀 县人 民法 院 现在 可以 吧 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0517_3390be235b191f33b8dd0addc7f419a_160_0.85 is 36.3964 over 112 frames.
+wav000_0424_698db448505266abeb88b1ae4b9ec85_210_1.15 那么 本案 这个 啊 刚才 庭审 时 已 查明 这个 赖 沈阳 啊 明确 表述 认罪 认罚 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0424_698db448505266abeb88b1ae4b9ec85_210_1.15 is 37.3682 over 205 frames.
+wav001_0050_7a7d70d5739c2080471f1b1cd7731a3d_160_0.7 哦 被上诉人 针对 上诉 人的 这个 上诉 请求 提出 的 答辩 意见 如下 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0050_7a7d70d5739c2080471f1b1cd7731a3d_160_0.7 is 39.1797 over 170 frames.
+wav001_0557_ce3f2c5603ffb53b11e34c1c1e34afc_210_1.25 有 受害人 的 亲属 啊 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0557_ce3f2c5603ffb53b11e34c1c1e34afc_210_1.25 is 40.4173 over 86 frames.
+wav000_0282_40cfff0d80769bcab0fdb8608c8eb991_210_1.2 第一次 合作 是 长期 合作 的 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0282_40cfff0d80769bcab0fdb8608c8eb991_210_1.2 is 29.1819 over 82 frames.
+wav001_0024_8228b1e8d7e70a60f238157fa6cdaa44_110_0.9 那么 通过 这个 庭审 的这 个事 实 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0024_8228b1e8d7e70a60f238157fa6cdaa44_110_0.9 is 31.4621 over 71 frames.
+wav001_0217_a7d70d5739c2080471f1b1cd7731a3d_135_0.75 哦 被上诉人 针对 上诉 人的 这个 上诉 请求 提出 的 答辩 意见 如下 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0217_a7d70d5739c2080471f1b1cd7731a3d_135_0.75 is 40.6658 over 170 frames.
+wav000_0197_f3316e1e920f69af08138f792caa0d4_135_0.85 那那 你是 否认 罪 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0197_f3316e1e920f69af08138f792caa0d4_135_0.85 is 39.8297 over 62 frames.
+wav001_0736_869dc520547b3bbdac6e733c32467af7_310_1.4 现任 劳动者 的 工作 岗位 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0736_869dc520547b3bbdac6e733c32467af7_310_1.4 is 35.9985 over 103 frames.
+wav001_0581_15bd6c962ea18ab2370b2d20da298a2_260_1.25 本案 的 被上诉人 向 法庭 提供了 相关 的 证据 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0581_15bd6c962ea18ab2370b2d20da298a2_260_1.25 is 39.1597 over 135 frames.
+wav001_0891_7c75776388029e24a014da7ff4eb04d_110_0.85 这个 结算 的 内容 来看 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0891_7c75776388029e24a014da7ff4eb04d_110_0.85 is 39.2251 over 52 frames.
+wav001_0056_f3aafcf72301507a5c3b4cc9602277eb_185_0.8 相应 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0056_f3aafcf72301507a5c3b4cc9602277eb_185_0.8 is 36.3683 over 29 frames.
+wav000_0804_bc817f6396ce846137851a70e516f1a6_135_0.8 本案 没 应当 以 一九九四年 承包合同 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0804_bc817f6396ce846137851a70e516f1a6_135_0.8 is 39.2423 over 175 frames.
+wav000_0347_e82b7af042a481b26cd9467706c386c7 并在 案发 当天 未 解 四 份 在 中心 城区 人流 密集 地段 众目睽睽 之下 进行 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0347_e82b7af042a481b26cd9467706c386c7 is 38.2988 over 205 frames.
+wav001_0135_73e6501cf2fab36ab123599a52ab93e7_235_1.2 有一个 第一 互联 成 十二 啊 这一 户 变成 十二 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0135_73e6501cf2fab36ab123599a52ab93e7_235_1.2 is 37.8874 over 125 frames.
+wav001_0798_349c5a95fc5980a752c115d25270c13_310_1.35 现在 证明 对 本 院 的 租赁 这个 意思 没有 说 的 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0798_349c5a95fc5980a752c115d25270c13_310_1.35 is 35.4567 over 116 frames.
+wav000_0636_0d78d381be9f85e772938123b5eb309b 呃 一个 是 他的 这个 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0636_0d78d381be9f85e772938123b5eb309b is 45.6117 over 56 frames.
+wav000_0499_dad909ce59fb367af1429efad1230e6f 这 所以 我的 认 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0499_dad909ce59fb367af1429efad1230e6f is 33.8177 over 42 frames.
+wav000_0878_1a3e6ef323fc79f67ce9b9e93dc1f3cd_285_1.1 呃 原告 对 对方 确认 身份 有没有 意见 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0878_1a3e6ef323fc79f67ce9b9e93dc1f3cd_285_1.1 is 40.1248 over 93 frames.
+wav001_0067_0d1b10ad0c6f46e05a1ae0e08b59efc4_85_0.85 双方 当事人 对 对方 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0067_0d1b10ad0c6f46e05a1ae0e08b59efc4_85_0.85 is 42.149 over 76 frames.
+wav001_0233_87af31695cab29d45e6e5ca7a6e32bf_185_0.85 而不 就 否认 识 不认 识 张文斌 无论 其 从 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0233_87af31695cab29d45e6e5ca7a6e32bf_185_0.85 is 34.563 over 112 frames.
+wav000_0725_a036e9f9e833d5579ed45f1617d7b87a 所以 被告 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0725_a036e9f9e833d5579ed45f1617d7b87a is 39.8244 over 41 frames.
+wav001_0258_7a7d70d5739c2080471f1b1cd7731a3d_85_0.75 哦 被上诉人 针对 上诉 人的 这个 上诉 请求 提出 的 答辩 意见 如下 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav001_0258_7a7d70d5739c2080471f1b1cd7731a3d_85_0.75 is 39.5905 over 170 frames.
+LOG (copy-feats:main():copy-feats.cc:100) Copied 162 feature matrices.
+wav000_0477_07f52978e1da6ee703fde59a7c0d0bc_310_1.45 没有 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0477_07f52978e1da6ee703fde59a7c0d0bc_310_1.45 is 40.5005 over 29 frames.
+wav000_0252__846b84e03709e2dd46ff0ad4807846bc_85_0.8 是不是 啊 你 要 作为 这个 无 三月 呃 二零一八年 三月 十日 这个 借条 中 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0252__846b84e03709e2dd46ff0ad4807846bc_85_0.8 is 39.2551 over 205 frames.
+LOG (nnet-forward:main():nnet-forward.cc:350) Done 162 files in 6.15662min, (fps 103.26)
+wav000_0174_b2f3ce3dc63830654d486806867517c_285_1.25 一审 不是 有 其 工作 你 会 看 
+LOG (latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:383) Log-like per frame for utterance wav000_0174_b2f3ce3dc63830654d486806867517c_285_1.25 is 36.4326 over 92 frames.
+LOG (latgen-faster:main():latgen-faster.cc:165) Time taken 377.38s: real-time factor assuming 100 frames/sec is 2.95382
+LOG (latgen-faster:main():latgen-faster.cc:168) Done 162 utterances, failed for 0
+LOG (latgen-faster:main():latgen-faster.cc:170) Overall log-likelihood per frame is 36.8485 over 12776 frames.
+# Accounting: time=378 threads=1
+# Ended (code 0) at Mon Apr 12 11:28:27 CST 2021, elapsed time 378 seconds

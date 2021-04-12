@@ -1,0 +1,75 @@
+<time>2019-07-03 09:41:25</time><type>error</type>
+ERROR_LOG|51072000|INTERNAL_ERROR|free space is less than 50GB under /home/|-1
+<time>2019-07-03 09:41:25</time><type>error</type>
+Unexpected error <type 'exceptions.Exception'>
+ERROR_LOG|51072000|INTERNAL_ERROR|free space is less than 50GB under /home/|-1
+Traceback (most recent call last):
+  File "/home/user/zhangxing/amtrain0617/dcs_model_train_package_general_06052019/am/code/asrp_am/src/asrp.py", line 39, in <module>
+    asrpAction.Run(inputargs)
+  File "/disk9/chenda.liao/dcs_am/release_tmp_dir/asrp_am/src/asrpAction.py", line 38, in Run
+  File "/disk9/chenda.liao/dcs_am/release_tmp_dir/asrp_am/src/asrpGlobal.py", line 735, in pipelineInternalException
+  File "/disk9/chenda.liao/dcs_am/release_tmp_dir/asrp_am/src/asrpGlobal.py", line 702, in asrpExceptionWithCode
+  File "/disk9/chenda.liao/dcs_am/release_tmp_dir/asrp_am/src/asrpGlobal.py", line 520, in asrpException
+Exception: ERROR_LOG|51072000|INTERNAL_ERROR|free space is less than 50GB under /home/|-1
+
+<time>2019-07-03 09:41:25</time><type>error</type>
+ERROR_LOG|51072000|INTERNAL_ERROR|free space is less than 50GB under /home/|-1
+<time>2019-07-03 09:41:25</time><type>error</type>
+Unexpected error <type 'exceptions.Exception'>
+ERROR_LOG|51072000|INTERNAL_ERROR|free space is less than 50GB under /home/|-1
+Traceback (most recent call last):
+  File "/home/user/zhangxing/amtrain0617/dcs_model_train_package_general_06052019/am/code/asrp_am/src/asrp.py", line 39, in <module>
+    asrpAction.Run(inputargs)
+  File "/disk9/chenda.liao/dcs_am/release_tmp_dir/asrp_am/src/asrpAction.py", line 38, in Run
+  File "/disk9/chenda.liao/dcs_am/release_tmp_dir/asrp_am/src/asrpGlobal.py", line 735, in pipelineInternalException
+  File "/disk9/chenda.liao/dcs_am/release_tmp_dir/asrp_am/src/asrpGlobal.py", line 702, in asrpExceptionWithCode
+  File "/disk9/chenda.liao/dcs_am/release_tmp_dir/asrp_am/src/asrpGlobal.py", line 520, in asrpException
+Exception: ERROR_LOG|51072000|INTERNAL_ERROR|free space is less than 50GB under /home/|-1
+
+<time>2019-07-03 09:41:25</time><type>error</type>
+ERROR_LOG|51072000|INTERNAL_ERROR|free space is less than 50GB under /home/|-1
+<time>2019-07-03 09:41:25</time><type>error</type>
+Unexpected error <type 'exceptions.Exception'>
+ERROR_LOG|51072000|INTERNAL_ERROR|free space is less than 50GB under /home/|-1
+Traceback (most recent call last):
+  File "/home/user/zhangxing/amtrain0617/dcs_model_train_package_general_06052019/am/code/asrp_am/src/asrp.py", line 39, in <module>
+    asrpAction.Run(inputargs)
+  File "/disk9/chenda.liao/dcs_am/release_tmp_dir/asrp_am/src/asrpAction.py", line 38, in Run
+  File "/disk9/chenda.liao/dcs_am/release_tmp_dir/asrp_am/src/asrpGlobal.py", line 735, in pipelineInternalException
+  File "/disk9/chenda.liao/dcs_am/release_tmp_dir/asrp_am/src/asrpGlobal.py", line 702, in asrpExceptionWithCode
+  File "/disk9/chenda.liao/dcs_am/release_tmp_dir/asrp_am/src/asrpGlobal.py", line 520, in asrpException
+Exception: ERROR_LOG|51072000|INTERNAL_ERROR|free space is less than 50GB under /home/|-1
+
+<time>2019-07-30 07:48:36</time><type>error</type>
+Unexpected error <type 'exceptions.OSError'>
+[Errno 13] Permission denied: '/home/user/zhangxing/amtrain0617/AMtrain_test/new-bin/am_training_pipeline/asrprun/data_parse_bak004'
+Traceback (most recent call last):
+  File "/home/user/zhangxing/amtrain0617/dcs_model_train_package_general_06052019/am/code/asrp_am/src/asrp.py", line 39, in <module>
+    asrpAction.Run(inputargs)
+  File "/disk9/chenda.liao/dcs_am/release_tmp_dir/asrp_am/src/asrpAction.py", line 45, in Run
+  File "/usr/lib64/python2.7/os.py", line 157, in makedirs
+    mkdir(name, mode)
+OSError: [Errno 13] Permission denied: '/home/user/zhangxing/amtrain0617/AMtrain_test/new-bin/am_training_pipeline/asrprun/data_parse_bak004'
+
+<time>2019-07-30 09:21:30</time><type>error</type>
+Unexpected error <type 'exceptions.OSError'>
+[Errno 13] Permission denied: '/home/user/zhangxing/amtrain0617/AMtrain_test/new-bin/am_training_pipeline/asrprun/data_parse_bak004'
+Traceback (most recent call last):
+  File "/home/user/zhangxing/amtrain0617/dcs_model_train_package_general_06052019/am/code/asrp_am/src/asrp.py", line 39, in <module>
+    asrpAction.Run(inputargs)
+  File "/disk9/chenda.liao/dcs_am/release_tmp_dir/asrp_am/src/asrpAction.py", line 45, in Run
+  File "/usr/lib64/python2.7/os.py", line 157, in makedirs
+    mkdir(name, mode)
+OSError: [Errno 13] Permission denied: '/home/user/zhangxing/amtrain0617/AMtrain_test/new-bin/am_training_pipeline/asrprun/data_parse_bak004'
+
+<time>2019-07-31 07:43:47</time><type>error</type>
+Unexpected error <type 'exceptions.OSError'>
+[Errno 13] Permission denied: '/home/user/zhangxing/amtrain0617/AMtrain_test/new-bin/am_training_pipeline/asrprun/data_parse_bak005'
+Traceback (most recent call last):
+  File "/home/user/zhangxing/amtrain0617/dcs_model_train_package_general_06052019/am/code/asrp_am/src/asrp.py", line 39, in <module>
+    asrpAction.Run(inputargs)
+  File "/disk9/chenda.liao/dcs_am/release_tmp_dir/asrp_am/src/asrpAction.py", line 45, in Run
+  File "/usr/lib64/python2.7/os.py", line 157, in makedirs
+    mkdir(name, mode)
+OSError: [Errno 13] Permission denied: '/home/user/zhangxing/amtrain0617/AMtrain_test/new-bin/am_training_pipeline/asrprun/data_parse_bak005'
+

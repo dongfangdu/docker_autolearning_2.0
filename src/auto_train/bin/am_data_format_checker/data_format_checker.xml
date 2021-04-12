@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Recipe action="FileListGenerator">
+	<corpus
+		type="STANDARD_SHORT"
+		name="King-ASR-384-17-Hubei"
+		osstranscriptionpath="/home/yourname/corpus/King-ASR-384-17-Hubei/trans/"
+		osswavpath="/home/yourname/corpus/King-ASR-384-17-Hubei/wave/"
+		ossuploadrootpath="/home/yourname/corpus/dataparsed/"
+		samplerate="16000" numinark="1000"
+		partsize="2000" trainpercentage="0.9" devtestpercentage="0.1">
+		<process wordlist="" traintntype="STANDARD_V2" testtntype="STANDARD_V2" />
+	</corpus>
+</Recipe>

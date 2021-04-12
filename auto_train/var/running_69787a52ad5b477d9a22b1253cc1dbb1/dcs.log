@@ -1,0 +1,450 @@
+execute:
+chmod -R +x /home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local; chmod -R +x /home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/feature_extraction_cpu_server
+
+Set the path.sh.
+execute:
+echo $PATH; echo $LD_LIBRARY_PATH; echo $OPAL_PREFIX
+
+<output><id>33961203</id><command>echo $PATH; echo $LD_LIBRARY_PATH; echo $OPAL_PREFIX</command><message>/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/utils/:/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/middleware_bin/:/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/feature_extraction_cpu_server/:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+/usr/lib64:/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/middleware_bin/tools/openmpi-1.10.0/install/lib/:/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/middleware_bin/tools/lib/:/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/middleware_bin/tools/lib64/:/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/middleware_bin/tools/openfst-1.3.4/lib/:/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/middleware_bin/tools/OpenBLAS/install/lib/:/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/middleware_bin/tools/cuda-8.0/lib64/:/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/middleware_bin/tools/cudalib-8.0/:/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/GMMTraining/ATLAS/lib/:/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/feature_extraction_cpu_server/net-forward-libs/:/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/gen_id/:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1:/usr/local/nvidia/lib:/usr/local/nvidia/lib64
+/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/middleware_bin/tools/openmpi-1.10.0/install
+</message></output>
+
+From global.cfg, this is a ctc model.
+STATUS_LOG|21072100|IN_PROGRESS|AM training pipeline is started|0/2
+deleting local path: /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/local
+deleting local path: /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/steps
+deleting local path: /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/utils
+Cuda version is set to 10.0
+execute:
+touch /home/user/linjr/train_tmp_data/6d5438f600:00.0 Host bridge: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DMI2 (rev 01)
+00:01.0 PCI bridge: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 1 (rev 01)
+00:02.0 PCI bridge: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 2 (rev 01)
+00:03.0 PCI bridge: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 3 (rev 01)
+00:05.0 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Map/VTd_Misc/System Management (rev 01)
+00:05.1 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D IIO Hot Plug (rev 01)
+00:05.2 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D IIO RAS/Control Status/Global Errors (rev 01)
+00:05.4 PIC: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D I/O APIC (rev 01)
+00:11.0 Unassigned class [ff00]: Intel Corporation C610/X99 series chipset SPSR (rev 05)
+00:11.4 SATA controller: Intel Corporation C610/X99 series chipset sSATA Controller [AHCI mode] (rev 05)
+00:16.0 Communication controller: Intel Corporation C610/X99 series chipset MEI Controller #1 (rev 05)
+00:16.1 Communication controller: Intel Corporation C610/X99 series chipset MEI Controller #2 (rev 05)
+00:1a.0 USB controller: Intel Corporation C610/X99 series chipset USB Enhanced Host Controller #2 (rev 05)
+00:1c.0 PCI bridge: Intel Corporation C610/X99 series chipset PCI Express Root Port #1 (rev d5)
+00:1c.1 PCI bridge: Intel Corporation C610/X99 series chipset PCI Express Root Port #2 (rev d5)
+00:1c.2 PCI bridge: Intel Corporation C610/X99 series chipset PCI Express Root Port #3 (rev d5)
+00:1c.4 PCI bridge: Intel Corporation C610/X99 series chipset PCI Express Root Port #5 (rev d5)
+00:1d.0 USB controller: Intel Corporation C610/X99 series chipset USB Enhanced Host Controller #1 (rev 05)
+00:1f.0 ISA bridge: Intel Corporation C610/X99 series chipset LPC Controller (rev 05)
+00:1f.2 SATA controller: Intel Corporation C610/X99 series chipset 6-Port SATA Controller [AHCI mode] (rev 05)
+01:00.0 Ethernet controller: Intel Corporation I350 Gigabit Network Connection (rev 01)
+01:00.1 Ethernet controller: Intel Corporation I350 Gigabit Network Connection (rev 01)
+02:00.0 3D controller: NVIDIA Corporation GP100GL [Tesla P100 PCIe 16GB] (rev a1)
+03:00.0 RAID bus controller: Broadcom / LSI MegaRAID SAS-3 3108 [Invader] (rev 02)
+04:00.0 Ethernet controller: Broadcom Inc. and subsidiaries NetXtreme II BCM57810 10 Gigabit Ethernet (rev 10)
+04:00.1 Ethernet controller: Broadcom Inc. and subsidiaries NetXtreme II BCM57810 10 Gigabit Ethernet (rev 10)
+06:00.0 PCI bridge: Renesas Technology Corp. SH7758 PCIe Switch [PS]
+07:00.0 PCI bridge: Renesas Technology Corp. SH7758 PCIe Switch [PS]
+08:00.0 PCI bridge: Renesas Technology Corp. SH7758 PCIe-PCI Bridge [PPB]
+09:00.0 VGA compatible controller: Matrox Electronics Systems Ltd. G200eR2 (rev 01)
+7f:08.0 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 0 (rev 01)
+7f:08.2 Performance counters: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 0 (rev 01)
+7f:08.3 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 0 (rev 01)
+7f:09.0 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 1 (rev 01)
+7f:09.2 Performance counters: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 1 (rev 01)
+7f:09.3 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 1 (rev 01)
+7f:0b.0 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1 (rev 01)
+7f:0b.1 Performance counters: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1 (rev 01)
+7f:0b.2 Performance counters: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1 (rev 01)
+7f:0b.3 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link Debug (rev 01)
+7f:0c.0 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+7f:0c.1 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+7f:0c.2 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+7f:0c.3 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+7f:0c.4 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+7f:0c.5 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+7f:0c.6 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+7f:0c.7 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+7f:0d.0 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+7f:0d.1 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+7f:0d.2 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+7f:0d.3 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+7f:0d.4 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+7f:0d.5 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+7f:0d.6 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+7f:0d.7 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+7f:0f.0 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+7f:0f.1 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+7f:0f.2 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+7f:0f.3 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+7f:0f.4 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+7f:0f.5 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+7f:0f.6 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+7f:10.0 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R2PCIe Agent (rev 01)
+7f:10.1 Performance counters: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R2PCIe Agent (rev 01)
+7f:10.5 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox (rev 01)
+7f:10.6 Performance counters: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox (rev 01)
+7f:10.7 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox (rev 01)
+7f:12.0 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 0 (rev 01)
+7f:12.1 Performance counters: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 0 (rev 01)
+7f:12.2 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 0 Debug (rev 01)
+7f:12.4 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 1 (rev 01)
+7f:12.5 Performance counters: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 1 (rev 01)
+7f:12.6 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 1 Debug (rev 01)
+7f:13.0 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Target Address/Thermal/RAS (rev 01)
+7f:13.1 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Target Address/Thermal/RAS (rev 01)
+7f:13.2 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel Target Address Decoder (rev 01)
+7f:13.3 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel Target Address Decoder (rev 01)
+7f:13.6 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Broadcast (rev 01)
+7f:13.7 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Global Broadcast (rev 01)
+7f:14.0 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 0 Thermal Control (rev 01)
+7f:14.1 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 1 Thermal Control (rev 01)
+7f:14.2 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 0 Error (rev 01)
+7f:14.3 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 1 Error (rev 01)
+7f:14.4 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface (rev 01)
+7f:14.5 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface (rev 01)
+7f:14.6 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface (rev 01)
+7f:14.7 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface (rev 01)
+7f:16.0 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Target Address/Thermal/RAS (rev 01)
+7f:16.1 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Target Address/Thermal/RAS (rev 01)
+7f:16.2 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Channel Target Address Decoder (rev 01)
+7f:16.3 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Channel Target Address Decoder (rev 01)
+7f:16.6 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Broadcast (rev 01)
+7f:16.7 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Global Broadcast (rev 01)
+7f:17.0 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 0 Thermal Control (rev 01)
+7f:17.1 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 1 Thermal Control (rev 01)
+7f:17.2 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 0 Error (rev 01)
+7f:17.3 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 1 Error (rev 01)
+7f:17.4 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface (rev 01)
+7f:17.5 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface (rev 01)
+7f:17.6 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface (rev 01)
+7f:17.7 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface (rev 01)
+7f:1e.0 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit (rev 01)
+7f:1e.1 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit (rev 01)
+7f:1e.2 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit (rev 01)
+7f:1e.3 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit (rev 01)
+7f:1e.4 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit (rev 01)
+7f:1f.0 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit (rev 01)
+7f:1f.2 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit (rev 01)
+80:00.0 PCI bridge: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 0 (rev 01)
+80:01.0 PCI bridge: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 1 (rev 01)
+80:02.0 PCI bridge: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 2 (rev 01)
+80:03.0 PCI bridge: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 3 (rev 01)
+80:05.0 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Map/VTd_Misc/System Management (rev 01)
+80:05.1 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D IIO Hot Plug (rev 01)
+80:05.2 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D IIO RAS/Control Status/Global Errors (rev 01)
+80:05.4 PIC: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D I/O APIC (rev 01)
+84:00.0 3D controller: NVIDIA Corporation GP100GL [Tesla P100 PCIe 16GB] (rev a1)
+ff:08.0 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 0 (rev 01)
+ff:08.2 Performance counters: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 0 (rev 01)
+ff:08.3 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 0 (rev 01)
+ff:09.0 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 1 (rev 01)
+ff:09.2 Performance counters: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 1 (rev 01)
+ff:09.3 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 1 (rev 01)
+ff:0b.0 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1 (rev 01)
+ff:0b.1 Performance counters: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1 (rev 01)
+ff:0b.2 Performance counters: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1 (rev 01)
+ff:0b.3 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link Debug (rev 01)
+ff:0c.0 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+ff:0c.1 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+ff:0c.2 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+ff:0c.3 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+ff:0c.4 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+ff:0c.5 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+ff:0c.6 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+ff:0c.7 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+ff:0d.0 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+ff:0d.1 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+ff:0d.2 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+ff:0d.3 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+ff:0d.4 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+ff:0d.5 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+ff:0d.6 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+ff:0d.7 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+ff:0f.0 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+ff:0f.1 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+ff:0f.2 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+ff:0f.3 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+ff:0f.4 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+ff:0f.5 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+ff:0f.6 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent (rev 01)
+ff:10.0 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R2PCIe Agent (rev 01)
+ff:10.1 Performance counters: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R2PCIe Agent (rev 01)
+ff:10.5 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox (rev 01)
+ff:10.6 Performance counters: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox (rev 01)
+ff:10.7 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox (rev 01)
+ff:12.0 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 0 (rev 01)
+ff:12.1 Performance counters: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 0 (rev 01)
+ff:12.2 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 0 Debug (rev 01)
+ff:12.4 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 1 (rev 01)
+ff:12.5 Performance counters: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 1 (rev 01)
+ff:12.6 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 1 Debug (rev 01)
+ff:13.0 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Target Address/Thermal/RAS (rev 01)
+ff:13.1 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Target Address/Thermal/RAS (rev 01)
+ff:13.2 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel Target Address Decoder (rev 01)
+ff:13.3 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel Target Address Decoder (rev 01)
+ff:13.6 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Broadcast (rev 01)
+ff:13.7 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Global Broadcast (rev 01)
+ff:14.0 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 0 Thermal Control (rev 01)
+ff:14.1 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 1 Thermal Control (rev 01)
+ff:14.2 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 0 Error (rev 01)
+ff:14.3 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 1 Error (rev 01)
+ff:14.4 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface (rev 01)
+ff:14.5 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface (rev 01)
+ff:14.6 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface (rev 01)
+ff:14.7 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface (rev 01)
+ff:16.0 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Target Address/Thermal/RAS (rev 01)
+ff:16.1 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Target Address/Thermal/RAS (rev 01)
+ff:16.2 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Channel Target Address Decoder (rev 01)
+ff:16.3 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Channel Target Address Decoder (rev 01)
+ff:16.6 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Broadcast (rev 01)
+ff:16.7 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Global Broadcast (rev 01)
+ff:17.0 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 0 Thermal Control (rev 01)
+ff:17.1 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 1 Thermal Control (rev 01)
+ff:17.2 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 0 Error (rev 01)
+ff:17.3 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 1 Error (rev 01)
+ff:17.4 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface (rev 01)
+ff:17.5 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface (rev 01)
+ff:17.6 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface (rev 01)
+ff:17.7 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface (rev 01)
+ff:1e.0 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit (rev 01)
+ff:1e.1 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit (rev 01)
+ff:1e.2 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit (rev 01)
+ff:1e.3 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit (rev 01)
+ff:1e.4 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit (rev 01)
+ff:1f.0 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit (rev 01)
+ff:1f.2 System peripheral: Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit (rev 01)
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                64
+On-line CPU(s) list:   0-63
+Thread(s) per core:    2
+Core(s) per socket:    16
+Socket(s):             2
+NUMA node(s):          2
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 79
+Model name:            Intel(R) Xeon(R) CPU E5-2683 v4 @ 2.10GHz
+Stepping:              1
+CPU MHz:               1397.351
+CPU max MHz:           3000.0000
+CPU min MHz:           1200.0000
+BogoMIPS:              4194.97
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              40960K
+NUMA node0 CPU(s):     0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40,42,44,46,48,50,52,54,56,58,60,62
+NUMA node1 CPU(s):     1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39,41,43,45,47,49,51,53,55,57,59,61,63
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_pt ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm rdt_a rdseed adx smap xsaveopt cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts spec_ctrl intel_stibp
+a7184c2db07d390bbec3952f/data/trained/trained_000/tempFile; /home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/gen_id/gen_model_id 192.168.108.197 /home/user/linjr/train_tmp_data/6d5438f6a7184c2db07d390bbec3952f/data/trained/trained_000/tempFile;
+
+<output><id>57704862</id><command>touch /home/user/linjr/train_tmp_data/6d5438f6a7184c2db07d390bbec3952f/data/trained/trained_000/tempFile; /home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/gen_id/gen_model_id 192.168.108.197 /home/user/linjr/train_tmp_data/6d5438f6a7184c2db07d390bbec3952f/data/trained/trained_000/tempFile;</command><message>apes sdk commit date: 20190318
+License not passed, failed to login to license server: encode data failed</message></output>
+
+<error><id>57704862</id><command>touch /home/user/linjr/train_tmp_data/6d5438f6a7184c2db07d390bbec3952f/data/trained/trained_000/tempFile; /home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/gen_id/gen_model_id 192.168.108.197 /home/user/linjr/train_tmp_data/6d5438f6a7184c2db07d390bbec3952f/data/trained/trained_000/tempFile;</command><message>stderr: encode data failed
+</message></error>
+
+[93mThe model signature generation will not work. If you need to generate the signature file, please check 1: the signature generation is supported in this license server; 2. you do have license to run acoustic model training; 3. you specified the correct license server ip address.[0m
+/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/feature_align_lattice_label_train/wavelist_new.txt is used.
+/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/feature_align_lattice_label_train/transcriptionlist_new.txt is used.
+[93mcopy dir /home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/local to /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/local[0m
+[93mcopy dir /home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/steps to /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/steps[0m
+[93mcopy dir /home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/utils to /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/utils[0m
+execute:
+lspci | grep -i --color 'vga\|3d\|2d' | grep NVIDIA | wc -l > /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/asrprun/dcs_am_pipeline_69787a52ad5b477d9a22b1253cc1dbb1000/gpunum.txt
+
+GPU number is 2.
+execute:
+lscpu | grep 'Core(s) per socket:' > /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/asrprun/dcs_am_pipeline_69787a52ad5b477d9a22b1253cc1dbb1000/cpunum.txt
+
+execute:
+lscpu | grep 'Socket(s):' > /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/asrprun/dcs_am_pipeline_69787a52ad5b477d9a22b1253cc1dbb1000/cpunum.txt
+
+CPU number is 32.
+execute:
+/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/feature_extraction_cpu_server/nnet-info /home/user/linjr/auto_train/corpus/model/fsmn.net > /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/tmp/model.txt
+
+<error><id>29037294</id><command>/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/feature_extraction_cpu_server/nnet-info /home/user/linjr/auto_train/corpus/model/fsmn.net > /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/tmp/model.txt</command><message>/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/feature_extraction_cpu_server/nnet-info /home/user/linjr/auto_train/corpus/model/fsmn.net 
+LOG (nnet-info:main():nnet-info.cc:57) Printed info about /home/user/linjr/auto_train/corpus/model/fsmn.net
+</message></error>
+
+The model type of /home/user/linjr/auto_train/corpus/model/fsmn.net is fsmn with input and output dim 400 and 2037
+The fbank feature dim is 80
+converting /home/user/linjr/auto_train/corpus/model/fsmn.mvn to /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/input/final.converted.feature_transform for training.
+shiftDim is 400
+shiftVec is -9.779496 -10.17968 -11.04767 -11.74731 -12.45807 -13.01676 -13.38614 -13.53106 -13.63347 -13.54875 -13.64929 -13.74808 -13.99678 -14.17873 -14.22228 -14.2559 -14.22717 -14.15447 -14.2799 -14.09589 -13.94303 -14.125 -13.88888 -13.98882 -13.89508 -13.96625 -13.85131 -13.92239 -13.89101 -13.89632 -13.91906 -13.92846 -13.96165 -14.0238 -14.07646 -14.13894 -14.18006 -14.1989 -14.23782 -14.1618 -14.21031 -14.15769 -14.23065 -14.22876 -14.29921 -14.39304 -14.4983 -14.59453 -14.69442 -14.84121 -14.88892 -14.91286 -14.96963 -15.04683 -15.05349 -15.10239 -15.12843 -15.15369 -15.13995 -15.08053 -14.94418 -14.81066 -14.7258 -14.63319 -14.52988 -14.43472 -14.35868 -14.3162 -14.27607 -14.22714 -14.17327 -14.14497 -14.11783 -14.08898 -14.05862 -14.00302 -13.89603 -13.5968 -13.01556 -12.29613 -9.779496 -10.17968 -11.04767 -11.74731 -12.45807 -13.01676 -13.38614 -13.53106 -13.63347 -13.54875 -13.64929 -13.74808 -13.99678 -14.17873 -14.22228 -14.2559 -14.22717 -14.15447 -14.2799 -14.09589 -13.94303 -14.125 -13.88888 -13.98882 -13.89508 -13.96625 -13.85131 -13.92239 -13.89101 -13.89632 -13.91906 -13.92846 -13.96165 -14.0238 -14.07646 -14.13894 -14.18006 -14.1989 -14.23782 -14.1618 -14.21031 -14.15769 -14.23065 -14.22876 -14.29921 -14.39304 -14.4983 -14.59453 -14.69442 -14.84121 -14.88892 -14.91286 -14.96963 -15.04683 -15.05349 -15.10239 -15.12843 -15.15369 -15.13995 -15.08053 -14.94418 -14.81066 -14.7258 -14.63319 -14.52988 -14.43472 -14.35868 -14.3162 -14.27607 -14.22714 -14.17327 -14.14497 -14.11783 -14.08898 -14.05862 -14.00302 -13.89603 -13.5968 -13.01556 -12.29613 -9.779496 -10.17968 -11.04767 -11.74731 -12.45807 -13.01676 -13.38614 -13.53106 -13.63347 -13.54875 -13.64929 -13.74808 -13.99678 -14.17873 -14.22228 -14.2559 -14.22717 -14.15447 -14.2799 -14.09589 -13.94303 -14.125 -13.88888 -13.98882 -13.89508 -13.96625 -13.85131 -13.92239 -13.89101 -13.89632 -13.91906 -13.92846 -13.96165 -14.0238 -14.07646 -14.13894 -14.18006 -14.1989 -14.23782 -14.1618 -14.21031 -14.15769 -14.23065 -14.22876 -14.29921 -14.39304 -14.4983 -14.59453 -14.69442 -14.84121 -14.88892 -14.91286 -14.96963 -15.04683 -15.05349 -15.10239 -15.12843 -15.15369 -15.13995 -15.08053 -14.94418 -14.81066 -14.7258 -14.63319 -14.52988 -14.43472 -14.35868 -14.3162 -14.27607 -14.22714 -14.17327 -14.14497 -14.11783 -14.08898 -14.05862 -14.00302 -13.89603 -13.5968 -13.01556 -12.29613 -9.779496 -10.17968 -11.04767 -11.74731 -12.45807 -13.01676 -13.38614 -13.53106 -13.63347 -13.54875 -13.64929 -13.74808 -13.99678 -14.17873 -14.22228 -14.2559 -14.22717 -14.15447 -14.2799 -14.09589 -13.94303 -14.125 -13.88888 -13.98882 -13.89508 -13.96625 -13.85131 -13.92239 -13.89101 -13.89632 -13.91906 -13.92846 -13.96165 -14.0238 -14.07646 -14.13894 -14.18006 -14.1989 -14.23782 -14.1618 -14.21031 -14.15769 -14.23065 -14.22876 -14.29921 -14.39304 -14.4983 -14.59453 -14.69442 -14.84121 -14.88892 -14.91286 -14.96963 -15.04683 -15.05349 -15.10239 -15.12843 -15.15369 -15.13995 -15.08053 -14.94418 -14.81066 -14.7258 -14.63319 -14.52988 -14.43472 -14.35868 -14.3162 -14.27607 -14.22714 -14.17327 -14.14497 -14.11783 -14.08898 -14.05862 -14.00302 -13.89603 -13.5968 -13.01556 -12.29613 -9.779496 -10.17968 -11.04767 -11.74731 -12.45807 -13.01676 -13.38614 -13.53106 -13.63347 -13.54875 -13.64929 -13.74808 -13.99678 -14.17873 -14.22228 -14.2559 -14.22717 -14.15447 -14.2799 -14.09589 -13.94303 -14.125 -13.88888 -13.98882 -13.89508 -13.96625 -13.85131 -13.92239 -13.89101 -13.89632 -13.91906 -13.92846 -13.96165 -14.0238 -14.07646 -14.13894 -14.18006 -14.1989 -14.23782 -14.1618 -14.21031 -14.15769 -14.23065 -14.22876 -14.29921 -14.39304 -14.4983 -14.59453 -14.69442 -14.84121 -14.88892 -14.91286 -14.96963 -15.04683 -15.05349 -15.10239 -15.12843 -15.15369 -15.13995 -15.08053 -14.94418 -14.81066 -14.7258 -14.63319 -14.52988 -14.43472 -14.35868 -14.3162 -14.27607 -14.22714 -14.17327 -14.14497 -14.11783 -14.08898 -14.05862 -14.00302 -13.89603 -13.5968 -13.01556 -12.29613
+rescaleDim is 400
+rescaleVec is 0.1703147 0.1662858 0.1640368 0.1639188 0.1626563 0.1609633 0.1591265 0.1570481 0.157183 0.1584311 0.1590866 0.1586399 0.1577977 0.1569393 0.1566197 0.1568001 0.1571419 0.1574919 0.1578906 0.1585393 0.1590682 0.159734 0.1606047 0.1614155 0.1621844 0.1626973 0.1632999 0.1636185 0.1640687 0.164453 0.1647387 0.1652064 0.1655645 0.1658966 0.1662401 0.1663964 0.1665422 0.1669482 0.1674234 0.1677311 0.1681923 0.1686018 0.168889 0.1690458 0.1691212 0.1690474 0.1687663 0.1685536 0.1682469 0.1674447 0.1668178 0.1665462 0.1658472 0.1652451 0.1659545 0.1662146 0.1667587 0.1671022 0.1675046 0.1674606 0.166842 0.1665051 0.166844 0.1670859 0.1676217 0.1681893 0.1684764 0.1684832 0.1683846 0.1686104 0.1688256 0.1687341 0.1689544 0.1690883 0.1692635 0.1695683 0.1703938 0.172589 0.1757412 0.1783363 0.1703147 0.1662858 0.1640368 0.1639188 0.1626563 0.1609633 0.1591265 0.1570481 0.157183 0.1584311 0.1590866 0.1586399 0.1577977 0.1569393 0.1566197 0.1568001 0.1571419 0.1574919 0.1578906 0.1585393 0.1590682 0.159734 0.1606047 0.1614155 0.1621844 0.1626973 0.1632999 0.1636185 0.1640687 0.164453 0.1647387 0.1652064 0.1655645 0.1658966 0.1662401 0.1663964 0.1665422 0.1669482 0.1674234 0.1677311 0.1681923 0.1686018 0.168889 0.1690458 0.1691212 0.1690474 0.1687663 0.1685536 0.1682469 0.1674447 0.1668178 0.1665462 0.1658472 0.1652451 0.1659545 0.1662146 0.1667587 0.1671022 0.1675046 0.1674606 0.166842 0.1665051 0.166844 0.1670859 0.1676217 0.1681893 0.1684764 0.1684832 0.1683846 0.1686104 0.1688256 0.1687341 0.1689544 0.1690883 0.1692635 0.1695683 0.1703938 0.172589 0.1757412 0.1783363 0.1703147 0.1662858 0.1640368 0.1639188 0.1626563 0.1609633 0.1591265 0.1570481 0.157183 0.1584311 0.1590866 0.1586399 0.1577977 0.1569393 0.1566197 0.1568001 0.1571419 0.1574919 0.1578906 0.1585393 0.1590682 0.159734 0.1606047 0.1614155 0.1621844 0.1626973 0.1632999 0.1636185 0.1640687 0.164453 0.1647387 0.1652064 0.1655645 0.1658966 0.1662401 0.1663964 0.1665422 0.1669482 0.1674234 0.1677311 0.1681923 0.1686018 0.168889 0.1690458 0.1691212 0.1690474 0.1687663 0.1685536 0.1682469 0.1674447 0.1668178 0.1665462 0.1658472 0.1652451 0.1659545 0.1662146 0.1667587 0.1671022 0.1675046 0.1674606 0.166842 0.1665051 0.166844 0.1670859 0.1676217 0.1681893 0.1684764 0.1684832 0.1683846 0.1686104 0.1688256 0.1687341 0.1689544 0.1690883 0.1692635 0.1695683 0.1703938 0.172589 0.1757412 0.1783363 0.1703147 0.1662858 0.1640368 0.1639188 0.1626563 0.1609633 0.1591265 0.1570481 0.157183 0.1584311 0.1590866 0.1586399 0.1577977 0.1569393 0.1566197 0.1568001 0.1571419 0.1574919 0.1578906 0.1585393 0.1590682 0.159734 0.1606047 0.1614155 0.1621844 0.1626973 0.1632999 0.1636185 0.1640687 0.164453 0.1647387 0.1652064 0.1655645 0.1658966 0.1662401 0.1663964 0.1665422 0.1669482 0.1674234 0.1677311 0.1681923 0.1686018 0.168889 0.1690458 0.1691212 0.1690474 0.1687663 0.1685536 0.1682469 0.1674447 0.1668178 0.1665462 0.1658472 0.1652451 0.1659545 0.1662146 0.1667587 0.1671022 0.1675046 0.1674606 0.166842 0.1665051 0.166844 0.1670859 0.1676217 0.1681893 0.1684764 0.1684832 0.1683846 0.1686104 0.1688256 0.1687341 0.1689544 0.1690883 0.1692635 0.1695683 0.1703938 0.172589 0.1757412 0.1783363 0.1703147 0.1662858 0.1640368 0.1639188 0.1626563 0.1609633 0.1591265 0.1570481 0.157183 0.1584311 0.1590866 0.1586399 0.1577977 0.1569393 0.1566197 0.1568001 0.1571419 0.1574919 0.1578906 0.1585393 0.1590682 0.159734 0.1606047 0.1614155 0.1621844 0.1626973 0.1632999 0.1636185 0.1640687 0.164453 0.1647387 0.1652064 0.1655645 0.1658966 0.1662401 0.1663964 0.1665422 0.1669482 0.1674234 0.1677311 0.1681923 0.1686018 0.168889 0.1690458 0.1691212 0.1690474 0.1687663 0.1685536 0.1682469 0.1674447 0.1668178 0.1665462 0.1658472 0.1652451 0.1659545 0.1662146 0.1667587 0.1671022 0.1675046 0.1674606 0.166842 0.1665051 0.166844 0.1670859 0.1676217 0.1681893 0.1684764 0.1684832 0.1683846 0.1686104 0.1688256 0.1687341 0.1689544 0.1690883 0.1692635 0.1695683 0.1703938 0.172589 0.1757412 0.1783363
+deleting local path: /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train
+execute:
+cat /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/feature_align_lattice_label_train/smbr_ali_lat/ali.*.scp > /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/all.ali.scp.tmp;
+
+ReplaceDirectoryForKaldiFile
+execute:
+cat /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/all.ali.scp.tmp >> /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/all.ali.scp;
+
+execute:
+cat /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/feature_align_lattice_label_train/smbr_ali_lat/lat.*.scp > /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/all.lat.scp.tmp;
+
+ReplaceDirectoryForKaldiFile
+execute:
+cat /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/all.lat.scp.tmp >> /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/all.lat.scp;
+
+ReplaceDirectoryForKaldiFile
+execute:
+cat /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train/feats.scp.tmp >> /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train/feats.scp;
+
+execute:
+cat /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train/spk2utt.tmp >> /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train/spk2utt;
+
+execute:
+cat /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train/text.tmp >> /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train/text;
+
+execute:
+cat /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train/utt2spk.tmp >> /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train/utt2spk;
+
+execute:
+cat /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train/wav.scp.tmp >> /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train/wav.scp;
+
+Shuffling the align and lattice results
+FilterWaveForFiles
+FilterWaveForFiles
+FilterWaveForFiles
+FilterWaveForFiles
+FilterWaveForFiles
+FilterWaveForFiles
+FilterWaveForFiles
+execute:
+/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/steps/nnet/group.align.for.smbr.sh /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train/ /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/feature_align_lattice_label_train/smbr_ali_lat /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat 50;
+
+<output><id>47092516</id><command>/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/steps/nnet/group.align.for.smbr.sh /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train/ /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/feature_align_lattice_label_train/smbr_ali_lat /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat 50;</command><message>/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/steps/nnet/group.align.for.smbr.sh /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train/ /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/feature_align_lattice_label_train/smbr_ali_lat /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat 50
+</message></output>
+
+<error><id>47092516</id><command>/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/steps/nnet/group.align.for.smbr.sh /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train/ /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/feature_align_lattice_label_train/smbr_ali_lat /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat 50;</command><message>feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/1/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/2/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/3/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/4/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/5/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/6/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/7/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/8/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/9/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/10/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/11/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/12/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/13/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/14/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/15/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/16/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/17/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/18/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/19/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/20/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/21/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/22/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/23/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50Mon Apr 12 11:30:03 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 440.82       Driver Version: 440.82       CUDA Version: 10.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P100-PCIE...  Off  | 00000000:02:00.0 Off |                    0 |
+| N/A   48C    P0    30W / 250W |     10MiB / 16280MiB |      0%   E. Process |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P100-PCIE...  Off  | 00000000:84:00.0 Off |                  Off |
+| N/A   49C    P0    27W / 250W |     10MiB / 16280MiB |      0%   E. Process |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+/24/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/25/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/26/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/27/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/28/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/29/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/30/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/31/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/32/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/33/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/34/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/35/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/36/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/37/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/38/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/39/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/40/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/41/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/42/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/43/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/44/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/45/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/46/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/47/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/48/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/49/feats.scp 
+feat-to-len scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/50/feats.scp 
+</message></error>
+
+[93mAssigning the epoch number to 10.[0m
+[93mChanging the epoch number to 455 according to automatic epoch calculation.[0m
+For smbr, the data contains 3245 utterances, which is 2.2 hours. We select 0.2 hours data for validation, and run 455 epoch. Given that we will dump at most 0.0549450549451 models per epoch, we need to set dump interval as 178, and validation interval as 356.
+execute:
+nvidia-smi -L | wc -l > /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/asrprun/dcs_am_pipeline_69787a52ad5b477d9a22b1253cc1dbb1000/gpunumInDriver.txt
+
+We will be using 2 GPU cards for smbr training.
+execute:
+/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/steps/make_tr_cv_data.sh 0.2 /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_dataList SmbrTrain 2 ;
+
+<output><id>52747517</id><command>/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/steps/make_tr_cv_data.sh 0.2 /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_dataList SmbrTrain 2 ;</command><message>Begin making train & cv data for SmbrTrain!
+Succeed making train & cv data for SmbrTrain!
+</message></output>
+
+execute:
+echo `hostname` >> /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/conf/smbr_hosts
+
+execute:
+echo `hostname` >> /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/conf/smbr_hosts
+
+STATUS_LOG|21072100|IN_PROGRESS|Smbr training is started.|1/2
+execute:
+/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/feature_extraction_cpu_server/gmm-info /home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/ctc_16k_fsmn_court_resource/16k_general_wholeword_lfr/final.mdl > /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/tmp/gmmModel.txt
+
+<error><id>64936768</id><command>/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/feature_extraction_cpu_server/gmm-info /home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/ctc_16k_fsmn_court_resource/16k_general_wholeword_lfr/final.mdl > /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/tmp/gmmModel.txt</command><message>/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/feature_extraction_cpu_server/gmm-info /home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/ctc_16k_fsmn_court_resource/16k_general_wholeword_lfr/final.mdl 
+</message></error>
+
+execute:
+/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/middleware_bin/tools/openmpi-1.10.0/install/bin/mpiexec --allow-run-as-root --mca pml ob1 --mca btl tcp,sm,self --hostfile /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/conf/smbr_hosts --map-by node -np 2 /home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/AMDataProcessingTools/am_train_local/middleware_bin/bin_ctc_cuda10.0_software_protected/nnet-train-ctc-smbr-sequential-middleware-protected --class-frame-counts=/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/ctc_16k_fsmn_court_resource/16k_general_wholeword_lfr/ali_train_pdf.counts --acoustic-scale=1.0 --lm-scale=1.0 --fsmooth=0.0 --do-smbr=true --one-silence-class=true --silence-phones=1 /home/user/linjr/auto_train/corpus/model/fsmn.net /home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/ctc_16k_fsmn_court_resource/16k_general_wholeword_lfr/final.mdl /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/conf/mw_config_SmbrTrain.txt /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_nnet/nnet_smbr > /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_nnet/log/log 2>&1 ;
+
+[93mcopy dir /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_nnet/log to /home/user/linjr/train_tmp_data/6d5438f6a7184c2db07d390bbec3952f/data/trained/trained_000/smbr_nnet/log[0m
+execute:
+tail -n200 /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_nnet/log/log > /home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_nnet/check.txt
+
+[93mERROR_LOG|51072000|INTERNAL_ERROR|The smbr training is failed.|-1[0m
+[93mUnexpected error <type 'exceptions.Exception'>
+ERROR_LOG|51072000|INTERNAL_ERROR|The smbr training is failed.|-1
+Traceback (most recent call last):
+  File "/home/user/linjr/dcs_model_train_package_general_06052019_2.6.3_16k/dcs_model_train_package_general_06052019/am/code/asrp_am/src/asrp.py", line 39, in <module>
+    asrpAction.Run(inputargs)
+  File "/disk9/chenda.liao/dcs_am/release_tmp_dir/asrp_am/src/asrpAction.py", line 69, in Run
+  File "/disk9/chenda.liao/dcs_am/release_tmp_dir/asrp_am/src/asrpAction.py", line 108, in ParseInputxmlfile
+  File "/disk9/chenda.liao/dcs_am/release_tmp_dir/asrp_am/src/asrpAMTrainingPipelineSmbr.py", line 2229, in Run
+  File "/disk9/chenda.liao/dcs_am/release_tmp_dir/asrp_am/src/asrpGlobal.py", line 735, in pipelineInternalException
+  File "/disk9/chenda.liao/dcs_am/release_tmp_dir/asrp_am/src/asrpGlobal.py", line 702, in asrpExceptionWithCode
+  File "/disk9/chenda.liao/dcs_am/release_tmp_dir/asrp_am/src/asrpGlobal.py", line 520, in asrpException
+Exception: ERROR_LOG|51072000|INTERNAL_ERROR|The smbr training is failed.|-1
+[0m
+
+------------------------
+start time: 20210412 11:29:46	end time: 20210412 11:30:05	elapsed time: 0.005h
+

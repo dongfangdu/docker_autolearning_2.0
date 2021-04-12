@@ -1,0 +1,49 @@
+SELECT Count(*)               AS 'cnt',
+       Sum(sub_stat.rtfgt5)   AS 'cnt_rtfgt5',
+       Sum(sub_stat.rtfgt9)   AS 'cnt_rtfgt9',
+       Sum(sub_stat.rtfgt12)  AS 'cnt_rtfgt12',
+       Sum(sub_stat.totrtf12) AS 'cnt_totrtf12',
+       Sum(sub_stat.wait100)  AS 'cnt_wait100',
+       Sum(sub_stat.totrtf5)  AS 'cnt_totrtf5',
+       Sum(sub_stat.dugt29)   AS 'cnt_dugt29'
+FROM   (SELECT CASE
+                 WHEN {table_prefix}utterance_access.real_rtf > 0.5 THEN 1
+                 ELSE 0
+               END AS 'rtfgt5',
+               CASE
+                 WHEN {table_prefix}utterance_access.real_rtf > 0.9 THEN 1
+                 ELSE 0
+               END AS 'rtfgt9',
+               CASE
+                 WHEN {table_prefix}utterance_access.real_rtf > 1.2 THEN 1
+                 ELSE 0
+               END AS 'rtfgt12',
+               CASE
+                 WHEN {table_prefix}utterance_access.total_rtf > 1.2
+                      AND {table_prefix}utterance_access.latency > 500 THEN 1
+                 ELSE 0
+               END AS 'totrtf12',
+               CASE
+                 WHEN {table_prefix}utterance_access.wait_cost_time > 100 THEN 1
+                 ELSE 0
+               END AS 'wait100',
+               CASE
+                 WHEN {table_prefix}utterance_access.real_rtf <= 0.5
+                      AND {table_prefix}utterance_access.total_rtf > 1.2
+                      AND {table_prefix}utterance_access.latency > 500 THEN 1
+                 ELSE 0
+               END AS 'totrtf5',
+               CASE
+                 WHEN {table_prefix}utterance_access.detect_duration / 1000 >= 29 THEN 1
+                 ELSE 0
+               END AS 'dugt29'
+        FROM   {table_prefix}utterance_access,
+               {table_prefix}utterance_audio,
+               {table_prefix}ng_diting,
+               {table_prefix}ng_diting_relation
+        WHERE  {table_prefix}utterance_audio.request_id = {table_prefix}utterance_access.request_id
+               AND {table_prefix}utterance_access.request_id = {table_prefix}ng_diting.request_id
+               AND {table_prefix}ng_diting.uuid = {table_prefix}ng_diting_relation.uuid
+               AND {table_prefix}utterance_access.is_deleted = 0
+               {{sql_cond}}
+) AS sub_stat

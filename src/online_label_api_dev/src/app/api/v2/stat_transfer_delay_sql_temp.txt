@@ -1,0 +1,16 @@
+SELECT
+    {table_prefix}ng_diting.http_cost_time,
+    {table_prefix}ng_diting.trans_delay,
+    {table_prefix}utterance_access.time as 'stt_time'
+FROM
+    {table_prefix}utterance_access,
+    {table_prefix}utterance_audio,
+    {table_prefix}ng_diting,
+    {table_prefix}ng_diting_relation
+WHERE
+    {table_prefix}utterance_audio.request_id = {table_prefix}utterance_access.request_id
+        AND {table_prefix}utterance_access.request_id = {table_prefix}ng_diting.request_id
+        AND {table_prefix}ng_diting.uuid = {table_prefix}ng_diting_relation.uuid
+        AND {table_prefix}utterance_access.is_deleted = 0
+        {{sql_cond}}
+ORDER BY {table_prefix}utterance_access.time

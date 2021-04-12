@@ -1,0 +1,300 @@
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/1/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.1.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.1.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.1.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 63 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.1.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.1.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/2/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.2.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.2.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.2.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 64 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.2.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.2.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/3/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.3.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.3.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.3.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 65 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.3.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.3.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/4/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.4.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.4.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.4.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 62 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.4.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.4.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/5/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.5.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.5.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.5.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 63 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.5.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.5.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/6/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.6.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.6.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.6.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 65 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.6.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.6.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/7/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.7.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.7.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.7.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 64 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.7.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.7.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/8/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.8.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.8.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.8.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 64 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.8.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.8.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/9/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.9.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.9.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.9.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 63 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.9.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.9.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/10/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.10.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 64 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.10.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.10.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 63 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.10.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.10.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 64 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/11/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.11.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.11.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.11.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 63 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.11.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.11.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/12/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.12.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.12.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.12.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 64 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.12.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.12.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/13/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.13.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.13.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.13.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 64 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.13.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.13.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/14/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.14.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.14.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.14.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 63 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.14.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.14.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/15/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.15.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.15.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.15.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 63 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.15.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.15.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/16/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.16.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.16.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.16.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 64 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.16.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.16.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/17/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.17.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.17.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.17.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 63 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.17.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.17.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/18/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.18.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.18.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.18.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 64 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.18.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.18.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/19/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.19.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.19.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.19.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 63 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.19.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.19.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/20/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.20.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 64 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.20.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.20.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 63 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.20.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.20.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 64 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/21/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.21.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.21.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.21.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 65 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.21.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.21.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/22/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.22.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.22.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.22.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 63 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.22.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.22.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/23/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.23.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.23.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.23.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 63 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.23.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.23.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/24/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.24.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.24.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.24.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 64 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.24.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.24.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/25/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.25.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.25.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.25.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 64 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.25.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.25.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/26/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.26.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.26.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.26.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 64 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.26.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.26.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/27/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.27.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.27.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.27.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 64 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.27.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.27.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/28/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.28.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.28.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.28.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 65 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.28.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.28.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/29/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.29.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.29.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.29.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 64 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.29.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.29.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/30/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.30.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 64 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.30.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.30.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 63 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.30.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.30.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 64 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/31/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.31.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.31.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.31.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 64 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.31.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.31.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/32/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.32.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.32.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.32.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 65 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.32.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.32.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/33/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.33.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.33.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.33.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 63 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.33.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.33.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/34/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.34.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.34.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.34.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 63 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.34.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.34.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/35/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.35.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.35.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.35.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 64 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.35.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.35.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/36/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.36.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.36.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.36.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 65 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.36.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.36.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/37/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.37.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.37.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.37.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 64 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.37.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.37.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/38/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.38.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.38.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.38.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 63 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.38.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.38.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/39/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.39.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.39.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.39.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 64 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.39.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.39.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/40/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.40.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 64 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.40.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.40.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 63 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.40.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.40.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 64 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/41/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.41.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.41.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.41.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 65 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.41.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.41.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/42/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.42.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.42.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.42.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 63 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.42.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.42.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/43/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.43.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.43.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.43.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 64 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.43.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.43.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/44/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.44.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.44.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.44.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 65 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.44.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.44.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/45/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.45.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.45.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.45.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 64 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.45.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.45.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/46/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.46.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.46.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.46.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 63 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.46.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.46.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/47/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.47.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.47.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.47.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 61 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.47.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.47.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/48/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.48.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.48.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.48.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 62 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.48.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.48.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/49/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.49.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 65 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.49.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.49.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 64 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.49.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.49.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 65 lattices.
+copy-feats scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/data/train//split50/50/feats.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/fbank.50.ark 
+LOG (copy-feats:main():copy-feats.cc:100) Copied 64 feature matrices.
+copy-int-vector scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.50.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newali.50.ark 
+LOG (copy-int-vector:main():copy-int-vector.cc:83) Copied 63 vectors of int32.
+lattice-copy scp,p:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.50.scp ark:/home/user/linjr/auto_train/var/running_69787a52ad5b477d9a22b1253cc1dbb1/exp/smbr_ali_lat/finalList/newlat.50.ark 
+LOG (lattice-copy:main():lattice-copy.cc:70) Done copying 64 lattices.

@@ -1,0 +1,6 @@
+number of phones 2036
+number of pdfs 2036
+number of transition-ids 4072
+number of transition-states 2036
+feature dimension 39
+number of gaussians 2036

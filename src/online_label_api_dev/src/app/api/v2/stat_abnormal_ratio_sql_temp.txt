@@ -1,0 +1,65 @@
+SELECT
+   SUM(sub_stat.rtfyc) / COUNT(*) as 'cnt_rtf',
+   SUM(sub_stat.trryc) / COUNT(*) as 'cnt_trr',
+   SUM(sub_stat.volyc) / COUNT(*) as 'cnt_vol',
+   SUM(sub_stat.preyc) / COUNT(*) as 'cnt_pre',
+   SUM(sub_stat.postyc) / COUNT(*) as 'cnt_post',
+   SUM(sub_stat.rtfdu) / SUM(sub_stat.detect_duration) as 'sum_du_rtf',
+   SUM(sub_stat.trrdu) / SUM(sub_stat.detect_duration) as 'sum_du_trr',
+   SUM(sub_stat.voldu) / SUM(sub_stat.detect_duration) as 'sum_du_vol',
+   SUM(sub_stat.predu) / SUM(sub_stat.detect_duration) as 'sum_du_pre',
+   SUM(sub_stat.postdu) / SUM(sub_stat.detect_duration) as 'sum_du_post'
+FROM
+    (SELECT
+        {table_prefix}utterance_access.request_id,
+            detect_duration,
+            CASE
+                WHEN real_rtf > 0.9 THEN 1
+                ELSE 0
+            END AS 'rtfyc',
+            CASE
+                WHEN real_rtf > 0.9 THEN detect_duration
+                ELSE 0
+            END AS 'rtfdu',
+            CASE
+                WHEN truncation_ratio > 0 THEN 1
+                ELSE 0
+            END AS 'trryc',
+            CASE
+                WHEN truncation_ratio > 0 THEN detect_duration
+                ELSE 0
+            END AS 'trrdu',
+            CASE
+                WHEN volume > 97 OR volume < 10 THEN 1
+                ELSE 0
+            END AS 'volyc',
+            CASE
+                WHEN volume > 97 OR volume < 10 THEN detect_duration
+                ELSE 0
+            END AS 'voldu',
+            CASE
+                WHEN pre_snr < 0 THEN 1
+                ELSE 0
+            END AS 'preyc',
+            CASE
+                WHEN pre_snr < 0 THEN detect_duration
+                ELSE 0
+            END AS 'predu',
+            CASE
+                WHEN post_snr < 0 THEN 1
+                ELSE 0
+            END AS 'postyc',
+            CASE
+                WHEN post_snr < 0 THEN detect_duration
+                ELSE 0
+            END AS 'postdu'
+    FROM   {table_prefix}utterance_access,
+               {table_prefix}utterance_audio,
+               {table_prefix}ng_diting,
+               {table_prefix}ng_diting_relation
+        WHERE  {table_prefix}utterance_audio.request_id = {table_prefix}utterance_access.request_id
+               AND {table_prefix}utterance_access.request_id = {table_prefix}ng_diting.request_id
+               AND {table_prefix}ng_diting.uuid = {table_prefix}ng_diting_relation.uuid
+               AND {table_prefix}utterance_access.is_deleted = 0
+               {{sql_cond}}
+) AS sub_stat

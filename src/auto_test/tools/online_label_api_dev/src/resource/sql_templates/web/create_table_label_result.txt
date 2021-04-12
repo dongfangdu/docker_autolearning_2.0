@@ -1,0 +1,76 @@
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `yj_{system_name}web`.`{table_prefix}label_result` (
+  `insert_time` int(11) DEFAULT NULL,
+  `is_deleted` smallint(6) DEFAULT '0' COMMENT '伪删除标识：\n0：正常，1：已删除',
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `request_id` varchar(50) NOT NULL COMMENT '语句全局ID：关联al_utterance一系列表',
+  `uttr_stt_time` int(11) DEFAULT NULL COMMENT '语句识别时间：冗余engine库al_utterance_access.time',
+  `uttr_url` varchar(255) DEFAULT NULL COMMENT '语句相对路径：冗余engine库al_utterance.url',
+  `uttr_result` varchar(1024) DEFAULT NULL COMMENT '语句识别结果：冗余engine库al_utterance_access.result',
+  `proj_id` int(11) DEFAULT NULL COMMENT '项目ID：关联al_label_project表的id',
+  `proj_code` varchar(24) DEFAULT NULL COMMENT '项目编号：冗余web库al_label_project.proj_code',
+  `proj_name` varchar(24) DEFAULT NULL COMMENT '项目名称：冗余web库al_label_project.proj_name',
+  `task_id` int(11) DEFAULT NULL COMMENT '任务ID：关联al_label_task表的id',
+  `task_code` varchar(24) DEFAULT NULL COMMENT '项目编号：冗余web库al_label_task.task_code',
+  `task_name` varchar(24) DEFAULT NULL COMMENT '项目名称：冗余web库al_label_task.task_name',
+  `label_status` int(11) NOT NULL DEFAULT '0' COMMENT '标注状态： 0：未标注, 1：已标注',
+  `label_text` varchar(500) DEFAULT NULL COMMENT '标注文本',
+  `label_time` int(11) DEFAULT NULL COMMENT '标注时间',
+  `label_uid` int(11) DEFAULT NULL COMMENT '实际标注人ID：关联al_sysmgr_user的ID',
+  `label_counter` int(11) DEFAULT '0' COMMENT '标注修改次数：需要实际有改动才+1',
+  `ins_cnt` int(11) DEFAULT NULL COMMENT '插入数（insertion_count）',
+  `sub_cnt` int(11) DEFAULT NULL COMMENT '替换数（substitution_count）',
+  `del_cnt` int(11) DEFAULT NULL COMMENT '删除数（deletion_count）',
+  `wer` decimal(8,4) DEFAULT NULL COMMENT '错误率（word_error_ratio）',
+  `label_tag_person` varchar(255) DEFAULT NULL COMMENT '音频中说话人的名字（或称号）',
+  `label_tag_accent` varchar(255) DEFAULT NULL COMMENT '音频中说话人的口音',
+  `label_tag_gender` varchar(255) DEFAULT NULL COMMENT '音频中说话人的性别',
+  PRIMARY KEY (`id`) USING BTREE,
+  KEY `idx_request_id` (`request_id`) USING BTREE,
+  KEY `idx_proj_id` (`proj_id`) USING BTREE,
+  KEY `idx_task_id` (`task_id`) USING BTREE,
+  KEY `idx_label_time` (`label_time`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=COMPACT COMMENT='标注结果表';
+/*!40101 SET character_set_client = @saved_cs_client */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8 */ ;
+/*!50003 SET character_set_results = utf8 */ ;
+/*!50003 SET collation_connection  = utf8_general_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+/*!50003 CREATE*/ /*!50017 DEFINER=`root`@`192.168.%`*/ /*!50003 TRIGGER `yj_{system_name}web`.`{table_prefix}label_result_BEFORE_INSERT` BEFORE INSERT ON `{table_prefix}label_result` FOR EACH ROW
+BEGIN
+	IF NEW.insert_time IS NULL THEN 
+		SET NEW.insert_time = unix_timestamp(CURRENT_TIMESTAMP);
+    END IF;
+END */;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+

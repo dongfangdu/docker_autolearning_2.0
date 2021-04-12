@@ -1,0 +1,35 @@
+version: 1
+disable_existing_loggers: False
+# output format
+formatters:
+  simple:
+    format: "%(message)s"
+  default:
+    format: "[%(asctime)s] [%(name)s:%(levelname)-8s]--[%(module)s]:%(message)s"
+
+handlers:
+  console:
+    class: logging.StreamHandler
+    level: DEBUG
+    formatter: simple
+    stream: ext://flask.logging.wsgi_errors_stream
+  info_file_handler:
+    class: logging.handlers.RotatingFileHandler
+    level: INFO
+    formatter: default
+    filename: ../log/Autotest.log
+    maxBytes: 134217728 # 128M
+    backupCount: 20 # most 20 extensions
+    encoding: utf8
+  error_file_handler:
+    class: logging.handlers.RotatingFileHandler
+    level: ERROR
+    formatter: default
+    filename: ../log/Autotest.log
+    maxBytes: 134217728 # 128M
+    backupCount: 20 # most 20 extensions
+    encoding: utf8
+
+root:
+  level: INFO
+  handlers: [info_file_handler, error_file_handler]

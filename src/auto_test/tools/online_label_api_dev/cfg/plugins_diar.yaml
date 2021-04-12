@@ -1,0 +1,6 @@
+PLUGINS:
+  SPEECH_DIARIZATION:
+    PLUGIN_PATH: /home/user/hezw/speech_dia/diar-voiceaitech/dia_test
+    JRE_HOME: /home/user/hezw/speech_dia/diar-voiceaitech/jre1.8.0_221
+
+

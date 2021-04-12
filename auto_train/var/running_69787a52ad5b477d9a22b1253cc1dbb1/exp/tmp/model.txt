@@ -1,0 +1,83 @@
+num-components 21
+input-dim 400
+output-dim 2037
+number-of-parameters 26.0418 millions
+component 1 : <AffineTransform>, input-dim 400, output-dim 2048, 
+  linearity ( min -2.53807, max 3.86308, mean 0.000118154, variance 0.0146539, stddev 0.121053, skewness 2.10852, kurtosis 54.0849 ) 
+  bias ( min -3.13733, max 1.25749, mean -0.738454, variance 0.265121, stddev 0.514899, skewness -0.0714738, kurtosis 1.68204 ) 
+component 2 : <RectifiedLinear>, input-dim 2048, output-dim 2048, 
+component 3 : <LinearTransform>, input-dim 2048, output-dim 512, 
+  linearity ( min -1.03863, max 1.04787, mean 0.000110737, variance 0.00475362, stddev 0.0689465, skewness 0.00896556, kurtosis 3.04662 ) 
+component 4 : <Fsmn>, input-dim 512, output-dim 512, 
+  l_filter ( min -1.06434, max 0.147093, mean -0.181751, variance 0.122173, stddev 0.349533, skewness -1.50541, kurtosis 0.314085 ) 
+  r_filter ( min -0.228236, max 0.160227, mean -0.0109075, variance 0.00330857, stddev 0.0575202, skewness -0.572482, kurtosis 0.742333 ) 
+component 5 : <DeepFsmn>, input-dim 512, output-dim 512, 
+  l_filter ( min -1.14771, max 0.146081, mean -0.164272, variance 0.109894, stddev 0.331503, skewness -1.50409, kurtosis 0.38181 ) 
+  r_filter ( min -0.226851, max 0.237675, mean 0.0083104, variance 0.00333448, stddev 0.057745, skewness -0.767094, kurtosis 2.11769 ) 
+  p_weight ( min -1.0944, max 1.16393, mean 3.59823e-05, variance 0.00696935, stddev 0.0834827, skewness -0.00736869, kurtosis 1.70441 ) 
+  linearity ( min -1.99641, max 3.31351, mean -0.000957248, variance 0.00821928, stddev 0.0906603, skewness 0.0100549, kurtosis 4.46057 ) 
+  bias ( min -1.69685, max 0.853662, mean -0.367539, variance 0.0494919, stddev 0.222468, skewness -0.381747, kurtosis 1.68457 ) 
+component 6 : <DeepFsmn>, input-dim 512, output-dim 512, 
+  l_filter ( min -1.2232, max 0.232947, mean -0.151863, variance 0.0996096, stddev 0.31561, skewness -1.52134, kurtosis 0.583927 ) 
+  r_filter ( min -0.304154, max 0.30027, mean 0.0159752, variance 0.00635384, stddev 0.079711, skewness -0.57608, kurtosis 1.46093 ) 
+  p_weight ( min -1.18629, max 1.35677, mean -9.60439e-05, variance 0.00616153, stddev 0.0784954, skewness -0.00273046, kurtosis 2.09343 ) 
+  linearity ( min -1.28096, max 1.62531, mean -0.000356458, variance 0.00848461, stddev 0.0921119, skewness 0.0128716, kurtosis 2.4783 ) 
+  bias ( min -1.18023, max 1.2351, mean -0.303104, variance 0.0384782, stddev 0.196159, skewness -0.0204883, kurtosis 2.64251 ) 
+component 7 : <DeepFsmn>, input-dim 512, output-dim 512, 
+  l_filter ( min -1.20053, max 0.214701, mean -0.15465, variance 0.0974922, stddev 0.312237, skewness -1.50403, kurtosis 0.588915 ) 
+  r_filter ( min -0.427178, max 0.277143, mean 0.0167837, variance 0.00828705, stddev 0.0910332, skewness -0.678525, kurtosis 1.62334 ) 
+  p_weight ( min -0.875839, max 1.00502, mean 0.000257527, variance 0.00574593, stddev 0.0758019, skewness 0.0143264, kurtosis 1.75627 ) 
+  linearity ( min -1.2638, max 1.22002, mean 0.000189517, variance 0.00795468, stddev 0.089189, skewness 0.0164176, kurtosis 1.79949 ) 
+  bias ( min -1.12694, max 0.622302, mean -0.268194, variance 0.0344013, stddev 0.185476, skewness -0.302389, kurtosis 1.56323 ) 
+component 8 : <DeepFsmn>, input-dim 512, output-dim 512, 
+  l_filter ( min -1.19734, max 0.253243, mean -0.142526, variance 0.0939644, stddev 0.306536, skewness -1.5041, kurtosis 0.742165 ) 
+  r_filter ( min -0.408738, max 0.310753, mean 0.03458, variance 0.0109095, stddev 0.104448, skewness -0.995167, kurtosis 2.34453 ) 
+  p_weight ( min -1.94702, max 1.11722, mean 5.18728e-05, variance 0.00540205, stddev 0.0734987, skewness -0.0183415, kurtosis 3.23798 ) 
+  linearity ( min -1.38834, max 1.2199, mean -0.00100202, variance 0.00778604, stddev 0.0882385, skewness 0.0108183, kurtosis 1.91979 ) 
+  bias ( min -1.13229, max 0.908849, mean -0.274051, variance 0.0332893, stddev 0.182454, skewness -0.341857, kurtosis 1.90836 ) 
+component 9 : <DeepFsmn>, input-dim 512, output-dim 512, 
+  l_filter ( min -1.19912, max 0.368876, mean -0.130307, variance 0.0881194, stddev 0.296849, skewness -1.48514, kurtosis 0.95408 ) 
+  r_filter ( min -0.475424, max 0.413078, mean 0.0619646, variance 0.0122583, stddev 0.110717, skewness -0.77166, kurtosis 2.44268 ) 
+  p_weight ( min -1.09848, max 1.00813, mean 0.000219543, variance 0.00512707, stddev 0.0716036, skewness 0.0016174, kurtosis 2.38198 ) 
+  linearity ( min -1.05916, max 1.04336, mean -0.000523978, variance 0.00729186, stddev 0.0853924, skewness 0.000420529, kurtosis 1.65179 ) 
+  bias ( min -1.44132, max 0.380899, mean -0.243804, variance 0.0309117, stddev 0.175817, skewness -0.369956, kurtosis 2.11895 ) 
+component 10 : <DeepFsmn>, input-dim 512, output-dim 512, 
+  l_filter ( min -1.30046, max 0.326285, mean -0.124473, variance 0.089674, stddev 0.299456, skewness -1.45688, kurtosis 0.982227 ) 
+  r_filter ( min -0.7375, max 0.460314, mean 0.0793737, variance 0.0143345, stddev 0.119727, skewness -1.64959, kurtosis 6.89262 ) 
+  p_weight ( min -1.38135, max 1.30065, mean 0.000167549, variance 0.0051126, stddev 0.0715024, skewness 0.00866018, kurtosis 2.73504 ) 
+  linearity ( min -1.24841, max 1.22145, mean -0.00123675, variance 0.00695579, stddev 0.0834014, skewness -0.0300454, kurtosis 1.92668 ) 
+  bias ( min -1.09217, max 0.430286, mean -0.206495, variance 0.0333521, stddev 0.182626, skewness -0.362895, kurtosis 1.13932 ) 
+component 11 : <DeepFsmn>, input-dim 512, output-dim 512, 
+  l_filter ( min -1.35949, max 0.499215, mean -0.108481, variance 0.0894807, stddev 0.299133, skewness -1.47216, kurtosis 1.43622 ) 
+  r_filter ( min -0.681175, max 0.514376, mean 0.0934226, variance 0.0157342, stddev 0.125436, skewness -1.64248, kurtosis 7.27461 ) 
+  p_weight ( min -0.88996, max 0.832285, mean 9.24235e-06, variance 0.00467933, stddev 0.0684057, skewness -0.0416372, kurtosis 3.26226 ) 
+  linearity ( min -1.27773, max 1.13733, mean -0.000476766, variance 0.00671839, stddev 0.0819658, skewness -0.0242136, kurtosis 1.84657 ) 
+  bias ( min -1.55186, max 1.00941, mean -0.159285, variance 0.0329828, stddev 0.181612, skewness 0.093168, kurtosis 4.84404 ) 
+component 12 : <DeepFsmn>, input-dim 512, output-dim 512, 
+  l_filter ( min -1.33944, max 0.390618, mean -0.13994, variance 0.0891863, stddev 0.298641, skewness -1.47427, kurtosis 1.10147 ) 
+  r_filter ( min -0.620422, max 0.471334, mean 0.0472446, variance 0.0194157, stddev 0.13934, skewness -1.36712, kurtosis 3.94611 ) 
+  p_weight ( min -1.21589, max 0.797066, mean 0.000202195, variance 0.00438312, stddev 0.0662052, skewness 0.0348384, kurtosis 2.45292 ) 
+  linearity ( min -1.87208, max 1.11029, mean -0.000402991, variance 0.00530715, stddev 0.0728502, skewness -0.0541971, kurtosis 3.16241 ) 
+  bias ( min -1.24279, max 1.43467, mean -0.112845, variance 0.0466216, stddev 0.21592, skewness 0.0912104, kurtosis 3.86221 ) 
+component 13 : <DeepFsmn>, input-dim 512, output-dim 512, 
+  l_filter ( min -1.25411, max 0.289371, mean -0.125845, variance 0.0912814, stddev 0.302128, skewness -1.47752, kurtosis 1.33479 ) 
+  r_filter ( min -1.00327, max 0.452911, mean 0.0364658, variance 0.0236442, stddev 0.153767, skewness -1.14921, kurtosis 4.13863 ) 
+  p_weight ( min -2.37128, max 2.29993, mean -0.000165102, variance 0.00417568, stddev 0.0646195, skewness 0.00688007, kurtosis 7.98429 ) 
+  linearity ( min -0.95081, max 2.1679, mean -0.00148087, variance 0.00540902, stddev 0.0735461, skewness -0.0209999, kurtosis 4.66778 ) 
+  bias ( min -1.4067, max 1.01441, mean -0.121266, variance 0.0457649, stddev 0.213927, skewness -0.272246, kurtosis 2.11862 ) 
+component 14 : <AffineTransform>, input-dim 512, output-dim 2048, 
+  linearity ( min -1.63372, max 1.46482, mean -0.0018975, variance 0.00209248, stddev 0.0457437, skewness -0.135595, kurtosis 8.36382 ) 
+  bias ( min -0.972203, max 2.51091, mean -0.0628963, variance 0.0513443, stddev 0.226593, skewness 1.25154, kurtosis 11.3114 ) 
+component 15 : <RectifiedLinear>, input-dim 2048, output-dim 2048, 
+component 16 : <LinearTransform>, input-dim 2048, output-dim 512, 
+  linearity ( min -0.399262, max 0.299779, mean 0.000223813, variance 0.00218741, stddev 0.0467697, skewness -0.000121369, kurtosis 0.709058 ) 
+component 17 : <AffineTransform>, input-dim 512, output-dim 2048, 
+  linearity ( min -0.33539, max 0.31115, mean -0.000854783, variance 0.00307536, stddev 0.0554559, skewness -0.0067508, kurtosis 0.416872 ) 
+  bias ( min -1.82431, max 2.5898, mean 0.0322283, variance 0.0915926, stddev 0.302643, skewness 0.118468, kurtosis 3.28018 ) 
+component 18 : <RectifiedLinear>, input-dim 2048, output-dim 2048, 
+component 19 : <LinearTransform>, input-dim 2048, output-dim 512, 
+  linearity ( min -0.368649, max 0.377957, mean -1.428e-05, variance 0.00405582, stddev 0.0636853, skewness -0.00219326, kurtosis 0.517329 ) 
+component 20 : <AffineTransform>, input-dim 512, output-dim 2037, 
+  linearity ( min -0.174099, max 0.196276, mean -1.03901e-06, variance 0.00106064, stddev 0.0325675, skewness 0.0147162, kurtosis 0.561654 ) 
+  bias ( min -0.0973915, max 3.61069, mean 0.000416909, variance 0.00893411, stddev 0.0945204, skewness 31.0405, kurtosis 1109.18 ) 
+component 21 : <Softmax>, input-dim 2037, output-dim 2037, 
